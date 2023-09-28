@@ -1,0 +1,121 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-28 22:28:45.737016",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client_name",
+  "month",
+  "goals_for_the_month_section",
+  "monthly_goals",
+  "appointment",
+  "behaviour_and_wellbeing",
+  "school",
+  "community_and_access_activities",
+  "reports_tab",
+  "incident_reports",
+  "general_comments",
+  "report_prepared_by_section",
+  "staff_name",
+  "report_prepare_on"
+ ],
+ "fields": [
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Data",
+   "label": "Client Name:"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Date",
+   "label": "Month:"
+  },
+  {
+   "fieldname": "goals_for_the_month_section",
+   "fieldtype": "Section Break",
+   "label": "Goals for the Month"
+  },
+  {
+   "fieldname": "monthly_goals",
+   "fieldtype": "Small Text",
+   "label": "Monthly Goals:"
+  },
+  {
+   "fieldname": "appointment",
+   "fieldtype": "Data",
+   "label": "Appointments attended:"
+  },
+  {
+   "fieldname": "behaviour_and_wellbeing",
+   "fieldtype": "Data",
+   "label": "Behaviour and WellBeing:"
+  },
+  {
+   "fieldname": "school",
+   "fieldtype": "Data",
+   "label": "School:"
+  },
+  {
+   "fieldname": "community_and_access_activities",
+   "fieldtype": "Small Text",
+   "label": "Community and Access activities:"
+  },
+  {
+   "fieldname": "reports_tab",
+   "fieldtype": "Tab Break",
+   "label": "Reports"
+  },
+  {
+   "fieldname": "incident_reports",
+   "fieldtype": "Small Text",
+   "label": "Incident reports:"
+  },
+  {
+   "fieldname": "general_comments",
+   "fieldtype": "Text",
+   "label": "General Comments:"
+  },
+  {
+   "fieldname": "report_prepared_by_section",
+   "fieldtype": "Section Break",
+   "label": "Report prepared by"
+  },
+  {
+   "fieldname": "staff_name",
+   "fieldtype": "Data",
+   "label": "Staff Name:"
+  },
+  {
+   "fieldname": "report_prepare_on",
+   "fieldtype": "Date",
+   "label": "Date:"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-28 22:29:13.926401",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Monthly Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

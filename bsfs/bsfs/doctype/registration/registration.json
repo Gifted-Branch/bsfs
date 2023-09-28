@@ -1,0 +1,199 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-28 22:32:53.172026",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "your_demographics_section",
+  "first_name",
+  "date_of_birth",
+  "marital_status",
+  "physical_address",
+  "column_break_fayll",
+  "middle_name",
+  "gender",
+  "age",
+  "next_of_kin",
+  "column_break_vvnyi",
+  "surname",
+  "contact_phone",
+  "email_address",
+  "relationship",
+  "section_break_z4ycg",
+  "client_health_number",
+  "client_worker_name",
+  "column_break_7aysn",
+  "social_insurance_number",
+  "worker_phone_number",
+  "column_break_tgj4d",
+  "client_contract_number",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "your_demographics_section",
+   "fieldtype": "Section Break",
+   "label": " Your Demographics"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "marital_status",
+   "fieldtype": "Select",
+   "label": "Marital Status",
+   "options": "--select--\nMarried\nSingle\nOther"
+  },
+  {
+   "fieldname": "physical_address",
+   "fieldtype": "Small Text",
+   "label": "Physical Address "
+  },
+  {
+   "fieldname": "column_break_fayll",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "--select--\nMale\nFemale\nOther"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  },
+  {
+   "fieldname": "next_of_kin",
+   "fieldtype": "Data",
+   "label": "Next of Kin"
+  },
+  {
+   "fieldname": "column_break_vvnyi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "surname",
+   "fieldtype": "Data",
+   "label": "Surname"
+  },
+  {
+   "fieldname": "contact_phone",
+   "fieldtype": "Phone",
+   "label": "Contact Phone"
+  },
+  {
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "label": "Email Address"
+  },
+  {
+   "fieldname": "relationship",
+   "fieldtype": "Select",
+   "label": "Relationship",
+   "options": "--select--\nFather\nMother\nSibling\nGuardian"
+  },
+  {
+   "fieldname": "section_break_z4ycg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_health_number",
+   "fieldtype": "Data",
+   "label": "Client Health Number"
+  },
+  {
+   "fieldname": "client_worker_name",
+   "fieldtype": "Data",
+   "label": "Client Worker Name "
+  },
+  {
+   "fieldname": "column_break_7aysn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "social_insurance_number",
+   "fieldtype": "Data",
+   "label": "Social Insurance Number"
+  },
+  {
+   "fieldname": "worker_phone_number",
+   "fieldtype": "Phone",
+   "label": "Worker phone Number"
+  },
+  {
+   "fieldname": "column_break_tgj4d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "client_contract_number",
+   "fieldtype": "Data",
+   "label": "Client Contract Number"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Registration",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Registration",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-09-28 22:38:22.253665",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Registration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "first_name",
+ "track_changes": 1,
+ "translated_doctype": 1
+}

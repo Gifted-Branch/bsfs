@@ -1,0 +1,177 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-28 22:38:07.605366",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "datetime_incident_occurred",
+  "date_time_incident_reported",
+  "client_name",
+  "address",
+  "parentguardian_name",
+  "medication_name_and_dose",
+  "incident_report_tab",
+  "stage_of_the_process_the_incident_occurrance_section",
+  "prescribing_column",
+  "receipt",
+  "ordering_column",
+  "administration",
+  "pharmacy_dispensing_column",
+  "recording",
+  "type_of_incident_section",
+  "client_received_wrong_drug",
+  "client_given_drug_at_wrong_time",
+  "client_received_wrong_dose",
+  "client_received_drug_via_wrong_route",
+  "drug_given_to_a_wrong_client",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "datetime_incident_occurred",
+   "fieldtype": "Datetime",
+   "label": "Date/Time Incident Occurred"
+  },
+  {
+   "fieldname": "date_time_incident_reported",
+   "fieldtype": "Datetime",
+   "label": "Date/ Time Incident reported"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Data",
+   "label": "Client Name"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "parentguardian_name",
+   "fieldtype": "Data",
+   "label": "Parent / guardian Name"
+  },
+  {
+   "fieldname": "medication_name_and_dose",
+   "fieldtype": "Data",
+   "label": "Medication Name and Dose"
+  },
+  {
+   "bold": 1,
+   "fieldname": "incident_report_tab",
+   "fieldtype": "Tab Break",
+   "label": "Incident Report"
+  },
+  {
+   "fieldname": "stage_of_the_process_the_incident_occurrance_section",
+   "fieldtype": "Section Break",
+   "label": "stage of the process the incident occurrance"
+  },
+  {
+   "fieldname": "prescribing_column",
+   "fieldtype": "Column Break",
+   "label": "Prescribing"
+  },
+  {
+   "default": "0",
+   "fieldname": "receipt",
+   "fieldtype": "Check",
+   "label": "Receipt"
+  },
+  {
+   "fieldname": "ordering_column",
+   "fieldtype": "Column Break",
+   "label": "Ordering"
+  },
+  {
+   "default": "0",
+   "fieldname": "administration",
+   "fieldtype": "Check",
+   "label": "Administration"
+  },
+  {
+   "fieldname": "pharmacy_dispensing_column",
+   "fieldtype": "Column Break",
+   "label": "Pharmacy Dispensing"
+  },
+  {
+   "default": "0",
+   "fieldname": "recording",
+   "fieldtype": "Check",
+   "label": "Recording"
+  },
+  {
+   "fieldname": "type_of_incident_section",
+   "fieldtype": "Section Break",
+   "label": "TYPE OF INCIDENT"
+  },
+  {
+   "default": "0",
+   "fieldname": "client_received_wrong_drug",
+   "fieldtype": "Check",
+   "label": "Client received wrong drug"
+  },
+  {
+   "default": "0",
+   "fieldname": "client_given_drug_at_wrong_time",
+   "fieldtype": "Check",
+   "label": "Client given drug at wrong time"
+  },
+  {
+   "default": "0",
+   "fieldname": "client_received_wrong_dose",
+   "fieldtype": "Check",
+   "label": "Client received wrong dose "
+  },
+  {
+   "default": "0",
+   "fieldname": "client_received_drug_via_wrong_route",
+   "fieldtype": "Check",
+   "label": "Client received drug via wrong route"
+  },
+  {
+   "fieldname": "drug_given_to_a_wrong_client",
+   "fieldtype": "Data",
+   "label": "Drug given to a wrong client"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Medication Error Incident Report Form",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-09-28 22:38:07.605366",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Medication Error Incident Report Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
