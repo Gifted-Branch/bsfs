@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-28 22:42:02.625150",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "month_end_checklist_section",
+  "s_no",
+  "month",
+  "documents"
+ ],
+ "fields": [
+  {
+   "fieldname": "month_end_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Month end checklist"
+  },
+  {
+   "fieldname": "s_no",
+   "fieldtype": "Autocomplete",
+   "label": "S. No "
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Date",
+   "label": "Month"
+  },
+  {
+   "fieldname": "documents",
+   "fieldtype": "Data",
+   "label": "Documents"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-28 22:42:02.625150",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Month end checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

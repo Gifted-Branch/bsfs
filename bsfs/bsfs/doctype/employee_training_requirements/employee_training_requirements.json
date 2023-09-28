@@ -1,0 +1,373 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-28 22:43:02.719936",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_details_section",
+  "name1",
+  "date_of__hire",
+  "police_check_section",
+  "pl_completed_date",
+  "pl_expiry_date",
+  "pl_comments",
+  "child_intervention_check_section",
+  "ci_date_complted",
+  "ci_expiry_date",
+  "ci_comments",
+  "cpr_section",
+  "cpr_date_completed",
+  "cpr_expiry_date",
+  "cpr_comments",
+  "cultural_awareness_section",
+  "ca_date_completed",
+  "ca_expiry_date",
+  "ca_comments",
+  "aboriginal_awareness_section",
+  "aw_date_completed",
+  "ex_expiry_date",
+  "aw_comments",
+  "suicide_intervention_section",
+  "sd_date_completed",
+  "sd_expiry_date",
+  "sd_comments",
+  "abuse_protocol_section",
+  "ap_completed_date",
+  "ap_expiry_date",
+  "ap_comments",
+  "nvci_section",
+  "nv_completed_date",
+  "nv_expiry_date",
+  "nv_comments",
+  "trauma_informed_care_section",
+  "tc_completed_date",
+  "tc_expiry_date",
+  "tc_comments",
+  "harm_reduction_section",
+  "hm_date_completed",
+  "hm_expiry_date",
+  "hm_comments",
+  "foip_section",
+  "foip_date_completed",
+  "foip_expiry_date",
+  "foip_comments",
+  "educational_cerificated_section",
+  "ec_date_completed",
+  "ec_expiry",
+  "ec_comments"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_details_section",
+   "fieldtype": "Section Break",
+   "label": "Employee Details"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of__hire",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of  Hire",
+   "reqd": 1
+  },
+  {
+   "fieldname": "police_check_section",
+   "fieldtype": "Section Break",
+   "label": "Police Check"
+  },
+  {
+   "fieldname": "pl_completed_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date Completed",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pl_expiry_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Expiry Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pl_comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "child_intervention_check_section",
+   "fieldtype": "Section Break",
+   "label": "Child Intervention Check"
+  },
+  {
+   "fieldname": "ci_date_complted",
+   "fieldtype": "Date",
+   "label": "Date Completed ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ci_expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ci_comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "cpr_section",
+   "fieldtype": "Section Break",
+   "label": "CPR"
+  },
+  {
+   "fieldname": "cpr_date_completed",
+   "fieldtype": "Date",
+   "label": "Date Completed",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cpr_expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cpr_comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "cultural_awareness_section",
+   "fieldtype": "Section Break",
+   "label": "Cultural Awareness"
+  },
+  {
+   "fieldname": "ca_date_completed",
+   "fieldtype": "Date",
+   "label": "Date Completed",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ca_expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ca_comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "aboriginal_awareness_section",
+   "fieldtype": "Section Break",
+   "label": "Aboriginal awareness"
+  },
+  {
+   "fieldname": "aw_date_completed",
+   "fieldtype": "Date",
+   "label": "Date Completed",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ex_expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "aw_comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "suicide_intervention_section",
+   "fieldtype": "Section Break",
+   "label": "Suicide intervention"
+  },
+  {
+   "fieldname": "sd_date_completed",
+   "fieldtype": "Date",
+   "label": "Date Completed",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sd_expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sd_comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "abuse_protocol_section",
+   "fieldtype": "Section Break",
+   "label": "Abuse protocol"
+  },
+  {
+   "fieldname": "ap_completed_date",
+   "fieldtype": "Date",
+   "label": "Date Complted",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ap_expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ap_comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "nvci_section",
+   "fieldtype": "Section Break",
+   "label": "NVCI"
+  },
+  {
+   "fieldname": "nv_completed_date",
+   "fieldtype": "Date",
+   "label": "Date Completed",
+   "reqd": 1
+  },
+  {
+   "fieldname": "nv_expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "nv_comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "trauma_informed_care_section",
+   "fieldtype": "Section Break",
+   "label": "Trauma informed care"
+  },
+  {
+   "fieldname": "tc_completed_date",
+   "fieldtype": "Date",
+   "label": "Date Completed",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tc_expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tc_comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "harm_reduction_section",
+   "fieldtype": "Section Break",
+   "label": "Harm Reduction"
+  },
+  {
+   "fieldname": "hm_date_completed",
+   "fieldtype": "Date",
+   "label": "Date Completed ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "hm_expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "hm_comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "foip_section",
+   "fieldtype": "Section Break",
+   "label": "FOIP"
+  },
+  {
+   "fieldname": "foip_date_completed",
+   "fieldtype": "Date",
+   "label": "Date Started",
+   "reqd": 1
+  },
+  {
+   "fieldname": "foip_expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "foip_comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "educational_cerificated_section",
+   "fieldtype": "Section Break",
+   "label": "Educational Cerificated"
+  },
+  {
+   "fieldname": "ec_date_completed",
+   "fieldtype": "Date",
+   "label": "Date Completed",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ec_expiry",
+   "fieldtype": "Date",
+   "label": "Expiry Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ec_comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-28 22:43:02.719936",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Employee Training Requirements",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
