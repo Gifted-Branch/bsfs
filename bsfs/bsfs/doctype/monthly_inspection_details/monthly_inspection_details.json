@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-11 22:10:00.286477",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "entry_and_hallways",
+  "done",
+  "comment"
+ ],
+ "fields": [
+  {
+   "fieldname": "entry_and_hallways",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Entry and Hallways"
+  },
+  {
+   "fieldname": "done",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Done",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "comment",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Comment"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-11 22:22:31.823489",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Monthly Inspection Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
