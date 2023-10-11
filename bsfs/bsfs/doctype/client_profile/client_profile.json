@@ -1,0 +1,320 @@
+{
+ "actions": [],
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2023-10-11 21:39:25.331411",
+ "default_view": "List",
+ "doctype": "DocType",
+ "document_type": "Other",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_details_tab",
+  "basic_information",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "column_break_9",
+  "gender",
+  "date_of_birth",
+  "salutation",
+  "column_break1",
+  "date_of_joining",
+  "image",
+  "status",
+  "erpnext_user",
+  "user_id",
+  "create_user",
+  "create_user_permission",
+  "company_details_section",
+  "company",
+  "department",
+  "employee_number",
+  "column_break_25",
+  "designation",
+  "reports_to",
+  "column_break_18",
+  "branch",
+  "contact_details",
+  "cell_number",
+  "column_break_40",
+  "personal_email",
+  "company_email",
+  "column_break4",
+  "prefered_contact_email",
+  "prefered_email",
+  "unsubscribed"
+ ],
+ "fields": [
+  {
+   "fieldname": "basic_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "basic_information",
+   "fieldtype": "Section Break",
+   "oldfieldtype": "Section Break"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "label": "Gender",
+   "oldfieldname": "gender",
+   "oldfieldtype": "Select",
+   "options": "Gender",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth",
+   "oldfieldname": "date_of_birth",
+   "oldfieldtype": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "salutation",
+   "fieldtype": "Link",
+   "label": "Salutation",
+   "oldfieldname": "salutation",
+   "oldfieldtype": "Select",
+   "options": "Salutation"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "column_break1",
+   "fieldtype": "Column Break",
+   "width": "50%"
+  },
+  {
+   "fieldname": "date_of_joining",
+   "fieldtype": "Date",
+   "label": "Date of Joining",
+   "oldfieldname": "date_of_joining",
+   "oldfieldtype": "Date",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "user_id.user_image",
+   "fetch_if_empty": 1,
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Image",
+   "no_copy": 1
+  },
+  {
+   "default": "Active",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "oldfieldname": "status",
+   "oldfieldtype": "Select",
+   "options": "Active\nInactive\nSuspended\nLeft",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "erpnext_user",
+   "fieldtype": "Section Break",
+   "label": "User Details"
+  },
+  {
+   "description": "System User (login) ID. If set, it will become default for all HR forms.",
+   "fieldname": "user_id",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "User ID",
+   "options": "User"
+  },
+  {
+   "depends_on": "eval:(!doc.user_id)",
+   "fieldname": "create_user",
+   "fieldtype": "Button",
+   "label": "Create User"
+  },
+  {
+   "default": "1",
+   "depends_on": "user_id",
+   "description": "This will restrict user access to other employee records",
+   "fieldname": "create_user_permission",
+   "fieldtype": "Check",
+   "label": "Create User Permission"
+  },
+  {
+   "fieldname": "company_details_section",
+   "fieldtype": "Section Break",
+   "label": "Company Details"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "print_hide": 1,
+   "remember_last_selected_value": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Department",
+   "oldfieldname": "department",
+   "oldfieldtype": "Link",
+   "options": "Department"
+  },
+  {
+   "fieldname": "employee_number",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "label": "Employee Number",
+   "oldfieldname": "employee_number",
+   "oldfieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_25",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "Designation",
+   "oldfieldname": "designation",
+   "oldfieldtype": "Link",
+   "options": "Designation",
+   "search_index": 1
+  },
+  {
+   "fieldname": "reports_to",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "Reports to",
+   "oldfieldname": "reports_to",
+   "oldfieldtype": "Link",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "oldfieldname": "branch",
+   "oldfieldtype": "Link",
+   "options": "Branch"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "contact_details",
+   "fieldtype": "Tab Break",
+   "label": "Address & Contacts"
+  },
+  {
+   "fieldname": "cell_number",
+   "fieldtype": "Data",
+   "label": "Mobile",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "column_break_40",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "personal_email",
+   "fieldtype": "Data",
+   "label": "Personal Email",
+   "options": "Email"
+  },
+  {
+   "description": "Provide Email Address registered in company",
+   "fieldname": "company_email",
+   "fieldtype": "Data",
+   "label": "Company Email",
+   "oldfieldname": "company_email",
+   "oldfieldtype": "Data",
+   "options": "Email"
+  },
+  {
+   "fieldname": "column_break4",
+   "fieldtype": "Column Break",
+   "width": "50%"
+  },
+  {
+   "fieldname": "prefered_contact_email",
+   "fieldtype": "Select",
+   "label": "Prefered Contact Email",
+   "options": "\nCompany Email\nPersonal Email\nUser ID"
+  },
+  {
+   "fieldname": "prefered_email",
+   "fieldtype": "Data",
+   "label": "Prefered Email",
+   "options": "Email",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "unsubscribed",
+   "fieldtype": "Check",
+   "label": "Unsubscribed"
+  }
+ ],
+ "icon": "fa fa-user",
+ "image_field": "image",
+ "links": [],
+ "modified": "2023-10-11 21:46:01.345560",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Client Profile",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
