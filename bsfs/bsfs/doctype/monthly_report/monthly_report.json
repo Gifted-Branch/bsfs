@@ -8,6 +8,7 @@
  "engine": "InnoDB",
  "field_order": [
   "client_name",
+  "column_break_egv1c",
   "month",
   "goals_for_the_month_section",
   "monthly_goals",
@@ -92,11 +93,15 @@
    "fieldname": "report_prepare_on",
    "fieldtype": "Date",
    "label": "Date:"
+  },
+  {
+   "fieldname": "column_break_egv1c",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-28 22:29:13.926401",
+ "modified": "2023-10-11 23:03:20.537619",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Monthly Report",
