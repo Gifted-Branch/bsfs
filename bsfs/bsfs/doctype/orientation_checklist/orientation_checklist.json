@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-12 08:30:43.955462",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "orientation_checklist_for_all_new_employees",
+  "section_break_zhdfr",
+  "employee_name",
+  "column_break_o2mtx",
+  "commencement_date",
+  "section_break_5dhqv",
+  "select_template",
+  "orientation_checklist_detail"
+ ],
+ "fields": [
+  {
+   "bold": 1,
+   "fieldname": "orientation_checklist_for_all_new_employees",
+   "fieldtype": "Heading",
+   "label": "Orientation Checklist For All New Employees"
+  },
+  {
+   "fieldname": "section_break_zhdfr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "column_break_o2mtx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "commencement_date",
+   "fieldtype": "Date",
+   "label": "Commencement Date"
+  },
+  {
+   "fieldname": "section_break_5dhqv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_template",
+   "fieldtype": "Link",
+   "label": "Select Template",
+   "options": "Orientation Checklist Template"
+  },
+  {
+   "fieldname": "orientation_checklist_detail",
+   "fieldtype": "Table",
+   "options": "Orientation Checklist Detail"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-12 09:28:06.774798",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Orientation Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

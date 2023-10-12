@@ -1,0 +1,322 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-12 13:56:53.052390",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client",
+  "location_of_incident",
+  "specific_location_of_incident",
+  "date_of_incident",
+  "incident_reported_to",
+  "column_break_t5g07",
+  "program",
+  "strategies_used",
+  "injury_harm",
+  "emergency_services",
+  "damage_property",
+  "describe_incident_section",
+  "behavioral",
+  "suicidal_threats",
+  "verbal_aggression",
+  "property_damage",
+  "physical_aggression",
+  "elopementmissing",
+  "other_specify",
+  "specify",
+  "column_break_5psls",
+  "self_injurious_behavior",
+  "accident",
+  "fall",
+  "theft",
+  "medical",
+  "awol",
+  "description_of_incident_section",
+  "antecedent",
+  "behavior",
+  "follow_up",
+  "section_break_7xfug",
+  "signature_of_person_completing_report",
+  "column_break_mj5wj",
+  "date",
+  "team_leader_report_section",
+  "relevant_client_background_information",
+  "support_staff_follow_up",
+  "client_follow_up",
+  "parents_follow_up",
+  "section_break_gs7wo",
+  "signature",
+  "column_break_8rzd9",
+  "date_report",
+  "section_break_ludxd",
+  "program_director_report_section"
+ ],
+ "fields": [
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client / Individual Involved"
+  },
+  {
+   "fieldname": "location_of_incident",
+   "fieldtype": "Data",
+   "label": "Location of Incident"
+  },
+  {
+   "fieldname": "specific_location_of_incident",
+   "fieldtype": "Data",
+   "label": "Specific Location of Incident"
+  },
+  {
+   "fieldname": "date_of_incident",
+   "fieldtype": "Data",
+   "label": "Date of Incident"
+  },
+  {
+   "fieldname": "incident_reported_to",
+   "fieldtype": "Data",
+   "label": "Incident Reported To"
+  },
+  {
+   "fieldname": "column_break_t5g07",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "program",
+   "fieldtype": "Data",
+   "label": "Program"
+  },
+  {
+   "fieldname": "strategies_used",
+   "fieldtype": "Data",
+   "label": "Strategies Used"
+  },
+  {
+   "fieldname": "injury_harm",
+   "fieldtype": "Data",
+   "label": "Injury/Harm Involved (Y or N) If Yes, Describe Injury and Action Taken"
+  },
+  {
+   "fieldname": "emergency_services",
+   "fieldtype": "Data",
+   "label": "Emergency Services Contacted (Y or N)"
+  },
+  {
+   "fieldname": "damage_property",
+   "fieldtype": "Data",
+   "label": "Damage To Property or Equipment (Y or N) If Yes, Describe"
+  },
+  {
+   "fieldname": "describe_incident_section",
+   "fieldtype": "Section Break",
+   "label": "Description of Incident"
+  },
+  {
+   "default": "0",
+   "fieldname": "behavioral",
+   "fieldtype": "Check",
+   "label": "Behavioral"
+  },
+  {
+   "default": "0",
+   "fieldname": "suicidal_threats",
+   "fieldtype": "Check",
+   "label": "Suicidal Threats"
+  },
+  {
+   "default": "0",
+   "fieldname": "verbal_aggression",
+   "fieldtype": "Check",
+   "label": "Verbal Aggression"
+  },
+  {
+   "default": "0",
+   "fieldname": "property_damage",
+   "fieldtype": "Check",
+   "label": "Property Damage"
+  },
+  {
+   "default": "0",
+   "fieldname": "physical_aggression",
+   "fieldtype": "Check",
+   "label": "Physical Aggression"
+  },
+  {
+   "default": "0",
+   "fieldname": "elopementmissing",
+   "fieldtype": "Check",
+   "label": "Elopement/Missing"
+  },
+  {
+   "default": "0",
+   "fieldname": "other_specify",
+   "fieldtype": "Check",
+   "label": "Other Specify"
+  },
+  {
+   "fieldname": "specify",
+   "fieldtype": "Data",
+   "label": "Specify",
+   "mandatory_depends_on": "other_specify"
+  },
+  {
+   "fieldname": "column_break_5psls",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "self_injurious_behavior",
+   "fieldtype": "Check",
+   "label": "Self Injurious Behavior"
+  },
+  {
+   "default": "0",
+   "fieldname": "accident",
+   "fieldtype": "Check",
+   "label": "Accident"
+  },
+  {
+   "default": "0",
+   "fieldname": "fall",
+   "fieldtype": "Check",
+   "label": "Fall"
+  },
+  {
+   "default": "0",
+   "fieldname": "theft",
+   "fieldtype": "Check",
+   "label": "Theft"
+  },
+  {
+   "default": "0",
+   "fieldname": "medical",
+   "fieldtype": "Check",
+   "label": "Medical"
+  },
+  {
+   "default": "0",
+   "fieldname": "awol",
+   "fieldtype": "Check",
+   "label": "AWOL"
+  },
+  {
+   "fieldname": "description_of_incident_section",
+   "fieldtype": "Tab Break",
+   "label": "DESCRIPTION OF INCIDENT"
+  },
+  {
+   "fieldname": "antecedent",
+   "fieldtype": "Small Text",
+   "label": "Antecedent (What Happened Before)"
+  },
+  {
+   "description": "Consequences (what was the result; what intervention occurred; e.g., injuries, damage to property, implementation of existing intervention, on-call contact - does not infer consequence such as punishment as this is not allowed",
+   "fieldname": "behavior",
+   "fieldtype": "Small Text",
+   "label": "Behavior (The Facts That Occurred)"
+  },
+  {
+   "fieldname": "follow_up",
+   "fieldtype": "Small Text",
+   "label": "Follow-Up Required / Recommended."
+  },
+  {
+   "fieldname": "signature_of_person_completing_report",
+   "fieldtype": "Signature",
+   "label": "Signature of Person Completing Report"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "team_leader_report_section",
+   "fieldtype": "Tab Break",
+   "label": "TEAM LEADER REPORT"
+  },
+  {
+   "fieldname": "relevant_client_background_information",
+   "fieldtype": "Small Text",
+   "label": "Relevant Client Background Information"
+  },
+  {
+   "fieldname": "support_staff_follow_up",
+   "fieldtype": "Small Text",
+   "label": "Follow-Up With Support Staff"
+  },
+  {
+   "fieldname": "client_follow_up",
+   "fieldtype": "Small Text",
+   "label": "Follow-Up with Clients I Individuals Involved"
+  },
+  {
+   "fieldname": "parents_follow_up",
+   "fieldtype": "Small Text",
+   "label": "Follow-Up With Parents, Guardians, Professionals, etc."
+  },
+  {
+   "fieldname": "section_break_gs7wo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "column_break_8rzd9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_report",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "program_director_report_section",
+   "fieldtype": "Heading",
+   "label": "PROGRAM DIRECTOR REPORT"
+  },
+  {
+   "fieldname": "section_break_ludxd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_7xfug",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_mj5wj",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-12 16:21:12.797467",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Unusual Incident Reports",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

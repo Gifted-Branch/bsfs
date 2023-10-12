@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-12 12:39:30.664143",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "staff_shift_exchange_form_detail_tab",
+  "section_break_klymy",
+  "confirm",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "staff_shift_exchange_form_detail_tab",
+   "fieldtype": "Table",
+   "label": "Staff Shift Exchange Form",
+   "options": "Staff Shift Exchange Form Detail"
+  },
+  {
+   "fieldname": "section_break_klymy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "bold": 1,
+   "default": "Staff MUST do proper and detailed shift exchange before signing off or signing on shift. Shift exchange information include: client behavior, coming appointments, incidents, outings, next meal prep, community outings, house cleaning e.t.c\n\nThank you.\nManagement.",
+   "fieldname": "confirm",
+   "fieldtype": "Small Text",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Staff Shift Exchange Form",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-10-12 13:10:36.181066",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Staff Shift Exchange Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

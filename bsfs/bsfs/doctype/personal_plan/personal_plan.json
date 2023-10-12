@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-12 12:17:27.518751",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client_name",
+  "section_break_j1gea",
+  "template_name",
+  "personal_plan_detail",
+  "section_break_n1tqv",
+  "comments"
+ ],
+ "fields": [
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Data",
+   "label": "Client Name"
+  },
+  {
+   "fieldname": "section_break_j1gea",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "template_name",
+   "fieldtype": "Link",
+   "label": "Template Name",
+   "options": "Personal Plan Template",
+   "unique": 1
+  },
+  {
+   "fieldname": "personal_plan_detail",
+   "fieldtype": "Table",
+   "options": "Personal Plan Detail"
+  },
+  {
+   "fieldname": "section_break_n1tqv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-12 13:10:47.086410",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Personal Plan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

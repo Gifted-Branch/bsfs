@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:document_name",
+ "creation": "2023-10-12 11:25:22.229659",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "document_name",
+  "message",
+  "please_cycle_whichever_applicable",
+  "section_break_d0qaq",
+  "overall_comments",
+  "section_break_07zwv",
+  "name1",
+  "column_break_ybso2",
+  "month",
+  "column_break_omnvd",
+  "year"
+ ],
+ "fields": [
+  {
+   "default": "Parent's Monthly Feedback Survey",
+   "fieldname": "document_name",
+   "fieldtype": "Data",
+   "label": "Document Name",
+   "print_hide": 1,
+   "read_only": 1,
+   "report_hide": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "message",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "please_cycle_whichever_applicable",
+   "fieldtype": "Table",
+   "label": "(please cycle whichever is applicable)",
+   "options": "Parent Monthly Feedback Survey Detail"
+  },
+  {
+   "fieldname": "section_break_d0qaq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "overall_comments",
+   "fieldtype": "Small Text",
+   "label": "Overall Comments"
+  },
+  {
+   "fieldname": "section_break_07zwv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "column_break_ybso2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Link",
+   "label": "Month",
+   "options": "Month"
+  },
+  {
+   "fieldname": "column_break_omnvd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Data",
+   "label": "Year"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-12 13:03:42.777574",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Parent Monthly Feedback Survey",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

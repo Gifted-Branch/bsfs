@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-12 07:31:36.166446",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "start",
+  "end",
+  "awake_hrs",
+  "sleep_hrs",
+  "staff_initials",
+  "comments"
+ ],
+ "fields": [
+  {
+   "description": "DD/MM/YYYY",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "start",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Start"
+  },
+  {
+   "fieldname": "end",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "End"
+  },
+  {
+   "fieldname": "awake_hrs",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Awake Hrs"
+  },
+  {
+   "fieldname": "sleep_hrs",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sleep Hrs"
+  },
+  {
+   "fieldname": "staff_initials",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Staff Initials"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Comments"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-12 09:29:36.389363",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Timesheets Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

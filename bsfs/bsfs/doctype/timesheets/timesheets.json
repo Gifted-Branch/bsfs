@@ -1,0 +1,213 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-12 07:40:58.822266",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "column_break_zc1xc",
+  "pay_period_from",
+  "column_break_izxnn",
+  "to",
+  "section_break_xwn44",
+  "timesheet_detail",
+  "total_hours",
+  "section_break_i863y",
+  "date_submitted",
+  "column_break_dqh9g",
+  "staff_signature",
+  "section_break_1zrwa",
+  "supervisor_name",
+  "date",
+  "column_break_zgin1",
+  "sup_signature",
+  "section_break_r4hks",
+  "for_official_use_only",
+  "paid_dollars",
+  "awake_hrs_dollars",
+  "column_break_qsnuf",
+  "sleep_hrs_dollars",
+  "column_break_ihdyi",
+  "total_dollars",
+  "section_break_qv99u",
+  "date_payroll_officer_sign",
+  "comment",
+  "column_break_ny6b6",
+  "payroll_officer_sign"
+ ],
+ "fields": [
+  {
+   "description": "DD/MM/YYYY",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "column_break_zc1xc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pay_period_from",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Pay Period From"
+  },
+  {
+   "fieldname": "column_break_izxnn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "To"
+  },
+  {
+   "fieldname": "section_break_xwn44",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "timesheet_detail",
+   "fieldtype": "Table",
+   "options": "Timesheets Detail"
+  },
+  {
+   "fieldname": "total_hours",
+   "fieldtype": "Data",
+   "label": "Total Hours",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_i863y",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date_submitted",
+   "fieldtype": "Date",
+   "label": "Date Submitted"
+  },
+  {
+   "fieldname": "column_break_dqh9g",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "staff_signature",
+   "fieldtype": "Signature",
+   "label": "Staff Signature"
+  },
+  {
+   "fieldname": "section_break_1zrwa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "supervisor_name",
+   "fieldtype": "Data",
+   "label": "Approved by: Supervisor Name"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_zgin1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sup_signature",
+   "fieldtype": "Signature",
+   "label": "Sup. Signature"
+  },
+  {
+   "fieldname": "section_break_r4hks",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "for_official_use_only",
+   "fieldtype": "Heading",
+   "label": "For Official Use Only"
+  },
+  {
+   "fieldname": "paid_dollars",
+   "fieldtype": "Section Break",
+   "label": "Paid $"
+  },
+  {
+   "fieldname": "awake_hrs_dollars",
+   "fieldtype": "Currency",
+   "label": "Awake Hrs $"
+  },
+  {
+   "fieldname": "column_break_qsnuf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sleep_hrs_dollars",
+   "fieldtype": "Currency",
+   "label": "Sleep Hrs $"
+  },
+  {
+   "fieldname": "column_break_ihdyi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_dollars",
+   "fieldtype": "Currency",
+   "label": "Total $",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_qv99u",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date_payroll_officer_sign",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "comment",
+   "fieldtype": "Small Text",
+   "label": "Comment"
+  },
+  {
+   "fieldname": "column_break_ny6b6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "payroll_officer_sign",
+   "fieldtype": "Signature",
+   "label": "Payroll Officer Sign"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-12 09:29:24.265930",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Timesheets",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

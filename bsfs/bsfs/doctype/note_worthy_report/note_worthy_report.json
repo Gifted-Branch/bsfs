@@ -1,0 +1,148 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-12 08:10:42.063170",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client_name",
+  "date",
+  "time_of_event",
+  "location_place",
+  "column_break_wtj6l",
+  "staff_1_name",
+  "staff_2_name",
+  "section_break_dijuw",
+  "brief_description_of_what_happened",
+  "section_break_rbigh",
+  "actions_taken_by_staff",
+  "section_break_s7eaw",
+  "any_recommendation",
+  "section_break_uvd4h",
+  "reported_to",
+  "writer_name",
+  "writers_date",
+  "column_break_ccaqh",
+  "sign"
+ ],
+ "fields": [
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Data",
+   "label": "Client Name"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "time_of_event",
+   "fieldtype": "Time",
+   "label": "Time of Event"
+  },
+  {
+   "fieldname": "location_place",
+   "fieldtype": "Data",
+   "label": "Location/Place"
+  },
+  {
+   "fieldname": "column_break_wtj6l",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "staff_1_name",
+   "fieldtype": "Data",
+   "label": "Staff 1 Name"
+  },
+  {
+   "fieldname": "staff_2_name",
+   "fieldtype": "Data",
+   "label": "Staff 2 Name"
+  },
+  {
+   "fieldname": "section_break_dijuw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "brief_description_of_what_happened",
+   "fieldtype": "Small Text",
+   "label": "Brief Description of What Happened"
+  },
+  {
+   "fieldname": "section_break_rbigh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "actions_taken_by_staff",
+   "fieldtype": "Small Text",
+   "label": "Actions Taken By Staff"
+  },
+  {
+   "fieldname": "section_break_s7eaw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "any_recommendation",
+   "fieldtype": "Small Text",
+   "label": "Any Recommendation"
+  },
+  {
+   "fieldname": "section_break_uvd4h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reported_to",
+   "fieldtype": "Data",
+   "label": "Reported To"
+  },
+  {
+   "fieldname": "writer_name",
+   "fieldtype": "Data",
+   "label": "Writer Name"
+  },
+  {
+   "default": "Today",
+   "fieldname": "writers_date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_ccaqh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sign",
+   "fieldtype": "Signature",
+   "label": "Sign"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-12 09:29:08.079209",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Note Worthy Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

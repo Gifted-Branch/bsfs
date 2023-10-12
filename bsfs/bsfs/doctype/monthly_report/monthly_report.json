@@ -10,29 +10,36 @@
   "client_name",
   "column_break_egv1c",
   "month",
+  "column_break_pj19g",
+  "date",
   "goals_for_the_month_section",
   "monthly_goals",
+  "section_break_bfxs5",
   "appointment",
   "behaviour_and_wellbeing",
+  "column_break_5bvgw",
   "school",
+  "reports",
   "community_and_access_activities",
-  "reports_tab",
   "incident_reports",
   "general_comments",
   "report_prepared_by_section",
   "staff_name",
+  "column_break_focer",
   "report_prepare_on"
  ],
  "fields": [
   {
    "fieldname": "client_name",
    "fieldtype": "Data",
-   "label": "Client Name:"
+   "label": "Client Name",
+   "unique": 1
   },
   {
    "fieldname": "month",
-   "fieldtype": "Date",
-   "label": "Month:"
+   "fieldtype": "Link",
+   "label": "Month",
+   "options": "Month"
   },
   {
    "fieldname": "goals_for_the_month_section",
@@ -42,69 +49,91 @@
   {
    "fieldname": "monthly_goals",
    "fieldtype": "Small Text",
-   "label": "Monthly Goals:"
+   "label": "Monthly Goals"
   },
   {
    "fieldname": "appointment",
    "fieldtype": "Data",
-   "label": "Appointments attended:"
+   "label": "Appointments Attended"
   },
   {
    "fieldname": "behaviour_and_wellbeing",
    "fieldtype": "Data",
-   "label": "Behaviour and WellBeing:"
+   "label": "Behaviour and WellBeing"
   },
   {
    "fieldname": "school",
    "fieldtype": "Data",
-   "label": "School:"
+   "label": "School"
   },
   {
    "fieldname": "community_and_access_activities",
    "fieldtype": "Small Text",
-   "label": "Community and Access activities:"
-  },
-  {
-   "fieldname": "reports_tab",
-   "fieldtype": "Tab Break",
-   "label": "Reports"
+   "label": "Community and Access Activities"
   },
   {
    "fieldname": "incident_reports",
    "fieldtype": "Small Text",
-   "label": "Incident reports:"
+   "label": "Incident Reports"
   },
   {
    "fieldname": "general_comments",
-   "fieldtype": "Text",
-   "label": "General Comments:"
+   "fieldtype": "Small Text",
+   "label": "General Comments"
   },
   {
    "fieldname": "report_prepared_by_section",
    "fieldtype": "Section Break",
-   "label": "Report prepared by"
+   "label": "Report Prepared By"
   },
   {
    "fieldname": "staff_name",
    "fieldtype": "Data",
-   "label": "Staff Name:"
+   "label": "Staff Name"
   },
   {
    "fieldname": "report_prepare_on",
    "fieldtype": "Date",
-   "label": "Date:"
+   "label": "Date"
   },
   {
    "fieldname": "column_break_egv1c",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reports",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_focer",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_pj19g",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_bfxs5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_5bvgw",
    "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-11 23:03:20.537619",
+ "modified": "2023-10-12 07:25:12.676376",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Monthly Report",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -122,5 +151,6 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "track_changes": 1
 }

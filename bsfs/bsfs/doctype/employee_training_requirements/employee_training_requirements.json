@@ -9,6 +9,7 @@
  "field_order": [
   "employee_details_section",
   "name1",
+  "column_break_izw2p",
   "date_of__hire",
   "police_check_section",
   "pl_completed_date",
@@ -57,7 +58,9 @@
   "educational_cerificated_section",
   "ec_date_completed",
   "ec_expiry",
-  "ec_comments"
+  "ec_comments",
+  "section_break_u0mk2",
+  "behaviour"
  ],
  "fields": [
   {
@@ -344,11 +347,24 @@
    "fieldname": "ec_comments",
    "fieldtype": "Small Text",
    "label": "Comments"
+  },
+  {
+   "fieldname": "section_break_u0mk2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "behaviour",
+   "fieldtype": "Heading",
+   "label": "All Behavior Support and Family Services are expected to have or complete all trainings with 3 months since date of hire."
+  },
+  {
+   "fieldname": "column_break_izw2p",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-28 22:43:02.719936",
+ "modified": "2023-10-12 13:34:09.390055",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Employee Training Requirements",
@@ -369,5 +385,6 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "track_changes": 1
 }

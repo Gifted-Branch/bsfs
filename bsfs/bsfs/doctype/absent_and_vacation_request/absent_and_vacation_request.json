@@ -1,0 +1,256 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-12 16:39:46.771386",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "request_title",
+  "employee_information_section",
+  "name1",
+  "todays_date",
+  "number_of_days_requested",
+  "column_break_djyrg",
+  "starting_on",
+  "ending_on",
+  "i_will_return_to_work_on",
+  "type_of_request_section",
+  "vacation",
+  "personal_leave",
+  "funeralbereavement_leave",
+  "column_break_ri4vv",
+  "late",
+  "family_and_medical_leave",
+  "time_off_to_vote",
+  "other",
+  "section_break_4q5vs",
+  "comments",
+  "employee_certification_section",
+  "confirmation",
+  "employee_signature",
+  "date1",
+  "approval_section",
+  "approved",
+  "yes",
+  "no",
+  "section_break_uus0b",
+  "supervisor__manager_approval",
+  "column_break_bq3pc",
+  "date2",
+  "section_break_dzzrz",
+  "printed_name",
+  "column_break_ly7zi",
+  "title"
+ ],
+ "fields": [
+  {
+   "fieldname": "request_title",
+   "fieldtype": "Heading",
+   "label": "Your request for time off must be submitted and approved by management in advance"
+  },
+  {
+   "fieldname": "employee_information_section",
+   "fieldtype": "Section Break",
+   "label": "EMPLOYEE INFORMATION"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "default": "Today",
+   "fieldname": "todays_date",
+   "fieldtype": "Date",
+   "label": "Today's Date"
+  },
+  {
+   "fieldname": "column_break_djyrg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "number_of_days_requested",
+   "fieldtype": "Float",
+   "label": "Number of Days Requested"
+  },
+  {
+   "fieldname": "starting_on",
+   "fieldtype": "Date",
+   "label": "Starting On"
+  },
+  {
+   "fieldname": "ending_on",
+   "fieldtype": "Data",
+   "label": "Ending On"
+  },
+  {
+   "fieldname": "i_will_return_to_work_on",
+   "fieldtype": "Date",
+   "label": "I will Return To Work On"
+  },
+  {
+   "fieldname": "type_of_request_section",
+   "fieldtype": "Section Break",
+   "label": "TYPE OF REQUEST"
+  },
+  {
+   "default": "0",
+   "fieldname": "vacation",
+   "fieldtype": "Check",
+   "label": "Vacation"
+  },
+  {
+   "default": "0",
+   "fieldname": "personal_leave",
+   "fieldtype": "Check",
+   "label": "Personal Leave"
+  },
+  {
+   "default": "0",
+   "fieldname": "funeralbereavement_leave",
+   "fieldtype": "Check",
+   "label": "Funeral/Bereavement Leave"
+  },
+  {
+   "fieldname": "column_break_ri4vv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "late",
+   "fieldtype": "Check",
+   "label": "Late"
+  },
+  {
+   "default": "0",
+   "fieldname": "family_and_medical_leave",
+   "fieldtype": "Check",
+   "label": "Family and Medical Leave"
+  },
+  {
+   "default": "0",
+   "fieldname": "time_off_to_vote",
+   "fieldtype": "Check",
+   "label": "Time Off To Vote"
+  },
+  {
+   "fieldname": "other",
+   "fieldtype": "Data",
+   "label": "Other"
+  },
+  {
+   "fieldname": "section_break_4q5vs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "employee_certification_section",
+   "fieldtype": "Section Break",
+   "label": "EMPLOYEE CERTIFICATION"
+  },
+  {
+   "fieldname": "confirmation",
+   "fieldtype": "Heading",
+   "label": "I understand that the time away from work is subject to management approval and company policies."
+  },
+  {
+   "fieldname": "employee_signature",
+   "fieldtype": "Signature",
+   "label": "Employee Signature"
+  },
+  {
+   "fieldname": "approval_section",
+   "fieldtype": "Section Break",
+   "label": "APPROVAL"
+  },
+  {
+   "fieldname": "approved",
+   "fieldtype": "Heading",
+   "label": "Approved"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "supervisor__manager_approval",
+   "fieldtype": "Signature",
+   "label": "Supervisor / Manager Approval"
+  },
+  {
+   "fieldname": "column_break_bq3pc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "printed_name",
+   "fieldtype": "Data",
+   "label": "Printed Name"
+  },
+  {
+   "fieldname": "column_break_ly7zi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "section_break_uus0b",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_dzzrz",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-12 17:13:09.929299",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Absent and Vacation Request",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

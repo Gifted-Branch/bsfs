@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-12 08:22:32.151562",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client_name",
+  "column_break_cmovw",
+  "staff",
+  "column_break_c2ad9",
+  "date",
+  "column_break_l8riv",
+  "shift",
+  "section_break_k2fn1",
+  "overnight_notes_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Data",
+   "label": "Client Name"
+  },
+  {
+   "fieldname": "column_break_cmovw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "staff",
+   "fieldtype": "Data",
+   "label": "Staff"
+  },
+  {
+   "fieldname": "column_break_c2ad9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_l8riv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "shift",
+   "fieldtype": "Data",
+   "label": "Shift"
+  },
+  {
+   "fieldname": "section_break_k2fn1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "overnight_notes_details",
+   "fieldtype": "Table",
+   "options": "Overnight Notes Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-12 09:28:42.797494",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Overnight Notes",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
