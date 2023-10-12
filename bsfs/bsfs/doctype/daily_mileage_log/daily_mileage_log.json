@@ -1,0 +1,119 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-10-12 19:08:30.370310",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "vehicle_registration",
+  "driver",
+  "column_break_fsowp",
+  "destination",
+  "odometer_section",
+  "start",
+  "column_break_ex4tx",
+  "end",
+  "section_break_xaura",
+  "vehicle_check",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "default": "DML-.YYYY.-",
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Naming Series",
+   "options": "DML-.YYYY.-",
+   "reqd": 1
+  },
+  {
+   "fieldname": "vehicle_registration",
+   "fieldtype": "Data",
+   "label": "Vehicle Registration"
+  },
+  {
+   "fieldname": "driver",
+   "fieldtype": "Data",
+   "label": "Driver"
+  },
+  {
+   "fieldname": "column_break_fsowp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "destination",
+   "fieldtype": "Data",
+   "label": "Destination"
+  },
+  {
+   "fieldname": "odometer_section",
+   "fieldtype": "Section Break",
+   "label": "Odometer"
+  },
+  {
+   "fieldname": "start",
+   "fieldtype": "Int",
+   "label": "Start"
+  },
+  {
+   "fieldname": "column_break_ex4tx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "end",
+   "fieldtype": "Int",
+   "label": "End"
+  },
+  {
+   "fieldname": "section_break_xaura",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "e.g wash, defects etc.",
+   "fieldname": "vehicle_check",
+   "fieldtype": "Data",
+   "label": "Vehicle Check"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Daily Mileage Log",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-10-12 19:10:49.914198",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Daily Mileage Log",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

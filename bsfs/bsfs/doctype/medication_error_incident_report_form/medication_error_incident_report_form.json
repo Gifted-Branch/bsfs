@@ -7,26 +7,48 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "datetime_incident_occurred",
-  "date_time_incident_reported",
   "client_name",
   "address",
+  "datetime_incident_occurred",
+  "column_break_supu1",
   "parentguardian_name",
   "medication_name_and_dose",
+  "date_time_incident_reported",
   "incident_report_tab",
   "stage_of_the_process_the_incident_occurrance_section",
-  "prescribing_column",
+  "prescribing",
   "receipt",
-  "ordering_column",
+  "other",
+  "column_break_lxxyy",
+  "ordering",
   "administration",
-  "pharmacy_dispensing_column",
+  "column_break_qcwyq",
+  "pharmacy_dispensing",
   "recording",
   "type_of_incident_section",
   "client_received_wrong_drug",
   "client_given_drug_at_wrong_time",
   "client_received_wrong_dose",
+  "column_break_frnoy",
   "client_received_drug_via_wrong_route",
   "drug_given_to_a_wrong_client",
+  "section_break_vabyu",
+  "details_of_incident",
+  "column_break_deii5",
+  "action_taken",
+  "section_break_xuc4m",
+  "outcome_of_action",
+  "action_taken_as_a_result_of_error",
+  "overall_outcome",
+  "column_break_stwzr",
+  "follow_up_action_taken_as_a_result_of_the_incident",
+  "outcome_of_further_training",
+  "section_break_thtef",
+  "staff_name",
+  "staff_sign",
+  "column_break_gbjgl",
+  "managersupervisor",
+  "ms_sign",
   "amended_from"
  ],
  "fields": [
@@ -69,12 +91,7 @@
   {
    "fieldname": "stage_of_the_process_the_incident_occurrance_section",
    "fieldtype": "Section Break",
-   "label": "stage of the process the incident occurrance"
-  },
-  {
-   "fieldname": "prescribing_column",
-   "fieldtype": "Column Break",
-   "label": "Prescribing"
+   "label": "Stage of the process the incident occurrance"
   },
   {
    "default": "0",
@@ -83,20 +100,10 @@
    "label": "Receipt"
   },
   {
-   "fieldname": "ordering_column",
-   "fieldtype": "Column Break",
-   "label": "Ordering"
-  },
-  {
    "default": "0",
    "fieldname": "administration",
    "fieldtype": "Check",
    "label": "Administration"
-  },
-  {
-   "fieldname": "pharmacy_dispensing_column",
-   "fieldtype": "Column Break",
-   "label": "Pharmacy Dispensing"
   },
   {
    "default": "0",
@@ -107,7 +114,7 @@
   {
    "fieldname": "type_of_incident_section",
    "fieldtype": "Section Break",
-   "label": "TYPE OF INCIDENT"
+   "label": "Type Of Incident"
   },
   {
    "default": "0",
@@ -134,9 +141,129 @@
    "label": "Client received drug via wrong route"
   },
   {
+   "default": "0",
    "fieldname": "drug_given_to_a_wrong_client",
-   "fieldtype": "Data",
+   "fieldtype": "Check",
    "label": "Drug given to a wrong client"
+  },
+  {
+   "fieldname": "column_break_supu1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_frnoy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "prescribing",
+   "fieldtype": "Check",
+   "label": "Prescribing"
+  },
+  {
+   "fieldname": "other",
+   "fieldtype": "Data",
+   "label": "Other"
+  },
+  {
+   "fieldname": "column_break_lxxyy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "ordering",
+   "fieldtype": "Check",
+   "label": "Ordering"
+  },
+  {
+   "fieldname": "column_break_qcwyq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pharmacy_dispensing",
+   "fieldtype": "Check",
+   "label": "Pharmacy Dispensing"
+  },
+  {
+   "fieldname": "section_break_vabyu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "details_of_incident",
+   "fieldtype": "Small Text",
+   "label": "Details of Incident"
+  },
+  {
+   "fieldname": "column_break_deii5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Action Taken (e.g. contact pharmacy) Name of pharmacist, date and time",
+   "fieldname": "action_taken",
+   "fieldtype": "Small Text",
+   "label": "Action Taken"
+  },
+  {
+   "fieldname": "section_break_xuc4m",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "e.g. follow advice of Pharmacist",
+   "fieldname": "outcome_of_action",
+   "fieldtype": "Small Text",
+   "label": "Outcome of Action"
+  },
+  {
+   "description": "e.g. further training, clarification of procedure",
+   "fieldname": "action_taken_as_a_result_of_error",
+   "fieldtype": "Small Text",
+   "label": "Action taken as a result of error"
+  },
+  {
+   "description": "e.g. Health of client",
+   "fieldname": "overall_outcome",
+   "fieldtype": "Small Text",
+   "label": "Overall Outcome"
+  },
+  {
+   "fieldname": "follow_up_action_taken_as_a_result_of_the_incident",
+   "fieldtype": "Small Text",
+   "label": "Follow up action taken as a result of the incident?"
+  },
+  {
+   "description": "if applicable (e.g. outcome of the further training, when it\noccurred, etc)",
+   "fieldname": "outcome_of_further_training",
+   "fieldtype": "Small Text",
+   "label": "Outcome of further training"
+  },
+  {
+   "fieldname": "staff_name",
+   "fieldtype": "Data",
+   "label": "Staff Name"
+  },
+  {
+   "fieldname": "staff_sign",
+   "fieldtype": "Signature",
+   "label": "Staff Sign"
+  },
+  {
+   "fieldname": "managersupervisor",
+   "fieldtype": "Data",
+   "label": "Manager/supervisor"
+  },
+  {
+   "fieldname": "ms_sign",
+   "fieldtype": "Signature",
+   "label": "M/S Sign"
+  },
+  {
+   "fieldname": "column_break_stwzr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_thtef",
+   "fieldtype": "Section Break"
   },
   {
    "fieldname": "amended_from",
@@ -146,12 +273,16 @@
    "options": "Medication Error Incident Report Form",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "column_break_gbjgl",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-09-28 22:38:07.605366",
+ "modified": "2023-10-12 19:01:22.391257",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Medication Error Incident Report Form",

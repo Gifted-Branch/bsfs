@@ -28,12 +28,14 @@
   "section_break_4q5vs",
   "comments",
   "employee_certification_section",
-  "confirmation",
   "employee_signature",
+  "column_break_s56f2",
   "date1",
   "approval_section",
   "approved",
+  "column_break_ny8fh",
   "yes",
+  "column_break_p7nfo",
   "no",
   "section_break_uus0b",
   "supervisor__manager_approval",
@@ -42,7 +44,8 @@
   "section_break_dzzrz",
   "printed_name",
   "column_break_ly7zi",
-  "title"
+  "title",
+  "amended_from"
  ],
  "fields": [
   {
@@ -72,7 +75,7 @@
   },
   {
    "fieldname": "number_of_days_requested",
-   "fieldtype": "Float",
+   "fieldtype": "Int",
    "label": "Number of Days Requested"
   },
   {
@@ -136,8 +139,9 @@
    "label": "Time Off To Vote"
   },
   {
+   "default": "0",
    "fieldname": "other",
-   "fieldtype": "Data",
+   "fieldtype": "Check",
    "label": "Other"
   },
   {
@@ -150,14 +154,10 @@
    "label": "Comments"
   },
   {
+   "description": "I understand that the time away from work is subject to management approval and company policies.",
    "fieldname": "employee_certification_section",
-   "fieldtype": "Section Break",
-   "label": "EMPLOYEE CERTIFICATION"
-  },
-  {
-   "fieldname": "confirmation",
-   "fieldtype": "Heading",
-   "label": "I understand that the time away from work is subject to management approval and company policies."
+   "fieldtype": "Tab Break",
+   "label": "Employee Certification"
   },
   {
    "fieldname": "employee_signature",
@@ -226,11 +226,33 @@
   {
    "fieldname": "section_break_dzzrz",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_s56f2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ny8fh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_p7nfo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Absent and Vacation Request",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2023-10-12 17:13:09.929299",
+ "modified": "2023-10-12 18:00:07.573676",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Absent and Vacation Request",
