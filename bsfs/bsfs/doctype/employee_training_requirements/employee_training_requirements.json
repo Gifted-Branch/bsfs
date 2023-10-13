@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:",
  "creation": "2023-09-28 22:43:02.719936",
  "default_view": "List",
  "doctype": "DocType",
@@ -8,59 +9,73 @@
  "engine": "InnoDB",
  "field_order": [
   "employee_details_section",
+  "naming_series",
   "name1",
   "column_break_izw2p",
   "date_of__hire",
   "police_check_section",
   "pl_completed_date",
   "pl_expiry_date",
+  "column_break_ocdlb",
   "pl_comments",
   "child_intervention_check_section",
   "ci_date_complted",
   "ci_expiry_date",
+  "column_break_lbenh",
   "ci_comments",
   "cpr_section",
   "cpr_date_completed",
   "cpr_expiry_date",
+  "column_break_qctfg",
   "cpr_comments",
   "cultural_awareness_section",
   "ca_date_completed",
   "ca_expiry_date",
+  "column_break_0dszr",
   "ca_comments",
   "aboriginal_awareness_section",
   "aw_date_completed",
   "ex_expiry_date",
+  "column_break_briay",
   "aw_comments",
   "suicide_intervention_section",
   "sd_date_completed",
   "sd_expiry_date",
+  "column_break_vy5nj",
   "sd_comments",
   "abuse_protocol_section",
   "ap_completed_date",
   "ap_expiry_date",
+  "column_break_4iomi",
   "ap_comments",
   "nvci_section",
   "nv_completed_date",
   "nv_expiry_date",
+  "column_break_avse9",
   "nv_comments",
   "trauma_informed_care_section",
   "tc_completed_date",
   "tc_expiry_date",
+  "column_break_vciuo",
   "tc_comments",
   "harm_reduction_section",
   "hm_date_completed",
   "hm_expiry_date",
+  "column_break_omjvm",
   "hm_comments",
   "foip_section",
   "foip_date_completed",
   "foip_expiry_date",
+  "column_break_ef9k3",
   "foip_comments",
   "educational_cerificated_section",
   "ec_date_completed",
   "ec_expiry",
+  "column_break_lts4v",
   "ec_comments",
   "section_break_u0mk2",
-  "behaviour"
+  "behaviour",
+  "amended_from"
  ],
  "fields": [
   {
@@ -72,6 +87,7 @@
    "fieldname": "name1",
    "fieldtype": "Data",
    "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Name",
    "reqd": 1
   },
@@ -360,14 +376,80 @@
   {
    "fieldname": "column_break_izw2p",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "ETR-.YYYY.-",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Employee Training Requirements",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ocdlb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_qctfg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_briay",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_avse9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_omjvm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_vy5nj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_4iomi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_vciuo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_lbenh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ef9k3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_lts4v",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_0dszr",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2023-10-12 13:34:09.390055",
+ "modified": "2023-10-13 22:28:25.695866",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Employee Training Requirements",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {

@@ -33,8 +33,7 @@
   "parent_signature",
   "column_break_hk0b0",
   "agency_officer",
-  "agency_signature",
-  "amended_from"
+  "agency_signature"
  ],
  "fields": [
   {
@@ -169,15 +168,6 @@
    "label": "Agency Signature"
   },
   {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Client Profile",
-   "print_hide": 1,
-   "read_only": 1
-  },
-  {
    "fieldname": "column_break_0v0d0",
    "fieldtype": "Column Break"
   }
@@ -185,7 +175,7 @@
  "icon": "fa fa-user",
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-12 18:19:52.188497",
+ "modified": "2023-10-13 22:17:14.244034",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Client",

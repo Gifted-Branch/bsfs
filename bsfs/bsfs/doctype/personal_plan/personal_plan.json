@@ -1,12 +1,14 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:",
  "creation": "2023-10-12 12:17:27.518751",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "naming_series",
   "client_name",
   "section_break_j1gea",
   "template_name",
@@ -17,8 +19,11 @@
  "fields": [
   {
    "fieldname": "client_name",
-   "fieldtype": "Data",
-   "label": "Client Name"
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Client Name",
+   "options": "Client"
   },
   {
    "fieldname": "section_break_j1gea",
@@ -44,14 +49,22 @@
    "fieldname": "comments",
    "fieldtype": "Small Text",
    "label": "Comments"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "PP-.YYYY.-",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-12 13:10:47.086410",
+ "modified": "2023-10-13 22:19:05.788140",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Personal Plan",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {
