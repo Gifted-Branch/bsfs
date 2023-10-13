@@ -7,9 +7,57 @@
  "engine": "InnoDB",
  "field_order": [
   "message",
-  "question",
   "please_check",
   "information_provided_during_intake",
+  "informative",
+  "somewhat_informative",
+  "not_informative",
+  "child_lives",
+  "best",
+  "good",
+  "poor",
+  "how_often_do_you_reach_and_find_staff_when_you_need_to_column",
+  "often",
+  "rarely",
+  "never",
+  "staff_updates",
+  "often1",
+  "rarely1",
+  "never1",
+  "section_break_ltdti",
+  "how_often_do_you_contact_your_child_in_care_column",
+  "often2",
+  "rarely2",
+  "never2",
+  "how_often_do_you_visit_your_child_in_care_column",
+  "often3",
+  "rarely3",
+  "never3",
+  "how_satisfied_are_you_with_your_child_attending_school_column",
+  "very_satisfied",
+  "somewhat_satisfied",
+  "not_satisfied",
+  "attending",
+  "very_satisfieds",
+  "somewhat_satisfieds",
+  "not_satisfieds",
+  "section_break_hesjs",
+  "service_delivery",
+  "very_satisfiedd",
+  "somewhat_satisfiedd",
+  "not_satisfiedd",
+  "child_while",
+  "not_concerned",
+  "none",
+  "very_concerned",
+  "recommendation",
+  "yes",
+  "maybe",
+  "no",
+  "what_is_your_overall_comment_column",
+  "excellent",
+  "goods",
+  "bad",
   "section_break_d0qaq",
   "overall_comments",
   "section_break_07zwv",
@@ -64,27 +112,299 @@
    "label": "Year"
   },
   {
-   "fieldname": "question",
-   "fieldtype": "Section Break",
-   "label": "Question",
-   "print_hide": 1,
-   "report_hide": 1
-  },
-  {
    "description": "(please check whichever applicable)",
    "fieldname": "information_provided_during_intake",
-   "fieldtype": "Heading",
+   "fieldtype": "Column Break",
    "label": "Information provided during intake"
   },
   {
    "fieldname": "please_check",
    "fieldtype": "Section Break",
-   "label": "(please check whichever applicable )"
+   "label": "Question - Please Check Whichever Applicable"
+  },
+  {
+   "default": "0",
+   "fieldname": "informative",
+   "fieldtype": "Check",
+   "label": "informative"
+  },
+  {
+   "default": "0",
+   "fieldname": "somewhat_informative",
+   "fieldtype": "Check",
+   "label": "Somewhat informative"
+  },
+  {
+   "default": "0",
+   "fieldname": "not_informative",
+   "fieldtype": "Check",
+   "label": "Not informative"
+  },
+  {
+   "fieldname": "child_lives",
+   "fieldtype": "Column Break",
+   "label": "What was you impression on your 1 st visit to where you child lives"
+  },
+  {
+   "default": "0",
+   "fieldname": "best",
+   "fieldtype": "Check",
+   "label": "Best"
+  },
+  {
+   "default": "0",
+   "fieldname": "good",
+   "fieldtype": "Check",
+   "label": "Good"
+  },
+  {
+   "default": "0",
+   "fieldname": "poor",
+   "fieldtype": "Check",
+   "label": "Poor"
+  },
+  {
+   "fieldname": "how_often_do_you_reach_and_find_staff_when_you_need_to_column",
+   "fieldtype": "Column Break",
+   "label": "How often do you reach and find staff when you need to"
+  },
+  {
+   "default": "0",
+   "fieldname": "often",
+   "fieldtype": "Check",
+   "label": "Often"
+  },
+  {
+   "default": "0",
+   "fieldname": "rarely",
+   "fieldtype": "Check",
+   "label": "Rarely"
+  },
+  {
+   "default": "0",
+   "fieldname": "never",
+   "fieldtype": "Check",
+   "label": "Never"
+  },
+  {
+   "fieldname": "staff_updates",
+   "fieldtype": "Column Break",
+   "label": "How often do staff contact you for any changes or updates"
+  },
+  {
+   "default": "0",
+   "fieldname": "often1",
+   "fieldtype": "Check",
+   "label": "Often"
+  },
+  {
+   "default": "0",
+   "fieldname": "rarely1",
+   "fieldtype": "Check",
+   "label": "Rarely"
+  },
+  {
+   "default": "0",
+   "fieldname": "never1",
+   "fieldtype": "Check",
+   "label": "Never"
+  },
+  {
+   "fieldname": "section_break_ltdti",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "how_often_do_you_contact_your_child_in_care_column",
+   "fieldtype": "Column Break",
+   "label": "How often do you contact your child in care"
+  },
+  {
+   "default": "0",
+   "fieldname": "often2",
+   "fieldtype": "Check",
+   "label": "Often"
+  },
+  {
+   "default": "0",
+   "fieldname": "rarely2",
+   "fieldtype": "Check",
+   "label": "Rarely"
+  },
+  {
+   "default": "0",
+   "fieldname": "never2",
+   "fieldtype": "Check",
+   "label": "Never"
+  },
+  {
+   "fieldname": "how_often_do_you_visit_your_child_in_care_column",
+   "fieldtype": "Column Break",
+   "label": "How often do you visit your child in care?"
+  },
+  {
+   "default": "0",
+   "fieldname": "often3",
+   "fieldtype": "Check",
+   "label": "Often"
+  },
+  {
+   "default": "0",
+   "fieldname": "rarely3",
+   "fieldtype": "Check",
+   "label": "Rarely"
+  },
+  {
+   "default": "0",
+   "fieldname": "never3",
+   "fieldtype": "Check",
+   "label": "Never"
+  },
+  {
+   "fieldname": "how_satisfied_are_you_with_your_child_attending_school_column",
+   "fieldtype": "Column Break",
+   "label": "How satisfied are you with your child attending school"
+  },
+  {
+   "default": "0",
+   "fieldname": "very_satisfied",
+   "fieldtype": "Check",
+   "label": "Very satisfied"
+  },
+  {
+   "default": "0",
+   "fieldname": "somewhat_satisfied",
+   "fieldtype": "Check",
+   "label": "Somewhat satisfied"
+  },
+  {
+   "default": "0",
+   "fieldname": "not_satisfied",
+   "fieldtype": "Check",
+   "label": "Not satisfied"
+  },
+  {
+   "fieldname": "attending",
+   "fieldtype": "Column Break",
+   "label": "How satisfied are you with your childs attending appointment"
+  },
+  {
+   "default": "0",
+   "fieldname": "very_satisfieds",
+   "fieldtype": "Check",
+   "label": "Very satisfied"
+  },
+  {
+   "default": "0",
+   "fieldname": "somewhat_satisfieds",
+   "fieldtype": "Check",
+   "label": "Somewhat satisfied"
+  },
+  {
+   "default": "0",
+   "fieldname": "not_satisfieds",
+   "fieldtype": "Check",
+   "label": "Not satisfied"
+  },
+  {
+   "fieldname": "section_break_hesjs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "service_delivery",
+   "fieldtype": "Column Break",
+   "label": "How satisfied are you with the general service delivery of BSFS"
+  },
+  {
+   "default": "0",
+   "fieldname": "very_satisfiedd",
+   "fieldtype": "Check",
+   "label": "Very satisfied"
+  },
+  {
+   "default": "0",
+   "fieldname": "somewhat_satisfiedd",
+   "fieldtype": "Check",
+   "label": "Somewhat satisfied"
+  },
+  {
+   "default": "0",
+   "fieldname": "not_satisfiedd",
+   "fieldtype": "Check",
+   "label": "Not satisfied"
+  },
+  {
+   "fieldname": "child_while",
+   "fieldtype": "Column Break",
+   "label": "Are you concerned about the wellbeing or safety of your child while at BSFS"
+  },
+  {
+   "default": "0",
+   "fieldname": "not_concerned",
+   "fieldtype": "Check",
+   "label": "Not concerned"
+  },
+  {
+   "default": "0",
+   "fieldname": "none",
+   "fieldtype": "Check",
+   "label": "None"
+  },
+  {
+   "default": "0",
+   "fieldname": "very_concerned",
+   "fieldtype": "Check",
+   "label": "Very Concerned"
+  },
+  {
+   "fieldname": "recommendation",
+   "fieldtype": "Column Break",
+   "label": "Will you recommend BS&amp;FS to another family that needs services"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "maybe",
+   "fieldtype": "Check",
+   "label": "Maybe"
+  },
+  {
+   "default": "0",
+   "fieldname": "no",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "what_is_your_overall_comment_column",
+   "fieldtype": "Column Break",
+   "label": "What is your overall comment"
+  },
+  {
+   "default": "0",
+   "fieldname": "excellent",
+   "fieldtype": "Check",
+   "label": "Excellent"
+  },
+  {
+   "default": "0",
+   "fieldname": "goods",
+   "fieldtype": "Check",
+   "label": "Good"
+  },
+  {
+   "default": "0",
+   "fieldname": "bad",
+   "fieldtype": "Check",
+   "label": "Bad"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-13 12:17:32.354221",
+ "modified": "2023-10-13 23:48:18.032890",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Parent Monthly Feedback Survey",
