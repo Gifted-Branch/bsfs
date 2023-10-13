@@ -1,12 +1,14 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:",
  "creation": "2023-10-12 08:22:32.151562",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "naming_series",
   "client_name",
   "column_break_cmovw",
   "staff",
@@ -20,8 +22,10 @@
  "fields": [
   {
    "fieldname": "client_name",
-   "fieldtype": "Data",
-   "label": "Client Name"
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Client Name",
+   "options": "Client"
   },
   {
    "fieldname": "column_break_cmovw",
@@ -59,14 +63,21 @@
    "fieldname": "overnight_notes_details",
    "fieldtype": "Table",
    "options": "Overnight Notes Details"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "ON-.YYYY.-"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-12 09:28:42.797494",
+ "modified": "2023-10-13 18:11:24.886361",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Overnight Notes",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {
@@ -85,5 +96,6 @@
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
+ "title_field": "client_name",
  "track_changes": 1
 }

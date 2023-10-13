@@ -53,9 +53,11 @@
    "fieldname": "select_template",
    "fieldtype": "Link",
    "label": "Select Template",
-   "options": "Orientation Checklist Template"
+   "options": "Orientation Checklist Template",
+   "reqd": 1
   },
   {
+   "depends_on": "select_template",
    "fieldname": "orientation_checklist_detail",
    "fieldtype": "Table",
    "options": "Orientation Checklist Detail"
@@ -113,7 +115,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-13 17:56:30.187778",
+ "modified": "2023-10-13 18:29:50.338313",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Orientation Checklist",

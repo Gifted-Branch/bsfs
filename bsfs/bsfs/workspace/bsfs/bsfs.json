@@ -1,7 +1,7 @@
 {
  "charts": [],
- "content": "[{\"id\":\"RxTZaiP3oO\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h2\\\"><b>Shortcuts</b></span><br>\",\"col\":12}}]",
- "creation": "2023-09-28 22:25:56.385154",
+ "content": "[{\"id\":\"XoimuJCMpV\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Shortcuts</span>\",\"col\":12}},{\"id\":\"-xyCWI8SvG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client Profile\",\"col\":3}}]",
+ "creation": "2023-10-13 18:54:40.351236",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
@@ -12,7 +12,7 @@
  "is_hidden": 0,
  "label": "BSFS",
  "links": [],
- "modified": "2023-10-11 21:52:19.859374",
+ "modified": "2023-10-13 18:57:38.545706",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "BSFS",
@@ -23,6 +23,14 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 1.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Client Profile",
+   "link_to": "Client",
+   "type": "DocType"
+  }
+ ],
  "title": "BSFS"
 }
