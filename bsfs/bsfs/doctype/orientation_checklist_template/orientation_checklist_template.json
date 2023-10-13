@@ -10,7 +10,7 @@
  "field_order": [
   "template_name",
   "section_break_8j5x2",
-  "orientation_checklist_detail"
+  "orientation_area"
  ],
  "fields": [
   {
@@ -24,14 +24,15 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "orientation_checklist_detail",
+   "fieldname": "orientation_area",
    "fieldtype": "Table",
-   "options": "Orientation Checklist Detail"
+   "label": "Area of orientation",
+   "options": "Orientation Checklist Template Detail"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-12 09:28:21.497380",
+ "modified": "2023-10-13 17:39:27.200234",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Orientation Checklist Template",
@@ -51,8 +52,10 @@
    "write": 1
   }
  ],
+ "search_fields": "template_name",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
+ "title_field": "template_name",
  "track_changes": 1
 }

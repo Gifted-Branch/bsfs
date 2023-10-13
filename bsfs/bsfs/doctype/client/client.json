@@ -188,7 +188,7 @@
  "modified": "2023-10-12 18:19:52.188497",
  "modified_by": "Administrator",
  "module": "BSFS",
- "name": "Client Profile",
+ "name": "Client",
  "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [

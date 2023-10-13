@@ -1,19 +1,21 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:",
  "creation": "2023-10-12 08:10:42.063170",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "naming_series",
   "client_name",
   "date",
   "time_of_event",
-  "location_place",
   "column_break_wtj6l",
   "staff_1_name",
   "staff_2_name",
+  "location_place",
   "section_break_dijuw",
   "brief_description_of_what_happened",
   "section_break_rbigh",
@@ -25,13 +27,16 @@
   "writer_name",
   "writers_date",
   "column_break_ccaqh",
-  "sign"
+  "sign",
+  "amended_from"
  ],
  "fields": [
   {
    "fieldname": "client_name",
-   "fieldtype": "Data",
-   "label": "Client Name"
+   "fieldtype": "Link",
+   "label": "Client Name",
+   "options": "Client",
+   "reqd": 1
   },
   {
    "default": "Today",
@@ -118,14 +123,34 @@
    "fieldname": "sign",
    "fieldtype": "Signature",
    "label": "Sign"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Note Worthy Report",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Naming Series",
+   "options": "NWR-.YYYY.-",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2023-10-12 09:29:08.079209",
+ "modified": "2023-10-13 16:33:31.047103",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Note Worthy Report",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {
@@ -141,8 +166,10 @@
    "write": 1
   }
  ],
+ "search_fields": "client_name",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
+ "title_field": "client_name",
  "track_changes": 1
 }

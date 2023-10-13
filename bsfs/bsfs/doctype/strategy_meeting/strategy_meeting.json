@@ -1,12 +1,16 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:",
  "creation": "2023-10-11 22:44:52.551880",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "naming_series",
+  "title",
+  "column_break_qyhrk",
   "date",
   "section_break_3qadn",
   "present",
@@ -43,15 +47,33 @@
    "fieldname": "agenda",
    "fieldtype": "Long Text",
    "label": "Agenda"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Naming Series",
+   "options": "ST-.YYYY.-",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_qyhrk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-11 22:54:41.103823",
+ "modified": "2023-10-13 16:19:02.521506",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Strategy Meeting",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {
@@ -70,5 +92,6 @@
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
+ "title_field": "title",
  "track_changes": 1
 }

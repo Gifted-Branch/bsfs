@@ -1,12 +1,14 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:",
  "creation": "2023-09-28 22:28:45.737016",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "naming_series",
   "client_name",
   "column_break_egv1c",
   "month",
@@ -26,13 +28,16 @@
   "report_prepared_by_section",
   "staff_name",
   "column_break_focer",
-  "report_prepare_on"
+  "report_prepare_on",
+  "amended_from"
  ],
  "fields": [
   {
    "fieldname": "client_name",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "label": "Client Name",
+   "options": "Client",
+   "reqd": 1,
    "unique": 1
   },
   {
@@ -125,15 +130,34 @@
   {
    "fieldname": "column_break_5bvgw",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Naming Series",
+   "options": "MR-.YYYY.-",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Monthly Report",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2023-10-12 07:25:12.676376",
+ "modified": "2023-10-13 16:34:11.715897",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Monthly Report",
- "naming_rule": "By fieldname",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {
@@ -149,8 +173,10 @@
    "write": 1
   }
  ],
+ "search_fields": "client_name",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
+ "title_field": "client_name",
  "track_changes": 1
 }

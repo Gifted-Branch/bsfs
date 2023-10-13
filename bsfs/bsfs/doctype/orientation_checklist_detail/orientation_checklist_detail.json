@@ -14,9 +14,11 @@
  "fields": [
   {
    "fieldname": "area_of_orientation",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Area of Orientation"
+   "label": "Area of Orientation",
+   "options": "Area of Orientation",
+   "reqd": 1
   },
   {
    "fieldname": "date",
@@ -40,7 +42,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-10-12 09:28:30.771139",
+ "modified": "2023-10-13 16:56:26.163914",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Orientation Checklist Detail",

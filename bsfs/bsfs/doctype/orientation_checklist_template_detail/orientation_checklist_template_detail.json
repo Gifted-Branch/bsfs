@@ -1,0 +1,32 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-13 17:06:38.228484",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "area_of_orientation"
+ ],
+ "fields": [
+  {
+   "fieldname": "area_of_orientation",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Area of orientation",
+   "options": "Area of Orientation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-13 17:12:30.814139",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Orientation Checklist Template Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
