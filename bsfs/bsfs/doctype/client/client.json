@@ -14,26 +14,29 @@
   "client_name",
   "date_of_birth",
   "gender",
+  "column_break_vehfq",
   "mobile",
   "personal_email",
-  "column_break1",
   "marital_status",
+  "column_break1",
   "address",
   "next_of_kin",
   "relationship",
   "section_break_tgzim",
   "client_health_number",
   "social_insurance_number",
-  "client_contract_number",
   "column_break_0v0d0",
+  "client_contract_number",
   "client_worker_name",
+  "column_break_0rhgw",
   "worker_phone_number",
   "section_break_6onko",
   "parent_name",
   "parent_signature",
   "column_break_hk0b0",
   "agency_officer",
-  "agency_signature"
+  "agency_signature",
+  "amended_from"
  ],
  "fields": [
   {
@@ -170,12 +173,29 @@
   {
    "fieldname": "column_break_0v0d0",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_vehfq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Client",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_0rhgw",
+   "fieldtype": "Column Break"
   }
  ],
  "icon": "fa fa-user",
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-13 22:17:14.244034",
+ "modified": "2023-10-13 22:59:50.589055",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Client",

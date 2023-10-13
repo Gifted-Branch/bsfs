@@ -29,8 +29,7 @@
   "social_insurance_number",
   "worker_phone_number",
   "column_break_tgj4d",
-  "client_contract_number",
-  "amended_from"
+  "client_contract_number"
  ],
  "fields": [
   {
@@ -58,7 +57,7 @@
   },
   {
    "fieldname": "physical_address",
-   "fieldtype": "Small Text",
+   "fieldtype": "Data",
    "label": "Physical Address "
   },
   {
@@ -147,30 +146,12 @@
    "fieldname": "client_contract_number",
    "fieldtype": "Data",
    "label": "Client Contract Number"
-  },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Registration",
-   "print_hide": 1,
-   "read_only": 1
-  },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Registration",
-   "print_hide": 1,
-   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-09-28 22:38:22.253665",
+ "modified": "2023-10-13 22:57:17.547557",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Registration",

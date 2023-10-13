@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-13 11:38:09.442367",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "template_name",
+  "please_cycle_whichever_applicable"
+ ],
+ "fields": [
+  {
+   "default": "Parent's Monthly Feedback Survey",
+   "fieldname": "template_name",
+   "fieldtype": "Data",
+   "label": "Template Name",
+   "print_hide": 1,
+   "read_only": 1,
+   "report_hide": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "please_cycle_whichever_applicable",
+   "fieldtype": "Table",
+   "label": "(please cycle whichever is applicable)",
+   "options": "Parent Monthly Feedback Survey Detail"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-13 22:43:15.070530",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Parent Monthly Feedback Survey Template",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

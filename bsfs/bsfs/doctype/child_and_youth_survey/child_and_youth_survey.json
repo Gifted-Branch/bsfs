@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-12 18:13:51.054380",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "child_and_youth_survey",
+  "introduction_message",
+  "statements",
+  "mark_whichever_applicable",
+  "child_and_youth",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "child_and_youth_survey",
+   "fieldtype": "Section Break",
+   "label": "Child and Youth Survey"
+  },
+  {
+   "default": "Please complete the following Survey to help us understand how we are doing. If you have any questions please talk with your Support Worker\n\n\nPlease tell us how you feel about the following statements",
+   "fieldname": "introduction_message",
+   "fieldtype": "Small Text",
+   "read_only": 1
+  },
+  {
+   "fieldname": "statements",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "mark_whichever_applicable",
+   "fieldtype": "Section Break",
+   "label": "Mark whichever applicable"
+  },
+  {
+   "fieldname": "child_and_youth",
+   "fieldtype": "Table",
+   "options": "Child and Youth Survey Detail"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Child and Youth Survey",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-10-13 22:43:47.055315",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Child and Youth Survey",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

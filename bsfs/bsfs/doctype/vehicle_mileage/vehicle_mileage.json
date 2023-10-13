@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-12 18:01:33.507415",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "vehicle_mileageusage",
+  "column_break_kopxc",
+  "reg",
+  "section_break_raurx",
+  "vehicle_items",
+  "section_break_uf3tj",
+  "coordinator_sign",
+  "column_break_wpipa",
+  "date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "vehicle_mileageusage",
+   "fieldtype": "Int",
+   "label": "Vehicle Mileage/Usage"
+  },
+  {
+   "fieldname": "column_break_kopxc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reg",
+   "fieldtype": "Data",
+   "label": "Reg."
+  },
+  {
+   "fieldname": "section_break_raurx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "NOTE: Mileage will be paid according human services rate Alberta $0.13/KM \u2013 Transportation and travel",
+   "fieldname": "vehicle_items",
+   "fieldtype": "Table",
+   "options": "Vehicle Mileage Details"
+  },
+  {
+   "fieldname": "section_break_uf3tj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "coordinator_sign",
+   "fieldtype": "Signature",
+   "label": "Coordinator Sign"
+  },
+  {
+   "fieldname": "column_break_wpipa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Vehicle Mileage",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-10-13 22:42:10.224705",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Vehicle Mileage",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

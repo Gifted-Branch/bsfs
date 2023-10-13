@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"XoimuJCMpV\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Shortcuts</span>\",\"col\":12}},{\"id\":\"-xyCWI8SvG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client Profile\",\"col\":3}}]",
+ "content": "[{\"id\":\"XoimuJCMpV\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Shortcuts</b></span>\",\"col\":12}},{\"id\":\"-xyCWI8SvG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client Profile\",\"col\":3}},{\"id\":\"EM88i11zqn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client Meeting\",\"col\":3}},{\"id\":\"05ANK7olWc\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Area of Orientation\",\"col\":3}},{\"id\":\"iQhay65lgH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Orientation Checklist\",\"col\":3}},{\"id\":\"LSvwK7AFcz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Personal Plan\",\"col\":3}},{\"id\":\"Vp-YCO2XuZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Months of the Year\",\"col\":3}},{\"id\":\"4iIlGJoPlK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Vehicle Mileage\",\"col\":3}},{\"id\":\"RJtY31VZnP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Monthly Inspection\",\"col\":3}},{\"id\":\"GrfNTyiKzx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Training Requirements\",\"col\":3}},{\"id\":\"3RzNx5fU2E\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Report &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"mkM12s2bjT\",\"type\":\"card\",\"data\":{\"card_name\":\"Client\",\"col\":4}},{\"id\":\"DiZHp9mym6\",\"type\":\"card\",\"data\":{\"card_name\":\"Vehicle\",\"col\":4}},{\"id\":\"g1SEo2nMAM\",\"type\":\"card\",\"data\":{\"card_name\":\"Monthly\",\"col\":4}},{\"id\":\"XLUDnRfXqZ\",\"type\":\"card\",\"data\":{\"card_name\":\"Orientation\",\"col\":4}}]",
  "creation": "2023-10-13 18:54:40.351236",
  "custom_blocks": [],
  "docstatus": 0,
@@ -11,8 +11,151 @@
  "idx": 0,
  "is_hidden": 0,
  "label": "BSFS",
- "links": [],
- "modified": "2023-10-13 18:57:38.545706",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Client",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Client Profile",
+   "link_count": 0,
+   "link_to": "Client",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Client Meeting",
+   "link_count": 0,
+   "link_to": "Client Meeting",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Vehicle",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Vehicle Mileage",
+   "link_count": 0,
+   "link_to": "Vehicle Mileage",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Monthly",
+   "link_count": 6,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Months of the Year",
+   "link_count": 0,
+   "link_to": "Month",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Month end checklist",
+   "link_count": 0,
+   "link_to": "Month end checklist",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Monthly Inspection",
+   "link_count": 0,
+   "link_to": "Monthly Inspection",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Monthly Report",
+   "link_count": 0,
+   "link_to": "Monthly Report",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Parent Monthly Feedback Survey",
+   "link_count": 0,
+   "link_to": "Parent Monthly Feedback Survey",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Staff Monthly Review",
+   "link_count": 0,
+   "link_to": "Staff Monthly Review",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Orientation",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Area of Orientation",
+   "link_count": 0,
+   "link_to": "Area of Orientation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Orientation Checklist",
+   "link_count": 0,
+   "link_to": "Orientation Checklist",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-10-13 22:55:30.933857",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "BSFS",
@@ -27,8 +170,64 @@
   {
    "color": "Grey",
    "doc_view": "List",
+   "label": "Employee Training Requirements",
+   "link_to": "Employee Training Requirements",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Personal Plan",
+   "link_to": "Personal Plan",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
    "label": "Client Profile",
    "link_to": "Client",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Client Meeting",
+   "link_to": "Client Meeting",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Vehicle Mileage",
+   "link_to": "Vehicle Mileage",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Area of Orientation",
+   "link_to": "Area of Orientation",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Orientation Checklist",
+   "link_to": "Orientation Checklist",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Months of the Year",
+   "link_to": "Month",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Monthly Inspection",
+   "link_to": "Monthly Inspection",
    "type": "DocType"
   }
  ],
