@@ -1,15 +1,15 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:document_name",
  "creation": "2023-10-12 11:25:22.229659",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "document_name",
   "message",
-  "please_cycle_whichever_applicable",
+  "question",
+  "please_check",
+  "information_provided_during_intake",
   "section_break_d0qaq",
   "overall_comments",
   "section_break_07zwv",
@@ -21,24 +21,10 @@
  ],
  "fields": [
   {
-   "default": "Parent's Monthly Feedback Survey",
-   "fieldname": "document_name",
-   "fieldtype": "Data",
-   "label": "Document Name",
-   "print_hide": 1,
-   "read_only": 1,
-   "report_hide": 1,
-   "unique": 1
-  },
-  {
+   "default": "Dear Parent/guardian,\n\nPlease we request you to fill our short monthly feedback survey to help us know how we are doing and which areas we need to improve. \n\nThis is part of our quality assurance goal that will help us improve on our service delivery.",
    "fieldname": "message",
-   "fieldtype": "Small Text"
-  },
-  {
-   "fieldname": "please_cycle_whichever_applicable",
-   "fieldtype": "Table",
-   "label": "(please cycle whichever is applicable)",
-   "options": "Parent Monthly Feedback Survey Detail"
+   "fieldtype": "Small Text",
+   "read_only": 1
   },
   {
    "fieldname": "section_break_d0qaq",
@@ -76,15 +62,32 @@
    "fieldname": "year",
    "fieldtype": "Data",
    "label": "Year"
+  },
+  {
+   "fieldname": "question",
+   "fieldtype": "Section Break",
+   "label": "Question",
+   "print_hide": 1,
+   "report_hide": 1
+  },
+  {
+   "description": "(please check whichever applicable)",
+   "fieldname": "information_provided_during_intake",
+   "fieldtype": "Heading",
+   "label": "Information provided during intake"
+  },
+  {
+   "fieldname": "please_check",
+   "fieldtype": "Section Break",
+   "label": "(please check whichever applicable )"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-12 13:03:42.777574",
+ "modified": "2023-10-13 12:17:32.354221",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Parent Monthly Feedback Survey",
- "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
