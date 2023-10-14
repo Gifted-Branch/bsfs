@@ -1,12 +1,14 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:",
  "creation": "2023-10-12 18:05:38.595445",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "naming_series",
   "placement_home",
   "name_of_client",
   "column_break_dnge5",
@@ -18,6 +20,7 @@
   "does_your_staff_listen_to_your_concerns",
   "what_do_you_like_about_your_home",
   "what_are_your_dislikes_or_likes",
+  "column_break_adebx",
   "do_you_like_your_meals_anything_we_should_add_or_change",
   "what_outing_would_you_like_to_do_this_month",
   "do_you_know_your_rights",
@@ -34,6 +37,8 @@
   {
    "fieldname": "name_of_client",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Name of client"
   },
   {
@@ -112,15 +117,27 @@
    "options": "Client Meeting",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "column_break_adebx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "CM-.YYYY.-",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-12 18:05:38.595445",
+ "modified": "2023-10-14 11:30:34.532742",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Client Meeting",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {
