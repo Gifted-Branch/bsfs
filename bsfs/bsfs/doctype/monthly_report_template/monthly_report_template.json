@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:monthly_report_template",
+ "creation": "2023-10-14 11:45:27.324244",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "monthly_report_template",
+  "monthly_report_template_detail",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "monthly_report_template",
+   "fieldtype": "Data",
+   "label": "Monthly Report Template",
+   "unique": 1
+  },
+  {
+   "fieldname": "monthly_report_template_detail",
+   "fieldtype": "Table",
+   "options": "Monthly Report Template Detail"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Monthly Report Template",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-14 11:55:15.820098",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Monthly Report Template",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "monthly_report_template",
+ "track_changes": 1
+}

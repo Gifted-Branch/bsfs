@@ -16,15 +16,8 @@
   "date",
   "goals_for_the_month_section",
   "monthly_goals",
+  "monthly_report_detail",
   "section_break_bfxs5",
-  "appointment",
-  "behaviour_and_wellbeing",
-  "column_break_5bvgw",
-  "school",
-  "reports",
-  "community_and_access_activities",
-  "incident_reports",
-  "general_comments",
   "report_prepared_by_section",
   "staff_name",
   "column_break_focer",
@@ -48,43 +41,13 @@
   },
   {
    "fieldname": "goals_for_the_month_section",
-   "fieldtype": "Section Break",
-   "label": "Goals for the Month"
+   "fieldtype": "Section Break"
   },
   {
    "fieldname": "monthly_goals",
-   "fieldtype": "Small Text",
-   "label": "Monthly Goals"
-  },
-  {
-   "fieldname": "appointment",
-   "fieldtype": "Data",
-   "label": "Appointments Attended"
-  },
-  {
-   "fieldname": "behaviour_and_wellbeing",
-   "fieldtype": "Data",
-   "label": "Behaviour and WellBeing"
-  },
-  {
-   "fieldname": "school",
-   "fieldtype": "Data",
-   "label": "School"
-  },
-  {
-   "fieldname": "community_and_access_activities",
-   "fieldtype": "Small Text",
-   "label": "Community and Access Activities"
-  },
-  {
-   "fieldname": "incident_reports",
-   "fieldtype": "Small Text",
-   "label": "Incident Reports"
-  },
-  {
-   "fieldname": "general_comments",
-   "fieldtype": "Small Text",
-   "label": "General Comments"
+   "fieldtype": "Link",
+   "label": "Monthly Report Template",
+   "options": "Monthly Report Template"
   },
   {
    "fieldname": "report_prepared_by_section",
@@ -106,10 +69,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "reports",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "column_break_focer",
    "fieldtype": "Column Break"
   },
@@ -128,10 +87,6 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "column_break_5bvgw",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "naming_series",
    "fieldtype": "Select",
    "in_list_view": 1,
@@ -148,12 +103,17 @@
    "options": "Monthly Report",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "monthly_report_detail",
+   "fieldtype": "Table",
+   "options": "Monthly Report Detail"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-13 16:34:11.715897",
+ "modified": "2023-10-14 11:49:43.769015",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Monthly Report",

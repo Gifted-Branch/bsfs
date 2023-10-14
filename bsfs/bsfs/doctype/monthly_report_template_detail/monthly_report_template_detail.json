@@ -1,0 +1,44 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-14 11:39:16.384155",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "goals_month",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "goals_month",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Goals for the Month",
+   "options": "Monthly Goals"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Monthly Report Template Detail",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-14 11:52:17.467929",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Monthly Report Template Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
