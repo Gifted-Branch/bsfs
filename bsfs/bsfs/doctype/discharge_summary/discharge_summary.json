@@ -1,0 +1,208 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-14 13:32:25.369514",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client_name",
+  "parent_name",
+  "phone",
+  "column_break_zzujz",
+  "date_placement_began",
+  "date_of_discharge",
+  "section_break_ufc1y",
+  "discharge_information",
+  "behavioral_information",
+  "diet_information",
+  "activities_information",
+  "client_achievement",
+  "continuing_care_plan",
+  "column_break_0wj74",
+  "referreddischarged_to",
+  "individuals_involved_in_discharge_process",
+  "discharge_recommendations",
+  "belongings",
+  "medications",
+  "section_break_dpxph",
+  "name_of_discharging_staff",
+  "date",
+  "column_break_ovb7x",
+  "sign",
+  "section_break_ggywl",
+  "name_of_receiving_staff",
+  "date_1",
+  "column_break_khzrk",
+  "sign_1"
+ ],
+ "fields": [
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "label": "Client Name",
+   "options": "Client"
+  },
+  {
+   "fieldname": "parent_name",
+   "fieldtype": "Data",
+   "label": "Parent(s) Name"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "column_break_zzujz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_placement_began",
+   "fieldtype": "Date",
+   "label": "Date Placement Began"
+  },
+  {
+   "fieldname": "date_of_discharge",
+   "fieldtype": "Date",
+   "label": "Date of Discharge"
+  },
+  {
+   "fieldname": "section_break_ufc1y",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "discharge_information",
+   "fieldtype": "Small Text",
+   "label": "Discharge Information"
+  },
+  {
+   "fieldname": "behavioral_information",
+   "fieldtype": "Small Text",
+   "label": "Behavioral Information"
+  },
+  {
+   "fieldname": "diet_information",
+   "fieldtype": "Small Text",
+   "label": "Diet Information"
+  },
+  {
+   "fieldname": "activities_information",
+   "fieldtype": "Small Text",
+   "label": "Activities Information"
+  },
+  {
+   "fieldname": "client_achievement",
+   "fieldtype": "Small Text",
+   "label": "Did the client achieve program goals?"
+  },
+  {
+   "fieldname": "continuing_care_plan",
+   "fieldtype": "Small Text",
+   "label": "Continuing care plan"
+  },
+  {
+   "fieldname": "column_break_0wj74",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "referreddischarged_to",
+   "fieldtype": "Small Text",
+   "label": "Referred/discharged to"
+  },
+  {
+   "fieldname": "individuals_involved_in_discharge_process",
+   "fieldtype": "Small Text",
+   "label": "Individuals involved in discharge process"
+  },
+  {
+   "fieldname": "discharge_recommendations",
+   "fieldtype": "Small Text",
+   "label": "Discharge recommendations"
+  },
+  {
+   "fieldname": "belongings",
+   "fieldtype": "Small Text",
+   "label": "Belongings"
+  },
+  {
+   "fieldname": "medications",
+   "fieldtype": "Small Text",
+   "label": "Medications"
+  },
+  {
+   "fieldname": "section_break_dpxph",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name_of_discharging_staff",
+   "fieldtype": "Data",
+   "label": "Name of Discharging Staff"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_ovb7x",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sign",
+   "fieldtype": "Signature",
+   "label": "Sign"
+  },
+  {
+   "fieldname": "section_break_ggywl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name_of_receiving_staff",
+   "fieldtype": "Data",
+   "label": "Name of Receiving Staff"
+  },
+  {
+   "fieldname": "date_1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_khzrk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sign_1",
+   "fieldtype": "Signature",
+   "label": "Sign"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-14 13:36:28.863920",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Discharge Summary",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "client_name",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "client_name",
+ "track_changes": 1
+}

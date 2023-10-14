@@ -14,6 +14,7 @@
   "column_break_dnge5",
   "date",
   "name_of_staff",
+  "full_name",
   "section_break_qcxyb",
   "do_you_have_any_concerns",
   "do_you_feel_safe",
@@ -36,24 +37,27 @@
   },
   {
    "fieldname": "name_of_client",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Name of client"
+   "label": "Name of client",
+   "options": "Client"
   },
   {
    "fieldname": "column_break_dnge5",
    "fieldtype": "Column Break"
   },
   {
+   "default": "Today",
    "fieldname": "date",
    "fieldtype": "Date",
    "label": "Date"
   },
   {
    "fieldname": "name_of_staff",
-   "fieldtype": "Data",
-   "label": "Name of Staff"
+   "fieldtype": "Link",
+   "label": "Name of Staff",
+   "options": "User"
   },
   {
    "fieldname": "section_break_qcxyb",
@@ -128,12 +132,18 @@
    "label": "Naming Series",
    "options": "CM-.YYYY.-",
    "reqd": 1
+  },
+  {
+   "fetch_from": "name_of_staff.full_name",
+   "fieldname": "full_name",
+   "fieldtype": "Read Only",
+   "label": "Full Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-14 11:30:34.532742",
+ "modified": "2023-10-14 13:09:40.422599",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Client Meeting",
