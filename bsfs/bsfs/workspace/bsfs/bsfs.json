@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"XoimuJCMpV\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Shortcuts</b></span>\",\"col\":12}},{\"id\":\"-xyCWI8SvG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client Profile\",\"col\":3}},{\"id\":\"EM88i11zqn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client Meeting\",\"col\":3}},{\"id\":\"05ANK7olWc\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Area of Orientation\",\"col\":3}},{\"id\":\"iQhay65lgH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Orientation Checklist\",\"col\":3}},{\"id\":\"LSvwK7AFcz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Personal Plan\",\"col\":3}},{\"id\":\"Vp-YCO2XuZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Months of the Year\",\"col\":3}},{\"id\":\"4iIlGJoPlK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Vehicle Mileage\",\"col\":3}},{\"id\":\"RJtY31VZnP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Monthly Inspection\",\"col\":3}},{\"id\":\"GrfNTyiKzx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Training Requirements\",\"col\":3}},{\"id\":\"3RzNx5fU2E\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Report &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"mkM12s2bjT\",\"type\":\"card\",\"data\":{\"card_name\":\"Client\",\"col\":4}},{\"id\":\"DiZHp9mym6\",\"type\":\"card\",\"data\":{\"card_name\":\"Vehicle\",\"col\":4}},{\"id\":\"g1SEo2nMAM\",\"type\":\"card\",\"data\":{\"card_name\":\"Monthly\",\"col\":4}},{\"id\":\"XLUDnRfXqZ\",\"type\":\"card\",\"data\":{\"card_name\":\"Orientation\",\"col\":4}}]",
+ "content": "[{\"id\":\"XoimuJCMpV\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Shortcuts</b></span>\",\"col\":12}},{\"id\":\"-xyCWI8SvG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client Profile\",\"col\":3}},{\"id\":\"EM88i11zqn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client Meeting\",\"col\":3}},{\"id\":\"05ANK7olWc\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Area of Orientation\",\"col\":3}},{\"id\":\"iQhay65lgH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Orientation Checklist\",\"col\":3}},{\"id\":\"LSvwK7AFcz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Personal Plan\",\"col\":3}},{\"id\":\"Vp-YCO2XuZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Months of the Year\",\"col\":3}},{\"id\":\"4iIlGJoPlK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Vehicle Mileage\",\"col\":3}},{\"id\":\"RJtY31VZnP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Monthly Inspection\",\"col\":3}},{\"id\":\"GrfNTyiKzx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Training Requirements\",\"col\":3}},{\"id\":\"ze0rF6JOLW\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Unusual Incident Report Form\",\"col\":3}},{\"id\":\"_Loq5qaJsD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Note Worthy Report\",\"col\":3}},{\"id\":\"3RzNx5fU2E\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Report &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"mkM12s2bjT\",\"type\":\"card\",\"data\":{\"card_name\":\"Client\",\"col\":4}},{\"id\":\"DiZHp9mym6\",\"type\":\"card\",\"data\":{\"card_name\":\"Vehicle\",\"col\":4}},{\"id\":\"g1SEo2nMAM\",\"type\":\"card\",\"data\":{\"card_name\":\"Monthly\",\"col\":4}},{\"id\":\"XLUDnRfXqZ\",\"type\":\"card\",\"data\":{\"card_name\":\"Orientation\",\"col\":4}}]",
  "creation": "2023-10-13 18:54:40.351236",
  "custom_blocks": [],
  "docstatus": 0,
@@ -155,7 +155,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-10-13 22:55:30.933857",
+ "modified": "2023-10-14 12:13:46.076844",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "BSFS",
@@ -167,6 +167,13 @@
  "roles": [],
  "sequence_id": 1.0,
  "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Unusual Incident Report Form",
+   "link_to": "Unusual Incident Report Form",
+   "type": "DocType"
+  },
   {
    "color": "Grey",
    "doc_view": "List",
@@ -200,6 +207,13 @@
    "doc_view": "List",
    "label": "Vehicle Mileage",
    "link_to": "Vehicle Mileage",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Note Worthy Report",
+   "link_to": "Note Worthy Report",
    "type": "DocType"
   },
   {
