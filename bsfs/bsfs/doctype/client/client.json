@@ -9,28 +9,37 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "basic_details_tab",
+  "client_information_tab",
   "basic_information",
   "client_name",
   "date_of_birth",
   "gender",
-  "column_break_vehfq",
   "mobile",
   "personal_email",
-  "marital_status",
+  "languages_spoken",
+  "column_break_vehfq",
+  "client_health_number",
+  "social_insurance_number",
+  "band_and_treaty_number",
+  "client_contract_number",
+  "client_worker_name",
+  "worker_phone_number",
   "column_break1",
+  "marital_status",
   "address",
   "next_of_kin",
   "relationship",
-  "section_break_tgzim",
-  "client_health_number",
-  "social_insurance_number",
-  "column_break_0v0d0",
-  "client_contract_number",
-  "client_worker_name",
-  "column_break_0rhgw",
-  "worker_phone_number",
-  "section_break_6onko",
+  "more_information_tab",
+  "date_of_admission",
+  "information_source",
+  "services_requested",
+  "column_break_d8sib",
+  "referral_source",
+  "reason_for_referral",
+  "history_tab",
+  "client_history_detail",
+  "medical_tab",
+  "narrative_notes_tab",
   "parent_name",
   "parent_signature",
   "column_break_hk0b0",
@@ -39,11 +48,6 @@
   "amended_from"
  ],
  "fields": [
-  {
-   "fieldname": "basic_details_tab",
-   "fieldtype": "Tab Break",
-   "label": "Details"
-  },
   {
    "fieldname": "basic_information",
    "fieldtype": "Section Break",
@@ -114,23 +118,22 @@
    "label": "Relationship"
   },
   {
-   "fieldname": "section_break_tgzim",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "client_health_number",
    "fieldtype": "Data",
-   "label": "Client Health Number"
+   "label": "Client Health Number",
+   "unique": 1
   },
   {
    "fieldname": "social_insurance_number",
    "fieldtype": "Data",
-   "label": "Social Insurance Number"
+   "label": "Social Insurance Number",
+   "unique": 1
   },
   {
    "fieldname": "client_contract_number",
    "fieldtype": "Data",
-   "label": "Client Contract Number"
+   "label": "Client Contract Number",
+   "unique": 1
   },
   {
    "fieldname": "client_worker_name",
@@ -141,10 +144,6 @@
    "fieldname": "worker_phone_number",
    "fieldtype": "Phone",
    "label": "Worker phone Number"
-  },
-  {
-   "fieldname": "section_break_6onko",
-   "fieldtype": "Section Break"
   },
   {
    "fieldname": "parent_name",
@@ -171,12 +170,39 @@
    "label": "Agency Signature"
   },
   {
-   "fieldname": "column_break_0v0d0",
+   "fieldname": "column_break_vehfq",
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "column_break_vehfq",
-   "fieldtype": "Column Break"
+   "fieldname": "client_information_tab",
+   "fieldtype": "Tab Break",
+   "label": "Client Information"
+  },
+  {
+   "fieldname": "languages_spoken",
+   "fieldtype": "Data",
+   "label": "Languages Spoken"
+  },
+  {
+   "fieldname": "band_and_treaty_number",
+   "fieldtype": "Data",
+   "label": "Band and Treaty Number"
+  },
+  {
+   "fieldname": "more_information_tab",
+   "fieldtype": "Tab Break",
+   "label": "More Information"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date_of_admission",
+   "fieldtype": "Date",
+   "label": "Date of Admission"
+  },
+  {
+   "fieldname": "information_source",
+   "fieldtype": "Data",
+   "label": "Information Source"
   },
   {
    "fieldname": "amended_from",
@@ -188,14 +214,50 @@
    "read_only": 1
   },
   {
-   "fieldname": "column_break_0rhgw",
+   "fieldname": "services_requested",
+   "fieldtype": "Data",
+   "label": "Services Requested"
+  },
+  {
+   "fieldname": "column_break_d8sib",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "referral_source",
+   "fieldtype": "Data",
+   "label": "Referral Source"
+  },
+  {
+   "fieldname": "reason_for_referral",
+   "fieldtype": "Small Text",
+   "label": "Reason for Referral"
+  },
+  {
+   "fieldname": "history_tab",
+   "fieldtype": "Tab Break",
+   "label": "History"
+  },
+  {
+   "fieldname": "medical_tab",
+   "fieldtype": "Tab Break",
+   "label": "Medical"
+  },
+  {
+   "fieldname": "narrative_notes_tab",
+   "fieldtype": "Tab Break",
+   "label": "Narrative Notes"
+  },
+  {
+   "fieldname": "client_history_detail",
+   "fieldtype": "Table",
+   "label": "Client History Detail",
+   "options": "Client History Detail"
   }
  ],
  "icon": "fa fa-user",
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-13 22:59:50.589055",
+ "modified": "2023-10-16 03:40:53.424977",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Client",
