@@ -1,0 +1,264 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:full_name",
+ "creation": "2023-09-08 16:09:47.392729",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "detaills_section",
+  "full_name",
+  "address",
+  "postal_code",
+  "phone_home",
+  "exprience_working_with_people_with_diabilities_column",
+  "where",
+  "when",
+  "how_long",
+  "type_of_employment",
+  "hours_available_column",
+  "time_available",
+  "emergency",
+  "days_available",
+  "do_you_have_a_valid_drivers_licence",
+  "what_is_your_main_means_of_transportation",
+  "are_type_any_type_of_work_you_cannot_be_able_to_do",
+  "column_break_utjm8",
+  "education_column",
+  "highest_level_of_education_completed",
+  "name_of_school",
+  "completion_date",
+  "program",
+  "work_expirience_column",
+  "employer",
+  "phone",
+  "employers_address",
+  "contact_person",
+  "description_of_your_role",
+  "date_worked_from",
+  "date_worked_to",
+  "reason_for_leaving",
+  "interests_column",
+  "hobbies",
+  "membership_in_organizations",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "detaills_section",
+   "fieldtype": "Heading",
+   "label": "Detaills"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "postal_code",
+   "fieldtype": "Data",
+   "label": "Postal Code"
+  },
+  {
+   "fieldname": "phone_home",
+   "fieldtype": "Data",
+   "label": "Phone Home"
+  },
+  {
+   "fieldname": "exprience_working_with_people_with_diabilities_column",
+   "fieldtype": "Heading",
+   "label": "Exprience working with people with diabilities"
+  },
+  {
+   "fieldname": "where",
+   "fieldtype": "Data",
+   "label": "Where"
+  },
+  {
+   "fieldname": "when",
+   "fieldtype": "Date",
+   "label": "When"
+  },
+  {
+   "fieldname": "how_long",
+   "fieldtype": "Data",
+   "label": "How Long"
+  },
+  {
+   "fieldname": "type_of_employment",
+   "fieldtype": "Select",
+   "label": "Type of Employment",
+   "options": "--Select\nPermanent\nTemporary"
+  },
+  {
+   "fieldname": "hours_available_column",
+   "fieldtype": "Select",
+   "label": "Hours Available",
+   "options": "\nMorning\nAfternoon\nEvenings\nOvernight\nWeekends"
+  },
+  {
+   "fieldname": "emergency",
+   "fieldtype": "Data",
+   "label": "Emergency"
+  },
+  {
+   "fieldname": "days_available",
+   "fieldtype": "Select",
+   "label": "Days Available",
+   "options": "--Select\nMonday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday"
+  },
+  {
+   "fieldname": "do_you_have_a_valid_drivers_licence",
+   "fieldtype": "Data",
+   "label": "Do you have a valid drivers licence"
+  },
+  {
+   "fieldname": "what_is_your_main_means_of_transportation",
+   "fieldtype": "Data",
+   "label": "What is your main means of transportation"
+  },
+  {
+   "fieldname": "are_type_any_type_of_work_you_cannot_be_able_to_do",
+   "fieldtype": "Data",
+   "label": "Are there any type of work you cannot be able to do"
+  },
+  {
+   "fieldname": "column_break_utjm8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "education_column",
+   "fieldtype": "Heading",
+   "label": "Education"
+  },
+  {
+   "fieldname": "highest_level_of_education_completed",
+   "fieldtype": "Data",
+   "label": "Highest Level of education completed"
+  },
+  {
+   "fieldname": "name_of_school",
+   "fieldtype": "Data",
+   "label": "Name of school"
+  },
+  {
+   "fieldname": "completion_date",
+   "fieldtype": "Date",
+   "label": "Completion date"
+  },
+  {
+   "fieldname": "program",
+   "fieldtype": "Data",
+   "label": "Program"
+  },
+  {
+   "fieldname": "work_expirience_column",
+   "fieldtype": "Heading",
+   "label": "Work Expirience"
+  },
+  {
+   "fieldname": "employer",
+   "fieldtype": "Data",
+   "label": "Employer"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "employers_address",
+   "fieldtype": "Data",
+   "label": "Employers Address"
+  },
+  {
+   "fieldname": "contact_person",
+   "fieldtype": "Data",
+   "label": "Contact Person"
+  },
+  {
+   "fieldname": "description_of_your_role",
+   "fieldtype": "Data",
+   "label": "Description of your role"
+  },
+  {
+   "fieldname": "date_worked_from",
+   "fieldtype": "Date",
+   "label": "Date Worked from"
+  },
+  {
+   "fieldname": "date_worked_to",
+   "fieldtype": "Date",
+   "label": "Date worked to"
+  },
+  {
+   "fieldname": "reason_for_leaving",
+   "fieldtype": "Data",
+   "label": "Reason for leaving"
+  },
+  {
+   "fieldname": "interests_column",
+   "fieldtype": "Heading",
+   "label": "Interests"
+  },
+  {
+   "fieldname": "hobbies",
+   "fieldtype": "Data",
+   "label": "Hobbies"
+  },
+  {
+   "fieldname": "membership_in_organizations",
+   "fieldtype": "Data",
+   "label": "Membership in Organizations"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Job Application",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "time_available",
+   "fieldtype": "Time",
+   "label": "Time Available"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-10-16 23:30:51.139787",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Job Application",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

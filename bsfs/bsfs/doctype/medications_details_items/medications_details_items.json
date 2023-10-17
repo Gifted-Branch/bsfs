@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-17 03:13:51.712729",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "medication",
+  "dose",
+  "frequency",
+  "route",
+  "column_break_12tkt",
+  "medication_administration",
+  "start_date",
+  "discontinue_date",
+  "section_break_4fel3",
+  "comments"
+ ],
+ "fields": [
+  {
+   "fieldname": "medication",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Medication"
+  },
+  {
+   "fieldname": "dose",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Dose"
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Frequency"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Route"
+  },
+  {
+   "fieldname": "medication_administration",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Medication Administration",
+   "options": "\nSelf Administered\nAssist to set-up\nAssist Admin"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "discontinue_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Discontinue Date"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Comments"
+  },
+  {
+   "fieldname": "column_break_12tkt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_4fel3",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-17 03:18:07.938617",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Medications Details Items",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
