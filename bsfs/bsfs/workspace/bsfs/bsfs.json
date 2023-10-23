@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"XoimuJCMpV\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Shortcuts</b></span>\",\"col\":12}},{\"id\":\"-xyCWI8SvG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client Profile\",\"col\":3}},{\"id\":\"EM88i11zqn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client Meeting\",\"col\":3}},{\"id\":\"05ANK7olWc\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Area of Orientation\",\"col\":3}},{\"id\":\"iQhay65lgH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Orientation Checklist\",\"col\":3}},{\"id\":\"LSvwK7AFcz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Personal Plan\",\"col\":3}},{\"id\":\"Vp-YCO2XuZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Months of the Year\",\"col\":3}},{\"id\":\"4iIlGJoPlK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Vehicle Mileage\",\"col\":3}},{\"id\":\"RJtY31VZnP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Monthly Inspection\",\"col\":3}},{\"id\":\"GrfNTyiKzx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Training Requirements\",\"col\":3}},{\"id\":\"ze0rF6JOLW\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Unusual Incident Report Form\",\"col\":3}},{\"id\":\"_Loq5qaJsD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Note Worthy Report\",\"col\":3}},{\"id\":\"DFJITLjtEl\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Medication Error Incident Report\",\"col\":3}},{\"id\":\"3RzNx5fU2E\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Report &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"mkM12s2bjT\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}},{\"id\":\"g1SEo2nMAM\",\"type\":\"card\",\"data\":{\"card_name\":\"Monthly\",\"col\":4}}]",
+ "content": "[{\"id\":\"3RzNx5fU2E\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Report &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"-REK7U1DfN\",\"type\":\"card\",\"data\":{\"card_name\":\"Daily Use Forms\",\"col\":4}},{\"id\":\"mkM12s2bjT\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}},{\"id\":\"g1SEo2nMAM\",\"type\":\"card\",\"data\":{\"card_name\":\"Monthly\",\"col\":4}},{\"id\":\"RUSNMtBjoo\",\"type\":\"card\",\"data\":{\"card_name\":\"As Needed Use-Form\",\"col\":4}},{\"id\":\"Quyj-HGOrZ\",\"type\":\"card\",\"data\":{\"card_name\":\"Meetings\",\"col\":4}},{\"id\":\"OzahgKm_ud\",\"type\":\"card\",\"data\":{\"card_name\":\"Staff data\",\"col\":4}}]",
  "creation": "2023-10-13 18:54:40.351236",
  "custom_blocks": [],
  "docstatus": 0,
@@ -15,10 +15,72 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Vehicle",
-   "link_count": 1,
+   "label": "Daily Mileage Log",
+   "link_count": 0,
+   "link_to": "Daily Mileage Log",
+   "link_type": "DocType",
    "onboard": 0,
-   "type": "Card Break"
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Staff Shift Exchange Form",
+   "link_count": 0,
+   "link_to": "Staff Shift Exchange Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Timesheets",
+   "link_count": 0,
+   "link_to": "Timesheets",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Staff Monthly Review",
+   "link_count": 0,
+   "link_to": "Staff Monthly Review",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Note Worthy Report",
+   "link_count": 0,
+   "link_to": "Note Worthy Report",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Month",
+   "link_count": 0,
+   "link_to": "Month",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Absent and Vacation Request",
+   "link_count": 0,
+   "link_to": "Absent and Vacation Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
    "hidden": 0,
@@ -26,6 +88,212 @@
    "label": "Vehicle Mileage",
    "link_count": 0,
    "link_to": "Vehicle Mileage",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Medication Error Incident Report Form",
+   "link_count": 0,
+   "link_to": "Medication Error Incident Report Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Overnight Notes",
+   "link_count": 0,
+   "link_to": "Overnight Notes",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Personal Plan",
+   "link_count": 0,
+   "link_to": "Personal Plan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Narrative Notes",
+   "link_count": 0,
+   "link_to": "Narrative Notes",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Job Application",
+   "link_count": 0,
+   "link_to": "Job Application",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Employee Training Requirements",
+   "link_count": 0,
+   "link_to": "Employee Training Requirements",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Child and Youth Survey",
+   "link_count": 0,
+   "link_to": "Child and Youth Survey",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Strategy Meeting",
+   "link_count": 0,
+   "link_to": "Strategy Meeting",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Daily Use Forms",
+   "link_count": 6,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Daily Mileage Log",
+   "link_count": 0,
+   "link_to": "Daily Mileage Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Daily Chore",
+   "link_count": 0,
+   "link_to": "Daily Chore",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Staff Shift Exchange Form",
+   "link_count": 0,
+   "link_to": "Staff Shift Exchange Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Timesheets",
+   "link_count": 0,
+   "link_to": "Timesheets",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Overnight Notes",
+   "link_count": 0,
+   "link_to": "Overnight Notes",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Personal Plan",
+   "link_count": 0,
+   "link_to": "Personal Plan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "As Needed Use-Form",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Discharge Summary",
+   "link_count": 0,
+   "link_to": "Discharge Summary",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Unusual Incident Reports",
+   "link_count": 0,
+   "link_to": "Unusual Incident Reports",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Medication Error Incident Report Form",
+   "link_count": 0,
+   "link_to": "Medication Error Incident Report Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Note Worthy Report",
+   "link_count": 0,
+   "link_to": "Note Worthy Report",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Discharge Summary",
+   "link_count": 0,
+   "link_to": "Discharge Summary",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -51,9 +319,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Month end checklist",
+   "label": "Month End Checklist",
    "link_count": 0,
-   "link_to": "Month end checklist",
+   "link_to": "Month End Checklist",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -64,6 +332,16 @@
    "label": "Monthly Inspection",
    "link_count": 0,
    "link_to": "Monthly Inspection",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Monthly Goals",
+   "link_count": 0,
+   "link_to": "Monthly Goals",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -91,6 +369,90 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Meetings",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Strategy Meeting",
+   "link_count": 0,
+   "link_to": "Strategy Meeting",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Client Meeting",
+   "link_count": 0,
+   "link_to": "Client Meeting",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Settings",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Client Profile",
+   "link_count": 0,
+   "link_to": "Intake Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Vehicle Mileage",
+   "link_count": 0,
+   "link_to": "Vehicle Mileage",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Narrative Notes",
+   "link_count": 0,
+   "link_to": "Narrative Notes",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Child and Youth Survey",
+   "link_count": 0,
+   "link_to": "Child and Youth Survey",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Staff data",
+   "link_count": 6,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Staff Monthly Review",
    "link_count": 0,
    "link_to": "Staff Monthly Review",
@@ -101,35 +463,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Settings",
-   "link_count": 6,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Client Profile",
-   "link_count": 0,
-   "link_to": "Client",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Client Meeting",
-   "link_count": 0,
-   "link_to": "Client Meeting",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Areas of Orientation",
+   "label": "Area of Orientation",
    "link_count": 0,
    "link_to": "Area of Orientation",
    "link_type": "DocType",
@@ -139,9 +473,19 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Monthly Goals",
+   "label": "Absent and Vacation Request",
    "link_count": 0,
-   "link_to": "Monthly Goals",
+   "link_to": "Absent and Vacation Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Employee Training Requirements",
+   "link_count": 0,
+   "link_to": "Employee Training Requirements",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -159,15 +503,15 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Vehicle Mileage",
+   "label": "Job Application",
    "link_count": 0,
-   "link_to": "Vehicle Mileage",
+   "link_to": "Job Application",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2023-10-14 12:20:35.151504",
+ "modified": "2023-10-21 07:30:12.263514",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "BSFS",
@@ -176,93 +520,21 @@
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
- "roles": [],
- "sequence_id": 1.0,
- "shortcuts": [
+ "roles": [
   {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Unusual Incident Report Form",
-   "link_to": "Unusual Incident Report Form",
-   "type": "DocType"
+   "role": "BSFS Management"
   },
   {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Employee Training Requirements",
-   "link_to": "Employee Training Requirements",
-   "type": "DocType"
+   "role": "BSFS Coordinator"
   },
   {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Personal Plan",
-   "link_to": "Personal Plan",
-   "type": "DocType"
+   "role": "BSFS Admin"
   },
   {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Medication Error Incident Report",
-   "link_to": "Medication Error Incident Report Form",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Client Profile",
-   "link_to": "Client",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Client Meeting",
-   "link_to": "Client Meeting",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Vehicle Mileage",
-   "link_to": "Vehicle Mileage",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Note Worthy Report",
-   "link_to": "Note Worthy Report",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Area of Orientation",
-   "link_to": "Area of Orientation",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Orientation Checklist",
-   "link_to": "Orientation Checklist",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Months of the Year",
-   "link_to": "Month",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Monthly Inspection",
-   "link_to": "Monthly Inspection",
-   "type": "DocType"
+   "role": "BSFS Staff"
   }
  ],
+ "sequence_id": 1.0,
+ "shortcuts": [],
  "title": "BSFS"
 }

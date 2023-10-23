@@ -222,7 +222,7 @@
   {
    "fieldname": "client_information_tab",
    "fieldtype": "Tab Break",
-   "label": "Client Information"
+   "label": "Intake Form"
   },
   {
    "fieldname": "languages_spoken",
@@ -536,10 +536,10 @@
  "icon": "fa fa-user",
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-17 03:27:33.277891",
+ "modified": "2023-10-18 09:29:16.059767",
  "modified_by": "Administrator",
  "module": "BSFS",
- "name": "Client",
+ "name": "Intake Form",
  "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [

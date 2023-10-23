@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestMonthendchecklist(FrappeTestCase):
+class TestMonthEndChecklist(FrappeTestCase):
 	pass
