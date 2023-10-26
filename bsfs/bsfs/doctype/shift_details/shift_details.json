@@ -6,14 +6,16 @@
  "engine": "InnoDB",
  "field_order": [
   "overview",
+  "description",
   "notes"
  ],
  "fields": [
   {
    "fieldname": "overview",
    "fieldtype": "Link",
+   "hidden": 1,
    "in_list_view": 1,
-   "label": "Overview",
+   "label": "Description",
    "options": "Overview"
   },
   {
@@ -21,12 +23,19 @@
    "fieldtype": "Small Text",
    "in_list_view": 1,
    "label": "Notes"
+  },
+  {
+   "fetch_from": "overview.description",
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Overview"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-10-26 11:21:38.781542",
+ "modified": "2023-10-26 13:43:27.082080",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Shift Details",

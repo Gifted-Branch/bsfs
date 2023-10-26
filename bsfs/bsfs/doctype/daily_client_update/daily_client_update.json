@@ -104,21 +104,24 @@
    "fieldname": "shift_type",
    "fieldtype": "Link",
    "label": "Shift Type",
-   "options": "Shift Template"
+   "options": "Shift Template",
+   "read_only": 1
   },
   {
    "default": "PM Shift",
    "fieldname": "shift_type1",
    "fieldtype": "Link",
    "label": "Shift Type",
-   "options": "Shift Template"
+   "options": "Shift Template",
+   "read_only": 1
   },
   {
    "default": "Night Shift",
    "fieldname": "shift_type2",
    "fieldtype": "Link",
    "label": "Shift Type",
-   "options": "Shift Template"
+   "options": "Shift Template",
+   "read_only": 1
   },
   {
    "fieldname": "naming_series",
@@ -131,7 +134,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-26 11:23:55.307077",
+ "modified": "2023-10-26 13:44:09.394254",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Daily Client Update",

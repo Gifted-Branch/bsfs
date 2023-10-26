@@ -7,7 +7,7 @@
  "engine": "InnoDB",
  "field_order": [
   "overview",
-  "notes"
+  "description"
  ],
  "fields": [
   {
@@ -18,16 +18,17 @@
    "options": "Overview"
   },
   {
-   "fieldname": "notes",
+   "fetch_from": "overview.description",
+   "fieldname": "description",
    "fieldtype": "Small Text",
    "in_list_view": 1,
-   "label": "Notes"
+   "label": "Description"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-10-26 11:45:32.842498",
+ "modified": "2023-10-26 13:33:56.872737",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Shift Template Details",

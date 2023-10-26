@@ -11,6 +11,7 @@ frappe.ui.form.on('Daily Client Update', {
                 $.each(source_doc.shift_overview, function (index, source_row) {
 					const target_row = frm.add_child('am_shift');
                     target_row.overview = source_row.overview;
+                    target_row.description = source_row.description;
                     frm.refresh_field('am_shift');
                 });
             });
@@ -25,6 +26,7 @@ frappe.ui.form.on('Daily Client Update', {
                 $.each(source_doc.shift_overview, function (index, source_row) {
 					const target_row = frm.add_child('pm_shift');
                     target_row.overview = source_row.overview;
+                    target_row.description = source_row.description;
                     frm.refresh_field('pm_shift');
                 });
             });
@@ -39,6 +41,7 @@ frappe.ui.form.on('Daily Client Update', {
                 $.each(source_doc.shift_overview, function (index, source_row) {
 					const target_row = frm.add_child('night_shift');
                     target_row.overview = source_row.overview;
+                    target_row.description = source_row.description;
                     frm.refresh_field('night_shift');
                 });
             });
