@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class Shift(Document):
+class Overview(Document):
 	pass

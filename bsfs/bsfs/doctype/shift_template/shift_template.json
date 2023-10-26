@@ -40,15 +40,15 @@
    "fieldname": "shift_overview",
    "fieldtype": "Table",
    "label": "Shift Overview",
-   "options": "Shift Details"
+   "options": "Shift Template Details"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-26 01:19:17.133006",
+ "modified": "2023-10-26 11:52:54.955495",
  "modified_by": "Administrator",
  "module": "BSFS",
- "name": "Shift",
+ "name": "Shift Template",
  "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
