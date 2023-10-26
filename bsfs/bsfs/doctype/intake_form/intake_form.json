@@ -222,7 +222,7 @@
   {
    "fieldname": "client_information_tab",
    "fieldtype": "Tab Break",
-   "label": "Intake Form"
+   "label": "Intake Form 1 of 5"
   },
   {
    "fieldname": "languages_spoken",
@@ -237,7 +237,7 @@
   {
    "fieldname": "more_information_tab",
    "fieldtype": "Tab Break",
-   "label": "More Information"
+   "label": "2 of 5"
   },
   {
    "default": "Today",
@@ -255,7 +255,7 @@
    "fieldtype": "Link",
    "label": "Amended From",
    "no_copy": 1,
-   "options": "Client",
+   "options": "Intake Form",
    "print_hide": 1,
    "read_only": 1
   },
@@ -281,17 +281,17 @@
   {
    "fieldname": "history_tab",
    "fieldtype": "Tab Break",
-   "label": "History"
+   "label": "3 of 5"
   },
   {
    "fieldname": "medical_tab",
    "fieldtype": "Tab Break",
-   "label": "Medical"
+   "label": "4 of 5"
   },
   {
    "fieldname": "narrative_notes_tab",
    "fieldtype": "Tab Break",
-   "label": "Narrative Notes"
+   "label": "5 of 5"
   },
   {
    "fieldname": "disability",
@@ -536,7 +536,7 @@
  "icon": "fa fa-user",
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-18 09:29:16.059767",
+ "modified": "2023-10-23 16:10:47.720216",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Intake Form",

@@ -1,14 +1,13 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "naming_series:",
+ "autoname": "prompt",
  "creation": "2023-10-17 03:31:49.739079",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "naming_series",
   "section_break_wnvjw",
   "month_date",
   "column_break_ecrlm",
@@ -50,15 +49,6 @@
  ],
  "fields": [
   {
-   "fieldname": "naming_series",
-   "fieldtype": "Select",
-   "hidden": 1,
-   "in_list_view": 1,
-   "label": "Naming Series",
-   "options": "DC-.YYYY.-",
-   "read_only": 1
-  },
-  {
    "default": "Today",
    "fieldname": "month_date",
    "fieldtype": "Date",
@@ -72,7 +62,7 @@
   },
   {
    "fieldname": "from",
-   "fieldtype": "Datetime",
+   "fieldtype": "Time",
    "in_list_view": 1,
    "label": "From",
    "reqd": 1
@@ -83,7 +73,7 @@
   },
   {
    "fieldname": "to",
-   "fieldtype": "Datetime",
+   "fieldtype": "Time",
    "in_list_view": 1,
    "label": "To",
    "reqd": 1
@@ -280,11 +270,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-17 04:13:46.492185",
+ "modified": "2023-10-25 15:07:21.689092",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Daily Chore",
- "naming_rule": "By \"Naming Series\" field",
+ "naming_rule": "Set by user",
  "owner": "Administrator",
  "permissions": [
   {

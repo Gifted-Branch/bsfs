@@ -25,6 +25,16 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Daily Client Update",
+   "link_count": 0,
+   "link_to": "Daily Client Update",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Staff Shift Exchange Form",
    "link_count": 0,
    "link_to": "Staff Shift Exchange Form",
@@ -175,17 +185,17 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Daily Use Forms",
-   "link_count": 6,
+   "label": "Meetings",
+   "link_count": 2,
    "onboard": 0,
    "type": "Card Break"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Daily Mileage Log",
+   "label": "Strategy Meeting",
    "link_count": 0,
-   "link_to": "Daily Mileage Log",
+   "link_to": "Strategy Meeting",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -193,107 +203,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Daily Chore",
+   "label": "Client Meeting",
    "link_count": 0,
-   "link_to": "Daily Chore",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Staff Shift Exchange Form",
-   "link_count": 0,
-   "link_to": "Staff Shift Exchange Form",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Timesheets",
-   "link_count": 0,
-   "link_to": "Timesheets",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Overnight Notes",
-   "link_count": 0,
-   "link_to": "Overnight Notes",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Personal Plan",
-   "link_count": 0,
-   "link_to": "Personal Plan",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "As Needed Use-Form",
-   "link_count": 5,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Discharge Summary",
-   "link_count": 0,
-   "link_to": "Discharge Summary",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Unusual Incident Reports",
-   "link_count": 0,
-   "link_to": "Unusual Incident Reports",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Medication Error Incident Report Form",
-   "link_count": 0,
-   "link_to": "Medication Error Incident Report Form",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Note Worthy Report",
-   "link_count": 0,
-   "link_to": "Note Worthy Report",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Discharge Summary",
-   "link_count": 0,
-   "link_to": "Discharge Summary",
+   "link_to": "Client Meeting",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -302,7 +214,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Monthly",
-   "link_count": 6,
+   "link_count": 7,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -369,17 +281,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Meetings",
-   "link_count": 2,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Strategy Meeting",
+   "label": "Child and Youth Survey",
    "link_count": 0,
-   "link_to": "Strategy Meeting",
+   "link_to": "Child and Youth Survey",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -387,9 +291,47 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Client Meeting",
+   "label": "As Needed Use-Form",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Discharge Summary",
    "link_count": 0,
-   "link_to": "Client Meeting",
+   "link_to": "Discharge Summary",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Unusual Incident Reports",
+   "link_count": 0,
+   "link_to": "Unusual Incident Reports",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Medication Error Incident Report Form",
+   "link_count": 0,
+   "link_to": "Medication Error Incident Report Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Note Worthy Report",
+   "link_count": 0,
+   "link_to": "Note Worthy Report",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -398,7 +340,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Settings",
-   "link_count": 4,
+   "link_count": 2,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -408,16 +350,6 @@
    "label": "Client Profile",
    "link_count": 0,
    "link_to": "Intake Form",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Vehicle Mileage",
-   "link_count": 0,
-   "link_to": "Vehicle Mileage",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -435,9 +367,77 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Child and Youth Survey",
+   "label": "Daily Use Forms",
+   "link_count": 7,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Daily Log Notes",
    "link_count": 0,
-   "link_to": "Child and Youth Survey",
+   "link_to": "Daily Client Update",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Timesheets",
+   "link_count": 0,
+   "link_to": "Timesheets",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Daily Chore",
+   "link_count": 0,
+   "link_to": "Daily Chore",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Daily Mileage Log",
+   "link_count": 0,
+   "link_to": "Daily Mileage Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Overnight Notes",
+   "link_count": 0,
+   "link_to": "Overnight Notes",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Staff Shift Exchange Form",
+   "link_count": 0,
+   "link_to": "Staff Shift Exchange Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Client Daily Activity",
+   "link_count": 0,
+   "link_to": "Personal Plan",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -456,16 +456,6 @@
    "label": "Staff Monthly Review",
    "link_count": 0,
    "link_to": "Staff Monthly Review",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Area of Orientation",
-   "link_count": 0,
-   "link_to": "Area of Orientation",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -509,15 +499,25 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Vacation Request Form",
+   "link_count": 0,
+   "link_to": "Absent and Vacation Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2023-10-21 07:30:12.263514",
+ "modified": "2023-10-26 01:31:01.203755",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "BSFS",
  "number_cards": [],
  "owner": "Administrator",
- "parent_page": "",
+ "parent_page": "Home",
  "public": 1,
  "quick_lists": [],
  "roles": [
@@ -534,7 +534,7 @@
    "role": "BSFS Staff"
   }
  ],
- "sequence_id": 1.0,
+ "sequence_id": 2.0,
  "shortcuts": [],
  "title": "BSFS"
 }

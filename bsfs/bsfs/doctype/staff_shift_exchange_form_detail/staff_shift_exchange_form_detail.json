@@ -15,9 +15,9 @@
  "fields": [
   {
    "fieldname": "dateday",
-   "fieldtype": "Data",
+   "fieldtype": "Datetime",
    "in_list_view": 1,
-   "label": "Date/Day"
+   "label": "Date/Time"
   },
   {
    "fieldname": "all_shift_information_exchanged",
@@ -48,7 +48,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-10-12 13:09:50.402764",
+ "modified": "2023-10-25 15:14:40.704067",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Staff Shift Exchange Form Detail",

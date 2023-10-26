@@ -35,8 +35,9 @@
   "approved",
   "column_break_ny8fh",
   "yes",
-  "column_break_p7nfo",
   "no",
+  "column_break_p7nfo",
+  "comment",
   "section_break_uus0b",
   "supervisor__manager_approval",
   "column_break_bq3pc",
@@ -247,12 +248,17 @@
    "options": "Absent and Vacation Request",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "comment",
+   "fieldtype": "Small Text",
+   "label": "Comment"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-12 18:00:07.573676",
+ "modified": "2023-10-23 16:06:03.818457",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Absent and Vacation Request",

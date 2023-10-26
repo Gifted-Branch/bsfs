@@ -1,12 +1,14 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:",
  "creation": "2023-10-12 07:40:58.822266",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "naming_series",
   "name1",
   "column_break_zc1xc",
   "pay_period_from",
@@ -42,9 +44,10 @@
   {
    "description": "DD/MM/YYYY",
    "fieldname": "name1",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Name"
+   "label": "Name",
+   "options": "Intake Form"
   },
   {
    "fieldname": "column_break_zc1xc",
@@ -140,7 +143,7 @@
   {
    "fieldname": "awake_hrs_dollars",
    "fieldtype": "Currency",
-   "label": "Awake Hrs $"
+   "label": "Total Awake Hrs $"
   },
   {
    "fieldname": "column_break_qsnuf",
@@ -149,7 +152,7 @@
   {
    "fieldname": "sleep_hrs_dollars",
    "fieldtype": "Currency",
-   "label": "Sleep Hrs $"
+   "label": "Total Sleep Hrs $"
   },
   {
    "fieldname": "column_break_ihdyi",
@@ -183,14 +186,22 @@
    "fieldname": "payroll_officer_sign",
    "fieldtype": "Signature",
    "label": "Payroll Officer Sign"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "TS-.YYYY-.",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-12 09:29:24.265930",
+ "modified": "2023-10-26 01:05:22.943650",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Timesheets",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {
