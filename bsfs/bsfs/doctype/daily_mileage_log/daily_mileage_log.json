@@ -8,91 +8,27 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "naming_series",
-  "driver",
-  "column_break_fsowp",
-  "destination",
-  "odometer_section",
-  "start",
-  "column_break_ex4tx",
-  "end",
-  "section_break_xaura",
-  "vehicle_check",
-  "amended_from",
   "vehicle_mileage",
+  "naming_series",
   "vehicle_mileageusage",
   "column_break_9ztlo",
   "reg",
   "section_break_io6bc",
   "vehicle_items",
+  "attach_any_relevant_documents_section",
+  "attachments",
   "section_break_3lzkz",
   "date",
   "column_break_berui",
-  "coordinator_sign"
+  "coordinator_sign",
+  "amended_from"
  ],
  "fields": [
   {
-   "default": "DML-.YYYY.-",
    "fieldname": "naming_series",
-   "fieldtype": "Select",
-   "in_list_view": 1,
-   "label": "Naming Series",
-   "options": "DML-.YYYY.-",
-   "reqd": 1
-  },
-  {
-   "fieldname": "driver",
-   "fieldtype": "Data",
-   "label": "Driver:",
-   "reqd": 1
-  },
-  {
-   "fieldname": "column_break_fsowp",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "destination",
-   "fieldtype": "Data",
-   "label": "Destination"
-  },
-  {
-   "fieldname": "odometer_section",
-   "fieldtype": "Section Break",
-   "label": "Odometer"
-  },
-  {
-   "fieldname": "start",
-   "fieldtype": "Int",
-   "label": "Start:"
-  },
-  {
-   "fieldname": "column_break_ex4tx",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "end",
-   "fieldtype": "Int",
-   "label": "End:"
-  },
-  {
-   "fieldname": "section_break_xaura",
-   "fieldtype": "Section Break"
-  },
-  {
-   "description": "e.g wash, defects etc.",
-   "fieldname": "vehicle_check",
-   "fieldtype": "Data",
-   "label": "Vehicle Check:",
-   "reqd": 1
-  },
-  {
-   "fieldname": "amended_from",
    "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Daily Mileage Log",
-   "print_hide": 1,
-   "read_only": 1
+   "label": "Staff Name",
+   "options": "Employee"
   },
   {
    "fieldname": "vehicle_mileage",
@@ -101,8 +37,9 @@
   },
   {
    "fieldname": "vehicle_mileageusage",
-   "fieldtype": "Int",
-   "label": "Vehicle Mileage/Usage:",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Driver Name",
    "reqd": 1
   },
   {
@@ -112,6 +49,7 @@
   {
    "fieldname": "reg",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Registration Number:",
    "reqd": 1
   },
@@ -131,8 +69,7 @@
   {
    "fieldname": "coordinator_sign",
    "fieldtype": "Signature",
-   "label": "Coordinator Sign:",
-   "reqd": 1
+   "label": "Coordinator Sign:"
   },
   {
    "fieldname": "column_break_berui",
@@ -141,14 +78,34 @@
   {
    "fieldname": "date",
    "fieldtype": "Date",
+   "in_list_view": 1,
    "label": "Date:",
    "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Daily Mileage Log",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any relevant Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-23 08:53:58.455934",
+ "modified": "2023-11-04 08:21:17.164810",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Daily Mileage Log",

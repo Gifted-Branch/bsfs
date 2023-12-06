@@ -8,26 +8,14 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "shift_type",
-  "column_break_dtkld",
   "shift_name",
   "section_break_mrsa0",
   "shift_overview"
  ],
  "fields": [
   {
-   "fieldname": "shift_type",
-   "fieldtype": "Select",
-   "label": "Shift Type",
-   "options": "\nAM Shift\nPM Shift\nNight Shift"
-  },
-  {
    "fieldname": "section_break_mrsa0",
    "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "column_break_dtkld",
-   "fieldtype": "Column Break"
   },
   {
    "fieldname": "shift_name",
@@ -45,7 +33,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-26 11:52:54.955495",
+ "modified": "2023-10-31 10:15:40.123959",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Shift Template",

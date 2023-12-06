@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-10 04:50:57.738843",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "behavior",
+  "occurrences",
+  "staff_initial",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "behavior",
+   "fieldtype": "Select",
+   "label": "Behavior",
+   "options": "<select>\nSTRIPPING NAKED\nSLAPPING\nSMEARING FEACES\nPHYSICAL AGGRESSION\nPROPERTY DAMAGE\nTHROWING HIMSELF/HERSELF ON THE FLOOR\nJUMPING UP AND DOWN\nTHROWING ITEMS\nCRYING AND YELLING\nSCRATCHING HERSELF\nKNEEING WALL\nSWEARING\nUSING RACIAL TERMS\nDEFIANT\nTHREATS\nPHYSICAL AGGRESSION\nPROPERTY DAMAGE\nAWOL\nNO SCHOOL\nOTHER INCIDENTS\nKICKING THE WALL\nSLAMMING DOOR\nTHROWING FOOD\nBREAKING DISHES\nTEARING CLOTHES\nTHROWING SHOES\nBREAKING ELECTRONICS\nHITTING HIS/HER HEAD\nBITING\nSPITTING\nSCRATCH STAFF\n</select>"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "occurrences",
+   "fieldtype": "Data",
+   "label": "Occurrences"
+  },
+  {
+   "fieldname": "staff_initial",
+   "fieldtype": "Data",
+   "label": "Staff Initial"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-04 22:08:20.156618",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Behavior Tracker Detailed Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

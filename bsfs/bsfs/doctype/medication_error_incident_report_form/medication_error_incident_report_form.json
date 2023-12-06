@@ -43,6 +43,8 @@
   "column_break_stwzr",
   "follow_up_action_taken_as_a_result_of_the_incident",
   "outcome_of_further_training",
+  "attach_any_relevant_documents_section",
+  "attachments",
   "section_break_thtef",
   "staff_name",
   "staff_sign",
@@ -60,12 +62,15 @@
   {
    "fieldname": "date_time_incident_reported",
    "fieldtype": "Datetime",
+   "in_list_view": 1,
    "label": "Date/ Time Incident reported"
   },
   {
    "fieldname": "client_name",
-   "fieldtype": "Data",
-   "label": "Client Name"
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Client Name",
+   "options": "Intake Form"
   },
   {
    "fieldname": "address",
@@ -239,8 +244,10 @@
   },
   {
    "fieldname": "staff_name",
-   "fieldtype": "Data",
-   "label": "Staff Name"
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Staff Name",
+   "options": "Employee"
   },
   {
    "fieldname": "staff_sign",
@@ -277,12 +284,22 @@
   {
    "fieldname": "column_break_gbjgl",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any relevant Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-12 19:01:22.391257",
+ "modified": "2023-11-04 08:37:25.402104",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Medication Error Incident Report Form",

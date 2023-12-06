@@ -12,6 +12,8 @@
   "statements",
   "mark_whichever_applicable",
   "child_and_youth",
+  "attach_any_relevant_documents_section",
+  "attachments",
   "amended_from"
  ],
  "fields": [
@@ -48,12 +50,22 @@
    "options": "Child and Youth Survey",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any relevant Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-13 22:43:47.055315",
+ "modified": "2023-11-04 08:31:06.876599",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Child and Youth Survey",

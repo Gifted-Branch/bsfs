@@ -16,6 +16,8 @@
   "section_break_5dhqv",
   "select_template",
   "orientation_checklist_detail",
+  "attach_any_relevant_documents_section",
+  "attachments",
   "section_break_7uyqy",
   "new_employee",
   "employee_sign",
@@ -32,8 +34,11 @@
   },
   {
    "fieldname": "employee_name",
-   "fieldtype": "Data",
-   "label": "Employee Name"
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Employee Name",
+   "options": "Employee"
   },
   {
    "fieldname": "column_break_o2mtx",
@@ -43,6 +48,8 @@
    "default": "Today",
    "fieldname": "commencement_date",
    "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Commencement Date"
   },
   {
@@ -50,10 +57,13 @@
    "fieldtype": "Section Break"
   },
   {
+   "default": "Area of orientation",
    "fieldname": "select_template",
    "fieldtype": "Link",
+   "hidden": 1,
    "label": "Select Template",
    "options": "Orientation Checklist Template",
+   "read_only": 1,
    "reqd": 1
   },
   {
@@ -87,8 +97,9 @@
   },
   {
    "fieldname": "orienting_staff_name",
-   "fieldtype": "Data",
-   "label": "Orienting Staff"
+   "fieldtype": "Link",
+   "label": "Orienting Staff",
+   "options": "Employee"
   },
   {
    "fieldname": "staff_sign",
@@ -99,8 +110,9 @@
    "fetch_from": "amended_from.employee_name",
    "fetch_if_empty": 1,
    "fieldname": "new_employee",
-   "fieldtype": "Data",
-   "label": "New Employee"
+   "fieldtype": "Link",
+   "label": "New Employee",
+   "options": "Employee"
   },
   {
    "fieldname": "amended_from",
@@ -110,12 +122,22 @@
    "options": "Orientation Checklist",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any relevant Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-13 18:29:50.338313",
+ "modified": "2023-11-04 08:46:44.609399",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Orientation Checklist",

@@ -1,0 +1,37 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-06 07:04:46.483086",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "chores",
+  "staff_initial"
+ ],
+ "fields": [
+  {
+   "fieldname": "chores",
+   "fieldtype": "Select",
+   "label": "Chores",
+   "options": "\n1. Read log book, comm. book and initial\n2. Tidy the office\n3. Wash dishes\n4. Wipe appliances\n5. Wipe out microwave\n6. Wipe remote controls\n7. Ensure glove supply is full\n8. Help client throughout the shift\n9. Complete all necessary paperwork\n10. Check and remove snow\n11. Hand in keys and shift binder"
+  },
+  {
+   "fieldname": "staff_initial",
+   "fieldtype": "Data",
+   "label": "Staff Initial"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-15 02:08:45.412928",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "AM Chorelist",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

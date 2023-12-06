@@ -27,7 +27,9 @@
   "do_you_know_your_rights",
   "if_you_like_to_read_your_rights_do_you_know_where_it_is_located",
   "any_other_issue",
-  "amended_from"
+  "amended_from",
+  "attach_any_relevant_documents_section",
+  "attachments"
  ],
  "fields": [
   {
@@ -56,8 +58,10 @@
   {
    "fieldname": "name_of_staff",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Name of Staff",
-   "options": "User"
+   "options": "Employee"
   },
   {
    "fieldname": "section_break_qcxyb",
@@ -138,12 +142,22 @@
    "fieldname": "full_name",
    "fieldtype": "Read Only",
    "label": "Full Name"
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any relevant Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-18 09:30:02.495223",
+ "modified": "2023-11-04 08:39:37.976510",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Client Meeting",

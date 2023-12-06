@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-10-12 08:22:32.151562",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "staff",
+  "column_break_cmovw",
+  "client_name",
+  "column_break_c2ad9",
+  "date",
+  "column_break_l8riv",
+  "shift",
+  "section_break_k2fn1",
+  "overnight_notes_details",
+  "amended_from",
+  "attach_any_relevant_documents_section",
+  "attachments"
+ ],
+ "fields": [
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "label": "Client Name",
+   "options": "Intake Form"
+  },
+  {
+   "fieldname": "column_break_cmovw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "staff",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Staff",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_c2ad9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_l8riv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "shift",
+   "fieldtype": "Data",
+   "label": "Shift"
+  },
+  {
+   "fieldname": "section_break_k2fn1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "overnight_notes_details",
+   "fieldtype": "Table",
+   "options": "Overnight Notes Details"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "ON-.YYYY.-"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Overnight Notes",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any relevant Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-11-04 08:22:20.329806",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Overnight Checks",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "client_name",
+ "track_changes": 1
+}

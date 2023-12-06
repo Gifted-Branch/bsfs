@@ -15,6 +15,8 @@
   "section_break_3qadn",
   "present",
   "agenda",
+  "attach_any_relevant_documents_section",
+  "attachements",
   "amended_from"
  ],
  "fields": [
@@ -64,12 +66,22 @@
    "fieldname": "title",
    "fieldtype": "Data",
    "label": "Title"
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any relevant Documents"
+  },
+  {
+   "fieldname": "attachements",
+   "fieldtype": "Attach",
+   "label": "Attachements"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-13 16:19:02.521506",
+ "modified": "2023-11-04 08:40:26.480599",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Strategy Meeting",

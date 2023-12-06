@@ -7,7 +7,13 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "staff_name",
+  "column_break_eeolm",
+  "date_time",
+  "section_break_fiwov",
   "staff_shift_exchange_form_detail_tab",
+  "attach_any_relevant_documents_section",
+  "attachments",
   "section_break_klymy",
   "confirm",
   "amended_from"
@@ -38,12 +44,46 @@
    "options": "Staff Shift Exchange Form",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "staff_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Staff Name",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_eeolm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Date /Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_fiwov",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any relevant Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-12 13:10:36.181066",
+ "modified": "2023-11-13 03:08:46.611857",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Staff Shift Exchange Form",

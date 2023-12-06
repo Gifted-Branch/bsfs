@@ -1,0 +1,38 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-07 01:39:17.490648",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "chores",
+  "staff_initial"
+ ],
+ "fields": [
+  {
+   "fieldname": "chores",
+   "fieldtype": "Select",
+   "label": "Chores",
+   "options": "\n1. Clean kitchens cupboards\n2. Complete freezer/fridge checks\n3. Clean bathtub/wash room\n4. Wipe and spot check walls\n5. Check for damages or maintenance\n6. Check door locks, windows"
+  },
+  {
+   "fieldname": "staff_initial",
+   "fieldtype": "Data",
+   "label": "Staff Initial"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-15 02:07:31.616252",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Night Chorelist",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,382 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-11-03 14:40:31.297874",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_qw8ia",
+  "client_name",
+  "date",
+  "column_break_lsbmw",
+  "night_staff_name_1",
+  "column_break_bzpuu",
+  "start_time1",
+  "column_break_77njy",
+  "end_time_2",
+  "section_break_aqrel",
+  "night_staff_name_2",
+  "column_break_tdgmi",
+  "start_time2",
+  "column_break_qum1u",
+  "end_time2",
+  "section_break_kwefo",
+  "night_shift",
+  "night_shift_comments",
+  "am_shift_tab",
+  "naming_series",
+  "section_break_puz9w",
+  "staff_name_1",
+  "column_break_tided",
+  "time_1",
+  "column_break_ribjn",
+  "time_2",
+  "column_break_clowl",
+  "staff_name_2",
+  "column_break_mxuv6",
+  "start_time",
+  "column_break_wtinf",
+  "end_time",
+  "section_break_mrsa0",
+  "am_shift",
+  "am_shift_comments",
+  "section_break_nqp39",
+  "staff_name",
+  "column_break_laout",
+  "start_time_1",
+  "column_break_walhg",
+  "end_time_1",
+  "section_break_ej0ar",
+  "pm_staff_name_2",
+  "column_break_gcipu",
+  "start_tme",
+  "column_break_wox7s",
+  "end_time1",
+  "section_break_zetym",
+  "pm_shift",
+  "pm_shift_comments",
+  "attach_any_relevant_documents_section",
+  "attachments",
+  "amended_from",
+  "column_break_z5ytj"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "is_virtual": 1,
+   "label": "Naming Series",
+   "options": "DCU-.YYYY.-",
+   "read_only": 1
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "Client Name",
+   "options": "Intake Form",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_lsbmw",
+   "fieldtype": "Section Break",
+   "search_index": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_puz9w",
+   "fieldtype": "Section Break",
+   "label": "AM Shift"
+  },
+  {
+   "fieldname": "staff_name_1",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "AM Staff Name 1",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_tided",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 2,
+   "fieldname": "time_1",
+   "fieldtype": "Data",
+   "label": "Start Time:"
+  },
+  {
+   "fieldname": "column_break_clowl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "staff_name_2",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "AM Staff Name 2",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_wtinf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "time_2",
+   "fieldtype": "Data",
+   "label": "End Time:"
+  },
+  {
+   "fieldname": "section_break_mrsa0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "am_shift",
+   "fieldtype": "Table",
+   "options": "Shift Details"
+  },
+  {
+   "fieldname": "am_shift_comments",
+   "fieldtype": "Small Text",
+   "label": "AM Shift Comments"
+  },
+  {
+   "fieldname": "section_break_nqp39",
+   "fieldtype": "Tab Break",
+   "label": "PM Shift (3pm - 11pm)"
+  },
+  {
+   "fieldname": "pm_shift",
+   "fieldtype": "Table",
+   "options": "Shift Details"
+  },
+  {
+   "fieldname": "pm_shift_comments",
+   "fieldtype": "Small Text",
+   "label": "PM Shift Comments"
+  },
+  {
+   "fieldname": "section_break_qw8ia",
+   "fieldtype": "Tab Break",
+   "label": "Night Shift (11pm - 7am)"
+  },
+  {
+   "fieldname": "night_shift",
+   "fieldtype": "Table",
+   "options": "Shift Details"
+  },
+  {
+   "fieldname": "night_shift_comments",
+   "fieldtype": "Small Text",
+   "label": "Night Shift Comments"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Daily Log Notes",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Daily Log Notes",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any relevant Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "column_break_mxuv6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ribjn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "start_time",
+   "fieldtype": "Data",
+   "label": "Start Time:"
+  },
+  {
+   "fieldname": "end_time",
+   "fieldtype": "Data",
+   "label": "End Time:"
+  },
+  {
+   "fieldname": "staff_name",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "PM Staff Name 1",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_laout",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "start_time_1",
+   "fieldtype": "Data",
+   "label": "Start Time"
+  },
+  {
+   "fieldname": "column_break_walhg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "end_time_1",
+   "fieldtype": "Data",
+   "label": "End Time"
+  },
+  {
+   "fieldname": "section_break_ej0ar",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pm_staff_name_2",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "PM Staff Name 2",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_gcipu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "start_tme",
+   "fieldtype": "Data",
+   "label": "Start Tme"
+  },
+  {
+   "fieldname": "column_break_wox7s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "end_time1",
+   "fieldtype": "Data",
+   "label": "End Time"
+  },
+  {
+   "fieldname": "section_break_zetym",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "night_staff_name_1",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Night Staff Name 1",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_bzpuu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "start_time1",
+   "fieldtype": "Data",
+   "label": "Start Time"
+  },
+  {
+   "fieldname": "column_break_77njy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "end_time_2",
+   "fieldtype": "Data",
+   "label": "End Time"
+  },
+  {
+   "fieldname": "section_break_aqrel",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "night_staff_name_2",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Night Staff Name 2",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_tdgmi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "start_time2",
+   "fieldtype": "Data",
+   "label": "Start Time"
+  },
+  {
+   "fieldname": "column_break_qum1u",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "end_time2",
+   "fieldtype": "Data",
+   "label": "End Time"
+  },
+  {
+   "fieldname": "section_break_kwefo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "am_shift_tab",
+   "fieldtype": "Tab Break",
+   "label": "AM Shift  (7am - 3pm)"
+  },
+  {
+   "fieldname": "column_break_z5ytj",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_calendar_and_gantt": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-11-23 03:30:31.389468",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Daily Log Notes",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,38 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-07 01:30:14.422988",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "chores",
+  "staff_initial"
+ ],
+ "fields": [
+  {
+   "fieldname": "chores",
+   "fieldtype": "Select",
+   "label": "Chores",
+   "options": "\n1. Clean, disinfect and tidy the kitchen\n2. Cook dinner\n3. Wash dishes\n4. Label all leftovers(expiry 3 days max)\n5. Clean mirror, sink vacuum floor\n6. Help client throughout the shift\n7. Complete all necessary paperwork\n8. Check and remove snow\n9. Hand in keys shift binder"
+  },
+  {
+   "fieldname": "staff_initial",
+   "fieldtype": "Data",
+   "label": "Staff Initial"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-15 02:08:30.656642",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "PM Chorelist",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

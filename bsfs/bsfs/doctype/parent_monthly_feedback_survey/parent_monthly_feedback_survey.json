@@ -65,7 +65,9 @@
   "column_break_ybso2",
   "month",
   "column_break_omnvd",
-  "year"
+  "year",
+  "attach_any_relevant_documents_section",
+  "attachments"
  ],
  "fields": [
   {
@@ -90,6 +92,7 @@
   {
    "fieldname": "name1",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Name"
   },
   {
@@ -99,6 +102,7 @@
   {
    "fieldname": "month",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Month",
    "options": "Month"
   },
@@ -400,11 +404,21 @@
    "fieldname": "bad",
    "fieldtype": "Check",
    "label": "Bad"
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any relevant Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-13 23:48:18.032890",
+ "modified": "2023-11-04 08:30:01.166919",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Parent Monthly Feedback Survey",

@@ -17,6 +17,8 @@
   "section_break_xwn44",
   "timesheet_detail",
   "total_hours",
+  "attach_any_relevant_documents_section",
+  "attachments",
   "section_break_i863y",
   "date_submitted",
   "column_break_dqh9g",
@@ -38,16 +40,16 @@
   "date_payroll_officer_sign",
   "comment",
   "column_break_ny6b6",
-  "payroll_officer_sign"
+  "payroll_officer_sign",
+  "amended_from"
  ],
  "fields": [
   {
-   "description": "DD/MM/YYYY",
    "fieldname": "name1",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Name",
-   "options": "Intake Form"
+   "label": "Staff Name",
+   "options": "Employee"
   },
   {
    "fieldname": "column_break_zc1xc",
@@ -55,7 +57,7 @@
   },
   {
    "fieldname": "pay_period_from",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "in_list_view": 1,
    "label": "Pay Period From"
   },
@@ -65,7 +67,7 @@
   },
   {
    "fieldname": "to",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "in_list_view": 1,
    "label": "To"
   },
@@ -76,7 +78,8 @@
   {
    "fieldname": "timesheet_detail",
    "fieldtype": "Table",
-   "options": "Timesheets Detail"
+   "options": "Timesheets Detail",
+   "reqd": 1
   },
   {
    "fieldname": "total_hours",
@@ -92,7 +95,8 @@
    "default": "Today",
    "fieldname": "date_submitted",
    "fieldtype": "Date",
-   "label": "Date Submitted"
+   "label": "Date Submitted",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_dqh9g",
@@ -101,7 +105,8 @@
   {
    "fieldname": "staff_signature",
    "fieldtype": "Signature",
-   "label": "Staff Signature"
+   "label": "Staff Signature",
+   "reqd": 1
   },
   {
    "fieldname": "section_break_1zrwa",
@@ -188,16 +193,37 @@
    "label": "Payroll Officer Sign"
   },
   {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Timesheets",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
    "fieldname": "naming_series",
    "fieldtype": "Select",
+   "hidden": 1,
    "label": "Naming Series",
-   "options": "TS-.YYYY-.",
+   "options": "TSI-.YYYY.-",
    "read_only": 1
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any relevant Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2023-10-26 01:05:22.943650",
+ "modified": "2023-11-04 08:18:02.188758",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Timesheets",

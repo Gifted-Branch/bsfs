@@ -1,0 +1,112 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-06 08:04:46.987813",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "column_break_jdkp7",
+  "swearing",
+  "using_racial_terms",
+  "defiant",
+  "threats",
+  "physical_aggression",
+  "property_damage",
+  "awol",
+  "no_school",
+  "other_incidents",
+  "daily_ocurence",
+  "column_break_t5zqp",
+  "totals"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_jdkp7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "swearing",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Swearing"
+  },
+  {
+   "fieldname": "using_racial_terms",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Using racial terms"
+  },
+  {
+   "fieldname": "threats",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Threats"
+  },
+  {
+   "fieldname": "physical_aggression",
+   "fieldtype": "Data",
+   "label": "Physical aggression"
+  },
+  {
+   "fieldname": "property_damage",
+   "fieldtype": "Data",
+   "label": "Property damage"
+  },
+  {
+   "fieldname": "awol",
+   "fieldtype": "Data",
+   "label": "Awol"
+  },
+  {
+   "fieldname": "no_school",
+   "fieldtype": "Data",
+   "label": "No School"
+  },
+  {
+   "fieldname": "other_incidents",
+   "fieldtype": "Data",
+   "label": "Other Incidents "
+  },
+  {
+   "fieldname": "column_break_t5zqp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "daily_ocurence",
+   "fieldtype": "Data",
+   "label": "Daily ocurence"
+  },
+  {
+   "fieldname": "totals",
+   "fieldtype": "Data",
+   "label": "totals"
+  },
+  {
+   "fieldname": "defiant",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Defiant "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-06 08:28:33.389745",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Behavior Details Items",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

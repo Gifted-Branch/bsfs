@@ -7,7 +7,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "client",
+  "client__individual_involved",
   "location_of_incident",
   "specific_location_of_incident",
   "date_of_incident",
@@ -55,11 +55,6 @@
   "program_director_report_section"
  ],
  "fields": [
-  {
-   "fieldname": "client",
-   "fieldtype": "Data",
-   "label": "Client / Individual Involved"
-  },
   {
    "fieldname": "location_of_incident",
    "fieldtype": "Data",
@@ -292,11 +287,17 @@
   {
    "fieldname": "column_break_mj5wj",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "client__individual_involved",
+   "fieldtype": "Link",
+   "label": "Client / Individual Involved",
+   "options": "Intake Form"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-25 15:31:55.794767",
+ "modified": "2023-11-01 04:24:46.750766",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Unusual Incident Reports",

@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-23 09:23:24.214845",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "month",
+  "documents",
+  "mandatory",
+  "as_needed",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "month",
+   "fieldtype": "Link",
+   "label": "Month",
+   "options": "Month"
+  },
+  {
+   "fieldname": "documents",
+   "fieldtype": "Select",
+   "label": "Documents",
+   "options": "\nInspection Sheets\nFire drills\nSharp Counts\nSharps inventory\nWater temp\nFridge Temps\nBi-weekly alarm testing/smoke alarm\nMonth Chore list\nDaily Chore list\nStaff Meetings\nFirst Aid kit supply\nProperty maintenance request\nProperty maintenance record\nClient Occupancy Report\nBehavior Tracking\nActivity tracker\nClient Meetings\nChild and Youth Surveys\nClient Bedroom Cleaning list\nMAR sheet\nMedication consultation form\nMedical Record of appointment\nMedication Transfer\nPersonal Hygiene checklist\nWeight tracker"
+  },
+  {
+   "default": "0",
+   "fieldname": "mandatory",
+   "fieldtype": "Check",
+   "label": "Mandatory"
+  },
+  {
+   "default": "0",
+   "fieldname": "as_needed",
+   "fieldtype": "Check",
+   "label": "As Needed"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-23 09:30:05.273444",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Month End Checklist Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

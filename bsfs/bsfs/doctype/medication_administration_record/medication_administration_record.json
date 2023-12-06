@@ -1,0 +1,177 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{client_name}-{month}-{year}",
+ "creation": "2023-11-03 12:37:50.659762",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client_name",
+  "doctors_name",
+  "column_break_quinz",
+  "month",
+  "year",
+  "section_break_syott",
+  "medication_details",
+  "pharmacy_tab",
+  "name_of_the_pharmacy",
+  "column_break_ofith",
+  "address_or_contact",
+  "section_break_jdl9g",
+  "pharmacy_details",
+  "column_break_hfuzh",
+  "codes",
+  "section_break_tenmt",
+  "allergies",
+  "diseases",
+  "attach_any_relevant_documents_section",
+  "attachments",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "bold": 1,
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Client Name",
+   "options": "Intake Form"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Month",
+   "options": "Month"
+  },
+  {
+   "fieldname": "column_break_quinz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Int",
+   "label": "Year"
+  },
+  {
+   "fieldname": "section_break_syott",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "doctors_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Doctors Name"
+  },
+  {
+   "fieldname": "medication_details",
+   "fieldtype": "Table",
+   "label": "Medication Details",
+   "options": "Medication Details Item"
+  },
+  {
+   "fieldname": "name_of_the_pharmacy",
+   "fieldtype": "Data",
+   "label": "Name of The Pharmacy"
+  },
+  {
+   "fieldname": "column_break_ofith",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address_or_contact",
+   "fieldtype": "Data",
+   "label": "Address or Contact"
+  },
+  {
+   "fieldname": "pharmacy_tab",
+   "fieldtype": "Section Break",
+   "label": "Pharmacy"
+  },
+  {
+   "fieldname": "allergies",
+   "fieldtype": "Small Text",
+   "label": "Allergies"
+  },
+  {
+   "fieldname": "diseases",
+   "fieldtype": "Small Text",
+   "label": "Diseases"
+  },
+  {
+   "fieldname": "section_break_tenmt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pharmacy_details",
+   "fieldtype": "Table",
+   "options": "Pharmacy Details Items"
+  },
+  {
+   "fieldname": "section_break_jdl9g",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_hfuzh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "1. Drug Refused\n2. Nausea or Vomiting\n3. Hospitalized\n4. Social Leave\n5. Drug Ordered Not Received\n6. Discontinued\n7. Other",
+   "fieldname": "codes",
+   "fieldtype": "Small Text",
+   "label": "Codes",
+   "read_only": 1
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any relevant Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Medication Administration Record",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-11-29 02:01:29.670580",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Medication Administration Record",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

@@ -1,0 +1,108 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-10 04:44:44.367683",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client_name",
+  "column_break_zrpsd",
+  "month",
+  "column_break_0l04i",
+  "date",
+  "section_break_bpb2c",
+  "behavior",
+  "other_observation_tracker_section",
+  "other_observation_tracker",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Client Name",
+   "options": "Intake Form"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_zrpsd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "behavior",
+   "fieldtype": "Table",
+   "label": "Observation Tracker",
+   "options": "Behavior Tracker Detailed Child"
+  },
+  {
+   "fieldname": "section_break_bpb2c",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "other_observation_tracker_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "other_observation_tracker",
+   "fieldtype": "Table",
+   "label": "Other Observation Tracker",
+   "options": "Behavior Tracker Detailed child 2"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Link",
+   "label": "Month",
+   "options": "Month"
+  },
+  {
+   "fieldname": "column_break_0l04i",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Behavior Tracker Detailed",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-12-04 23:29:33.318196",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Behavior Tracker Detailed",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,13 +1,15 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "prompt",
+ "autoname": "naming_series:",
  "creation": "2023-10-17 03:31:49.739079",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "naming_series",
+  "staff_name",
   "section_break_wnvjw",
   "month_date",
   "column_break_ecrlm",
@@ -15,37 +17,20 @@
   "column_break_btby8",
   "to",
   "section_break_w95r3",
-  "chores_am",
-  "read_log",
-  "tidy_office",
-  "wash_dishes",
-  "wipe_appliances",
-  "wipe_microwave",
-  "wipe_control",
-  "ensure_glove",
-  "help_client",
-  "complete_paperwork",
-  "check_show",
-  "hand_keys",
-  "column_break_g1zrh",
-  "clean_tidy",
-  "cook_dinner",
-  "wash_dishes_pm",
-  "label_all",
-  "clean_mirror",
-  "help_client_shift",
-  "complete_all",
-  "check_remove",
-  "shift_binder",
-  "column_break_bioqe",
-  "clean_kitchen",
-  "freezer_fridge",
-  "wash_room",
-  "wipe_spot",
-  "check_damage",
-  "check_windows",
+  "staff_name1",
+  "test",
+  "column_break_hwsyq",
+  "pm_staff_name",
+  "test2",
+  "column_break_6x2en",
+  "night_staff_name",
+  "test3",
+  "attach_any_relevant_documents_section",
+  "attachments",
   "section_break_0xgwp",
-  "only_performed_and_completed_chores_will_be_intialed_by_staff"
+  "extra_chore_notes",
+  "only_performed_and_completed_chores_will_be_intialed_by_staff",
+  "amended_from"
  ],
  "fields": [
   {
@@ -62,7 +47,7 @@
   },
   {
    "fieldname": "from",
-   "fieldtype": "Time",
+   "fieldtype": "Data",
    "in_list_view": 1,
    "label": "From",
    "reqd": 1
@@ -73,7 +58,7 @@
   },
   {
    "fieldname": "to",
-   "fieldtype": "Time",
+   "fieldtype": "Data",
    "in_list_view": 1,
    "label": "To",
    "reqd": 1
@@ -88,172 +73,6 @@
    "fieldtype": "Section Break"
   },
   {
-   "default": "0",
-   "fieldname": "read_log",
-   "fieldtype": "Check",
-   "label": "Read log book, comm. book and initial"
-  },
-  {
-   "default": "0",
-   "fieldname": "tidy_office",
-   "fieldtype": "Check",
-   "label": "Tidy the office"
-  },
-  {
-   "default": "0",
-   "fieldname": "wash_dishes",
-   "fieldtype": "Check",
-   "label": "Wash dishes"
-  },
-  {
-   "default": "0",
-   "fieldname": "wipe_appliances",
-   "fieldtype": "Check",
-   "label": "Wipe appliances"
-  },
-  {
-   "default": "0",
-   "fieldname": "wipe_microwave",
-   "fieldtype": "Check",
-   "label": "Wipe out microwave"
-  },
-  {
-   "default": "0",
-   "fieldname": "wipe_control",
-   "fieldtype": "Check",
-   "label": "Wipe remote controls"
-  },
-  {
-   "default": "0",
-   "fieldname": "ensure_glove",
-   "fieldtype": "Check",
-   "label": "Ensure glove supply is full"
-  },
-  {
-   "default": "0",
-   "fieldname": "help_client",
-   "fieldtype": "Check",
-   "label": "Help client throughout the shift"
-  },
-  {
-   "default": "0",
-   "fieldname": "complete_paperwork",
-   "fieldtype": "Check",
-   "label": "Complete all necessary paperwork"
-  },
-  {
-   "default": "0",
-   "fieldname": "check_show",
-   "fieldtype": "Check",
-   "label": "Check and remove snow"
-  },
-  {
-   "default": "0",
-   "fieldname": "hand_keys",
-   "fieldtype": "Check",
-   "label": "Hand in keys and shift binder"
-  },
-  {
-   "fieldname": "column_break_g1zrh",
-   "fieldtype": "Column Break",
-   "label": "Chores (PM)"
-  },
-  {
-   "default": "0",
-   "fieldname": "clean_tidy",
-   "fieldtype": "Check",
-   "label": "Clean, disinfect and tidy the kitchen"
-  },
-  {
-   "default": "0",
-   "fieldname": "cook_dinner",
-   "fieldtype": "Check",
-   "label": "Cook dinner"
-  },
-  {
-   "default": "0",
-   "fieldname": "wash_dishes_pm",
-   "fieldtype": "Check",
-   "label": "Wash dishes"
-  },
-  {
-   "default": "0",
-   "fieldname": "label_all",
-   "fieldtype": "Check",
-   "label": "Label all leftovers(expiry 3 days max)"
-  },
-  {
-   "default": "0",
-   "fieldname": "clean_mirror",
-   "fieldtype": "Check",
-   "label": "Clean mirror, sink vacuum floor"
-  },
-  {
-   "default": "0",
-   "fieldname": "help_client_shift",
-   "fieldtype": "Check",
-   "label": "Help client throughout the shift"
-  },
-  {
-   "default": "0",
-   "fieldname": "complete_all",
-   "fieldtype": "Check",
-   "label": "Complete all necessary paperwork"
-  },
-  {
-   "default": "0",
-   "fieldname": "check_remove",
-   "fieldtype": "Check",
-   "label": "Check and remove snow"
-  },
-  {
-   "default": "0",
-   "fieldname": "shift_binder",
-   "fieldtype": "Check",
-   "label": "Hand in keys shift binder"
-  },
-  {
-   "fieldname": "column_break_bioqe",
-   "fieldtype": "Column Break",
-   "label": "Chores (Weekly)"
-  },
-  {
-   "default": "0",
-   "fieldname": "clean_kitchen",
-   "fieldtype": "Check",
-   "label": "Clean kitchens cupboards"
-  },
-  {
-   "default": "0",
-   "fieldname": "freezer_fridge",
-   "fieldtype": "Check",
-   "label": "Complete freezer/fridge checks"
-  },
-  {
-   "default": "0",
-   "fieldname": "wash_room",
-   "fieldtype": "Check",
-   "label": "Clean bathtub/wash room"
-  },
-  {
-   "default": "0",
-   "fieldname": "wipe_spot",
-   "fieldtype": "Check",
-   "label": "Wipe and spot check walls"
-  },
-  {
-   "default": "0",
-   "fieldname": "check_damage",
-   "fieldtype": "Check",
-   "label": "Check for damages or maintenance"
-  },
-  {
-   "default": "0",
-   "fieldname": "check_windows",
-   "fieldtype": "Check",
-   "label": "Check door locks, windows"
-  },
-  {
    "fieldname": "section_break_0xgwp",
    "fieldtype": "Section Break"
   },
@@ -263,18 +82,96 @@
    "label": "Only Performed and Completed Chores will be Initialed by Staff"
   },
   {
-   "fieldname": "chores_am",
-   "fieldtype": "Column Break",
-   "label": "Chores (AM)"
+   "fieldname": "extra_chore_notes",
+   "fieldtype": "Small Text",
+   "label": "Extra Chore Notes"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Daily Chore",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "staff_name",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Staff Name"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Link",
+   "label": "Staff Name",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any relevant Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "test",
+   "fieldtype": "Table",
+   "label": "AM Chores (7am 3pm)",
+   "options": "AM Chorelist"
+  },
+  {
+   "fieldname": "column_break_hwsyq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "test2",
+   "fieldtype": "Table",
+   "label": "PM Chores (3pm 11pm)",
+   "options": "PM Chorelist"
+  },
+  {
+   "fieldname": "column_break_6x2en",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "test3",
+   "fieldtype": "Table",
+   "label": "Night Chores (11pm 7am)",
+   "options": "Night Chorelist"
+  },
+  {
+   "fieldname": "staff_name1",
+   "fieldtype": "Link",
+   "label": "AM Staff Name",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "pm_staff_name",
+   "fieldtype": "Link",
+   "label": "PM Staff Name",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "night_staff_name",
+   "fieldtype": "Link",
+   "label": "Night Staff Name",
+   "options": "Employee"
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2023-10-25 15:07:21.689092",
+ "modified": "2023-11-25 16:51:40.880366",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Daily Chore",
- "naming_rule": "Set by user",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {
@@ -286,12 +183,67 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "BSFS Management",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "BSFS Admin",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "BSFS Coordinator",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "BSFS Staff",
+   "select": 1,
    "share": 1,
    "write": 1
   }
  ],
+ "show_name_in_global_search": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "track_changes": 1
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
 }

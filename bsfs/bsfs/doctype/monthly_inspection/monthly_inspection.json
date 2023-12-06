@@ -16,7 +16,10 @@
   "staff_sign",
   "section_break_plkep",
   "monthly_inspection_template",
-  "monthly_inspection_details"
+  "monthly_inspection_details",
+  "attach_any_relevant_documents_section",
+  "attachments",
+  "amended_from"
  ],
  "fields": [
   {
@@ -27,8 +30,9 @@
   },
   {
    "fieldname": "staff_name",
-   "fieldtype": "Data",
-   "label": "Staff Name"
+   "fieldtype": "Link",
+   "label": "Staff Name",
+   "options": "Employee"
   },
   {
    "fieldname": "column_break_lx5vi",
@@ -65,14 +69,35 @@
    "fieldtype": "Select",
    "label": "Naming Series",
    "options": "MI-.YYYY.-"
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any relevant Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Monthly Inspection",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2023-10-14 13:06:42.317610",
+ "modified": "2023-11-29 02:18:39.106050",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Monthly Inspection",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {

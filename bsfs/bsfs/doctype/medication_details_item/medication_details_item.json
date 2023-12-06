@@ -1,0 +1,270 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-03 12:31:14.231374",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "medication",
+  "dosage",
+  "column_break_jdkp7",
+  "time",
+  "time_1",
+  "section_break_dcx8g",
+  "mdi_a",
+  "mdi_b",
+  "mdi_c",
+  "mdi_d",
+  "mdi_e",
+  "mdi_f",
+  "mdi_g",
+  "column_break_avbdj",
+  "mdi_h",
+  "mdi_i",
+  "mdi_j",
+  "mdi_k",
+  "mdi_l",
+  "mdi_m",
+  "mdi_n",
+  "column_break_i1cjz",
+  "mdi_o",
+  "mdi_p",
+  "mdi_q",
+  "mdi_r",
+  "mdi_s",
+  "mdi_t",
+  "mdi_u",
+  "column_break_0udat",
+  "mdi_v",
+  "mdi_w",
+  "mdi_x",
+  "mdi_y",
+  "mdi_z",
+  "mdi_aa",
+  "mdi_ab",
+  "column_break_ba0vy",
+  "mdi_ac",
+  "mdi_ad",
+  "mdi_ae"
+ ],
+ "fields": [
+  {
+   "fieldname": "medication",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Medication: Drug Name"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Select",
+   "label": "Period",
+   "options": "\nMorning\nAfternoon\nDinner\nBed-Time"
+  },
+  {
+   "fieldname": "mdi_a",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "1"
+  },
+  {
+   "fieldname": "mdi_b",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "2"
+  },
+  {
+   "fieldname": "mdi_c",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "3"
+  },
+  {
+   "fieldname": "mdi_d",
+   "fieldtype": "Data",
+   "label": "4"
+  },
+  {
+   "fieldname": "mdi_e",
+   "fieldtype": "Data",
+   "label": "5"
+  },
+  {
+   "fieldname": "mdi_f",
+   "fieldtype": "Data",
+   "label": "6"
+  },
+  {
+   "fieldname": "column_break_avbdj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mdi_g",
+   "fieldtype": "Data",
+   "label": "7"
+  },
+  {
+   "fieldname": "mdi_h",
+   "fieldtype": "Data",
+   "label": "8"
+  },
+  {
+   "fieldname": "mdi_i",
+   "fieldtype": "Data",
+   "label": "9"
+  },
+  {
+   "fieldname": "mdi_j",
+   "fieldtype": "Data",
+   "label": "10"
+  },
+  {
+   "fieldname": "mdi_k",
+   "fieldtype": "Data",
+   "label": "11"
+  },
+  {
+   "fieldname": "mdi_l",
+   "fieldtype": "Data",
+   "label": "12"
+  },
+  {
+   "fieldname": "mdi_m",
+   "fieldtype": "Data",
+   "label": "13"
+  },
+  {
+   "fieldname": "column_break_i1cjz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mdi_n",
+   "fieldtype": "Data",
+   "label": "14"
+  },
+  {
+   "fieldname": "mdi_o",
+   "fieldtype": "Data",
+   "label": "15"
+  },
+  {
+   "fieldname": "mdi_p",
+   "fieldtype": "Data",
+   "label": "16"
+  },
+  {
+   "fieldname": "mdi_q",
+   "fieldtype": "Data",
+   "label": "17"
+  },
+  {
+   "fieldname": "mdi_r",
+   "fieldtype": "Data",
+   "label": "18"
+  },
+  {
+   "fieldname": "mdi_s",
+   "fieldtype": "Data",
+   "label": "19"
+  },
+  {
+   "fieldname": "column_break_0udat",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mdi_t",
+   "fieldtype": "Data",
+   "label": "20"
+  },
+  {
+   "fieldname": "mdi_u",
+   "fieldtype": "Data",
+   "label": "21"
+  },
+  {
+   "fieldname": "mdi_v",
+   "fieldtype": "Data",
+   "label": "22"
+  },
+  {
+   "fieldname": "mdi_w",
+   "fieldtype": "Data",
+   "label": "23"
+  },
+  {
+   "fieldname": "mdi_x",
+   "fieldtype": "Data",
+   "label": "24"
+  },
+  {
+   "fieldname": "mdi_y",
+   "fieldtype": "Data",
+   "label": "25"
+  },
+  {
+   "fieldname": "column_break_ba0vy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mdi_z",
+   "fieldtype": "Data",
+   "label": "26"
+  },
+  {
+   "fieldname": "mdi_aa",
+   "fieldtype": "Data",
+   "label": "27"
+  },
+  {
+   "fieldname": "mdi_ab",
+   "fieldtype": "Data",
+   "label": "28"
+  },
+  {
+   "fieldname": "mdi_ac",
+   "fieldtype": "Data",
+   "label": "29"
+  },
+  {
+   "fieldname": "mdi_ad",
+   "fieldtype": "Data",
+   "label": "30"
+  },
+  {
+   "fieldname": "mdi_ae",
+   "fieldtype": "Data",
+   "label": "31"
+  },
+  {
+   "fieldname": "column_break_jdkp7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_dcx8g",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dosage",
+   "fieldtype": "Data",
+   "label": "Dosage"
+  },
+  {
+   "fieldname": "time_1",
+   "fieldtype": "Data",
+   "label": "Time"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-28 08:39:05.563488",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Medication Details Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -7,36 +7,55 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "month_end_checklist_section",
-  "s_no",
-  "month",
-  "documents"
+  "staff",
+  "date",
+  "please_fill_the_table_using_x",
+  "attach_any_relevant_documents_section",
+  "attachments",
+  "amended_from"
  ],
  "fields": [
   {
-   "fieldname": "month_end_checklist_section",
+   "fieldname": "attach_any_relevant_documents_section",
    "fieldtype": "Section Break",
-   "label": "Month end checklist"
+   "label": "Attach any relevant Documents"
   },
   {
-   "fieldname": "s_no",
-   "fieldtype": "Autocomplete",
-   "label": "S. No "
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
   },
   {
-   "fieldname": "month",
+   "fieldname": "please_fill_the_table_using_x",
+   "fieldtype": "Table",
+   "label": "Please fill the table using X ",
+   "options": "Month End Checklist Child"
+  },
+  {
+   "fieldname": "date",
    "fieldtype": "Date",
-   "label": "Month"
+   "label": "Date"
   },
   {
-   "fieldname": "documents",
-   "fieldtype": "Data",
-   "label": "Documents"
+   "fieldname": "staff",
+   "fieldtype": "Link",
+   "label": "Staff",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Month End Checklist",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2023-09-28 22:42:02.625150",
+ "modified": "2023-11-24 06:56:31.388646",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Month End Checklist",

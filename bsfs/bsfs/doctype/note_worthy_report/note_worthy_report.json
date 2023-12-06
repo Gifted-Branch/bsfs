@@ -22,6 +22,8 @@
   "actions_taken_by_staff",
   "section_break_s7eaw",
   "any_recommendation",
+  "attach_any_relevant_documents_section",
+  "attachments",
   "section_break_uvd4h",
   "reported_to",
   "writer_name",
@@ -47,7 +49,7 @@
   },
   {
    "fieldname": "time_of_event",
-   "fieldtype": "Time",
+   "fieldtype": "Data",
    "label": "Time of Event"
   },
   {
@@ -61,13 +63,15 @@
   },
   {
    "fieldname": "staff_1_name",
-   "fieldtype": "Data",
-   "label": "Staff 1 Name"
+   "fieldtype": "Link",
+   "label": "Staff 1 Name",
+   "options": "Employee"
   },
   {
    "fieldname": "staff_2_name",
-   "fieldtype": "Data",
-   "label": "Staff 2 Name"
+   "fieldtype": "Link",
+   "label": "Staff 2 Name",
+   "options": "Employee"
   },
   {
    "fieldname": "section_break_dijuw",
@@ -137,16 +141,25 @@
   {
    "fieldname": "naming_series",
    "fieldtype": "Select",
-   "in_list_view": 1,
+   "hidden": 1,
    "label": "Naming Series",
-   "options": "NWR-.YYYY.-",
-   "reqd": 1
+   "options": "NWR-.YYYY.-"
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any relevant Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-18 09:29:59.771811",
+ "modified": "2023-11-07 09:47:25.094606",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Note Worthy Report",

@@ -22,6 +22,8 @@
   "staff_name",
   "column_break_focer",
   "report_prepare_on",
+  "attach_any_relevant_documents_section",
+  "attachments",
   "amended_from"
  ],
  "fields": [
@@ -57,8 +59,10 @@
   },
   {
    "fieldname": "staff_name",
-   "fieldtype": "Data",
-   "label": "Staff Name"
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Staff Name",
+   "options": "Employee"
   },
   {
    "fieldname": "report_prepare_on",
@@ -108,12 +112,22 @@
    "fieldname": "monthly_report_detail",
    "fieldtype": "Table",
    "options": "Monthly Report Detail"
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any relevant Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-18 09:30:00.765055",
+ "modified": "2023-11-04 08:29:13.485863",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Monthly Report",

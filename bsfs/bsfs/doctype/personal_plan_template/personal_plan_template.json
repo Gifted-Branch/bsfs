@@ -16,6 +16,7 @@
    "fieldname": "template_name",
    "fieldtype": "Data",
    "label": "Template Name",
+   "read_only": 1,
    "unique": 1
   },
   {
@@ -26,7 +27,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-13 22:11:49.702275",
+ "modified": "2023-10-26 08:13:22.526813",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Personal Plan Template",

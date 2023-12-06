@@ -25,6 +25,8 @@
   "family_and_medical_leave",
   "time_off_to_vote",
   "other",
+  "attach_any_relevant_documents_section",
+  "attachments",
   "section_break_4q5vs",
   "comments",
   "employee_certification_section",
@@ -61,13 +63,18 @@
   },
   {
    "fieldname": "name1",
-   "fieldtype": "Data",
-   "label": "Name"
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Staff Name",
+   "options": "Employee"
   },
   {
    "default": "Today",
    "fieldname": "todays_date",
    "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Today's Date"
   },
   {
@@ -86,7 +93,7 @@
   },
   {
    "fieldname": "ending_on",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "label": "Ending On"
   },
   {
@@ -253,12 +260,22 @@
    "fieldname": "comment",
    "fieldtype": "Small Text",
    "label": "Comment"
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any relevant Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-23 16:06:03.818457",
+ "modified": "2023-11-04 08:43:33.786731",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Absent and Vacation Request",

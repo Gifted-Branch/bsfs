@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-10 05:42:27.675554",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "behavior",
+  "occurrences",
+  "staff_initial",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "behavior",
+   "fieldtype": "Select",
+   "label": "Behavior",
+   "options": "<select>\nSLEEPING DURING THE DAY\nBOWEL MOVEMENT IN TOILET\nINCONTINENCE OF URINE\nSPITS OUT MEDICATION\nPULLING HAIR AND SCRATCHING STAFF\nBOWEL MOVEMENT IN DIAPER</select>"
+  },
+  {
+   "fieldname": "occurrences",
+   "fieldtype": "Data",
+   "label": "Occurrences"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "staff_initial",
+   "fieldtype": "Data",
+   "label": "Staff Initial"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-04 05:06:41.642864",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Behavior Tracker Detailed child 2",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

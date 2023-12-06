@@ -26,6 +26,8 @@
   "discharge_recommendations",
   "belongings",
   "medications",
+  "attach_any_relevant_documents_section",
+  "attachments",
   "section_break_dpxph",
   "name_of_discharging_staff",
   "date",
@@ -35,7 +37,8 @@
   "name_of_receiving_staff",
   "date_1",
   "column_break_khzrk",
-  "sign_1"
+  "sign_1",
+  "amended_from"
  ],
  "fields": [
   {
@@ -137,8 +140,10 @@
   },
   {
    "fieldname": "name_of_discharging_staff",
-   "fieldtype": "Data",
-   "label": "Name of Discharging Staff"
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Name of Discharging Staff",
+   "options": "Employee"
   },
   {
    "fieldname": "date",
@@ -160,8 +165,10 @@
   },
   {
    "fieldname": "name_of_receiving_staff",
-   "fieldtype": "Data",
-   "label": "Name of Receiving Staff"
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Name of Receiving Staff",
+   "options": "Employee"
   },
   {
    "fieldname": "date_1",
@@ -176,11 +183,31 @@
    "fieldname": "sign_1",
    "fieldtype": "Signature",
    "label": "Sign"
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any relevant Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Discharge Summary",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2023-10-18 09:30:01.284853",
+ "modified": "2023-11-29 02:33:42.791201",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Discharge Summary",

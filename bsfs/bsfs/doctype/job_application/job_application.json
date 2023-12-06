@@ -31,6 +31,7 @@
   "name_of_school",
   "completion_date",
   "program",
+  "attach_all_your_education_docs_merge_as_one_file",
   "work_expirience_column",
   "employer",
   "phone",
@@ -40,9 +41,12 @@
   "date_worked_from",
   "date_worked_to",
   "reason_for_leaving",
+  "attach_your_work_experience_docs_merge_them_as_one_file",
   "interests_column",
   "hobbies",
   "membership_in_organizations",
+  "attach_any_relevant_documents_section",
+  "attachments",
   "amended_from"
  ],
  "fields": [
@@ -69,7 +73,7 @@
   },
   {
    "fieldname": "phone_home",
-   "fieldtype": "Data",
+   "fieldtype": "Phone",
    "label": "Phone Home"
   },
   {
@@ -232,12 +236,32 @@
    "fieldname": "time_available",
    "fieldtype": "Time",
    "label": "Time Available"
+  },
+  {
+   "fieldname": "attach_your_work_experience_docs_merge_them_as_one_file",
+   "fieldtype": "Attach",
+   "label": "Attach your Work experience docs (merge them as one file)"
+  },
+  {
+   "fieldname": "attach_all_your_education_docs_merge_as_one_file",
+   "fieldtype": "Attach",
+   "label": "Attach all your Education Docs (merge as one file)"
+  },
+  {
+   "fieldname": "attach_any_relevant_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Attach any other relevant Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-16 23:30:51.139787",
+ "modified": "2023-11-04 08:50:59.305658",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Job Application",

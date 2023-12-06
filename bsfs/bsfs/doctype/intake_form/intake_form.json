@@ -68,13 +68,15 @@
   "restrictive_procedures_required",
   "social_interactions",
   "type_of_surgery",
+  "spirituality",
+  "dental_and_hearing",
+  "lifestyle_recreation",
   "medical_tab",
   "prescribing_physicians_section",
   "doctors_name",
   "medications_details",
   "pharmacy",
   "narrative_notes_tab",
-  "narrative_notes",
   "section_break_sbiie",
   "mental_status",
   "psychological_nt",
@@ -91,7 +93,9 @@
   "column_break_hk0b0",
   "agency_officer",
   "agency_signature",
-  "amended_from"
+  "amended_from",
+  "6_of_6_tab",
+  "docs"
  ],
  "fields": [
   {
@@ -222,7 +226,7 @@
   {
    "fieldname": "client_information_tab",
    "fieldtype": "Tab Break",
-   "label": "Intake Form 1 of 5"
+   "label": "Intake Form 1 of 6"
   },
   {
    "fieldname": "languages_spoken",
@@ -237,7 +241,7 @@
   {
    "fieldname": "more_information_tab",
    "fieldtype": "Tab Break",
-   "label": "2 of 5"
+   "label": "2 of 6"
   },
   {
    "default": "Today",
@@ -281,17 +285,17 @@
   {
    "fieldname": "history_tab",
    "fieldtype": "Tab Break",
-   "label": "3 of 5"
+   "label": "3 of 6"
   },
   {
    "fieldname": "medical_tab",
    "fieldtype": "Tab Break",
-   "label": "4 of 5"
+   "label": "4 of 6"
   },
   {
    "fieldname": "narrative_notes_tab",
    "fieldtype": "Tab Break",
-   "label": "5 of 5"
+   "label": "5 of 6"
   },
   {
    "fieldname": "disability",
@@ -462,12 +466,6 @@
    "label": "Pharmacy"
   },
   {
-   "fieldname": "narrative_notes",
-   "fieldtype": "Table",
-   "label": "Narrative Notes",
-   "options": "Narrative Notes"
-  },
-  {
    "fieldname": "section_break_vlidr",
    "fieldtype": "Section Break"
   },
@@ -531,12 +529,37 @@
    "fieldname": "placement_plan",
    "fieldtype": "Small Text",
    "label": "Placement Plan"
+  },
+  {
+   "fieldname": "6_of_6_tab",
+   "fieldtype": "Tab Break",
+   "label": "6 of 6"
+  },
+  {
+   "fieldname": "docs",
+   "fieldtype": "Attach",
+   "label": "Please attach the required documents merged as one file (include medical history etc..)"
+  },
+  {
+   "fieldname": "spirituality",
+   "fieldtype": "Small Text",
+   "label": "Spirituality"
+  },
+  {
+   "fieldname": "dental_and_hearing",
+   "fieldtype": "Small Text",
+   "label": "Dental and Hearing"
+  },
+  {
+   "fieldname": "lifestyle_recreation",
+   "fieldtype": "Small Text",
+   "label": "Lifestyle Recreation"
   }
  ],
  "icon": "fa fa-user",
  "is_submittable": 1,
  "links": [],
- "modified": "2023-10-23 16:10:47.720216",
+ "modified": "2023-11-04 06:55:49.642685",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Intake Form",

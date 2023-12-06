@@ -8,7 +8,10 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "monthly_goal"
+  "monthly_goal",
+  "name1",
+  "comments",
+  "amended_from"
  ],
  "fields": [
   {
@@ -16,11 +19,33 @@
    "fieldtype": "Data",
    "label": "Monthly Goal",
    "unique": 1
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Monthly Goals",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2023-10-14 11:43:37.122891",
+ "modified": "2023-11-29 02:21:25.547145",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Monthly Goals",
