@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-01 05:44:18.691437",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "type",
+  "occurrences",
+  "duraton",
+  "time_of_day",
+  "comments",
+  "staff_initial"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type of Seizure",
+   "options": "\n1. Tonic\n2. Atonic\n3. Myoclonic\n4. Atypical absence\n5. General Seizure\n6. Complex Partial\n7. Simple Partial"
+  },
+  {
+   "fieldname": "occurrences",
+   "fieldtype": "Data",
+   "label": "Occurrences"
+  },
+  {
+   "fieldname": "duraton",
+   "fieldtype": "Data",
+   "label": "Duraton"
+  },
+  {
+   "fieldname": "time_of_day",
+   "fieldtype": "Select",
+   "label": "Time of Day",
+   "options": "\n1. Morning\n2. Mid-Morning\n3. Noon-Time\n4. Evening\n5. Supper Time\n6. Overnight"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "staff_initial",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Staff Initial"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-03 02:40:28.193496",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Lennox-Gastaut Syndrome Form Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
