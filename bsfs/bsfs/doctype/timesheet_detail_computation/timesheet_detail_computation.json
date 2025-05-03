@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-14 07:36:08.944843",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "start",
+  "end",
+  "awake_hrs",
+  "sleep_hrs",
+  "staff_initials",
+  "comments"
+ ],
+ "fields": [
+  {
+   "description": "DD/MM/YYYY",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "start",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Start"
+  },
+  {
+   "fieldname": "end",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "End"
+  },
+  {
+   "fieldname": "awake_hrs",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Awake Hrs"
+  },
+  {
+   "fieldname": "sleep_hrs",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Sleep Hrs"
+  },
+  {
+   "fieldname": "staff_initials",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Staff Initials"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Comments"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-03 01:55:12.118826",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Timesheet Detail Computation",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
