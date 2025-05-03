@@ -1,0 +1,306 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-31 15:03:12.228265",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client_name",
+  "admission_date",
+  "reporting_preriod_section",
+  "from",
+  "column_break_btukd",
+  "to",
+  "section_break_ftyuu",
+  "general_observation",
+  "goals",
+  "goal",
+  "column_break_qzjnz",
+  "strategy",
+  "column_break_0eyf5",
+  "progress",
+  "column_break_k0bj9",
+  "outcome",
+  "section_break_fkd3u",
+  "goal2",
+  "column_break_lhtyp",
+  "strategy2",
+  "column_break_yapmv",
+  "progress2",
+  "column_break_cbghq",
+  "outcome2",
+  "section_break_k6o3z",
+  "goals3",
+  "column_break_pnt1s",
+  "strategy3",
+  "column_break_deq6q",
+  "progress3",
+  "column_break_1zzti",
+  "outcome3",
+  "section_break_om6bu",
+  "goal4",
+  "column_break_qodbv",
+  "strategy4",
+  "column_break_cubf5",
+  "progress4",
+  "column_break_lwcjh",
+  "outcome4",
+  "section_break_n0rbn",
+  "summary",
+  "report_prepared_by_section",
+  "1st_staff_initial",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Client Name",
+   "options": "Intake Form"
+  },
+  {
+   "fieldname": "admission_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Admission Date"
+  },
+  {
+   "fieldname": "reporting_preriod_section",
+   "fieldtype": "Section Break",
+   "label": "Reporting Preriod"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Data",
+   "label": "From"
+  },
+  {
+   "fieldname": "column_break_btukd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "To"
+  },
+  {
+   "fieldname": "section_break_ftyuu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "general_observation",
+   "fieldtype": "Small Text",
+   "label": "General Observation"
+  },
+  {
+   "fieldname": "goals",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "1.",
+   "fieldname": "goal",
+   "fieldtype": "Small Text",
+   "label": "Goals"
+  },
+  {
+   "fieldname": "column_break_qzjnz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "strategy",
+   "fieldtype": "Small Text",
+   "label": "Strategy"
+  },
+  {
+   "fieldname": "column_break_0eyf5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "progress",
+   "fieldtype": "Small Text",
+   "label": "Progress"
+  },
+  {
+   "fieldname": "column_break_k0bj9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Outcome:",
+   "fieldname": "outcome",
+   "fieldtype": "Small Text",
+   "label": "Outcome"
+  },
+  {
+   "fieldname": "section_break_fkd3u",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "2. ",
+   "fieldname": "goal2",
+   "fieldtype": "Small Text",
+   "label": "Goal"
+  },
+  {
+   "fieldname": "column_break_lhtyp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "strategy2",
+   "fieldtype": "Small Text",
+   "label": "Strategy"
+  },
+  {
+   "fieldname": "column_break_yapmv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "progress2",
+   "fieldtype": "Small Text",
+   "label": "Progress"
+  },
+  {
+   "fieldname": "column_break_cbghq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "outcome2",
+   "fieldtype": "Small Text",
+   "label": "Outcome"
+  },
+  {
+   "fieldname": "section_break_k6o3z",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "3.",
+   "fieldname": "goals3",
+   "fieldtype": "Small Text",
+   "label": "Goals"
+  },
+  {
+   "fieldname": "column_break_pnt1s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "strategy3",
+   "fieldtype": "Small Text",
+   "label": "Strategy"
+  },
+  {
+   "fieldname": "column_break_deq6q",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "progress3",
+   "fieldtype": "Small Text",
+   "label": "Progress"
+  },
+  {
+   "fieldname": "column_break_1zzti",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "outcome3",
+   "fieldtype": "Small Text",
+   "label": "Outcome"
+  },
+  {
+   "fieldname": "section_break_om6bu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "4.",
+   "fieldname": "goal4",
+   "fieldtype": "Small Text",
+   "label": "Goal"
+  },
+  {
+   "fieldname": "column_break_qodbv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "strategy4",
+   "fieldtype": "Small Text",
+   "label": "Strategy"
+  },
+  {
+   "fieldname": "column_break_cubf5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "progress4",
+   "fieldtype": "Small Text",
+   "label": "Progress"
+  },
+  {
+   "fieldname": "column_break_lwcjh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "outcome4",
+   "fieldtype": "Small Text",
+   "label": "Outcome"
+  },
+  {
+   "fieldname": "section_break_n0rbn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "summary",
+   "fieldtype": "Small Text",
+   "label": "Summary"
+  },
+  {
+   "fieldname": "report_prepared_by_section",
+   "fieldtype": "Section Break",
+   "label": "Report Prepared by"
+  },
+  {
+   "default": "1.\n\n2.\n\n3.\n\n",
+   "fieldname": "1st_staff_initial",
+   "fieldtype": "Small Text",
+   "label": "Staff:"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Client Progress Report",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-05-03 02:33:56.282367",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Client Progress Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
