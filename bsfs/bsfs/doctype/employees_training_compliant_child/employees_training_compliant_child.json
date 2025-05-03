@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-20 17:02:15.163203",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "staff_name",
+  "police_check",
+  "child_check",
+  "cpr_1st_aid",
+  "trauma_tic",
+  "med_admi",
+  "food_safety",
+  "foip",
+  "suicide_interv",
+  "abuse_control",
+  "nvci",
+  "aboriginalcultural",
+  "harm_reduc"
+ ],
+ "fields": [
+  {
+   "fieldname": "staff_name",
+   "fieldtype": "Link",
+   "label": "Staff Name",
+   "options": "Employee"
+  },
+  {
+   "default": "0",
+   "fieldname": "police_check",
+   "fieldtype": "Check",
+   "label": "Police Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "child_check",
+   "fieldtype": "Check",
+   "label": "Child check (IRC)"
+  },
+  {
+   "default": "0",
+   "fieldname": "cpr_1st_aid",
+   "fieldtype": "Check",
+   "label": "CPR 1st Aid"
+  },
+  {
+   "default": "0",
+   "fieldname": "trauma_tic",
+   "fieldtype": "Check",
+   "label": "Trauma (T.I.C)"
+  },
+  {
+   "default": "0",
+   "fieldname": "med_admi",
+   "fieldtype": "Check",
+   "label": "Med. Admi"
+  },
+  {
+   "default": "0",
+   "fieldname": "food_safety",
+   "fieldtype": "Check",
+   "label": "Food Safety"
+  },
+  {
+   "default": "0",
+   "fieldname": "foip",
+   "fieldtype": "Check",
+   "label": "FOIP"
+  },
+  {
+   "default": "0",
+   "fieldname": "suicide_interv",
+   "fieldtype": "Check",
+   "label": "Suicide Interv."
+  },
+  {
+   "default": "0",
+   "fieldname": "abuse_control",
+   "fieldtype": "Check",
+   "label": "Abuse Control"
+  },
+  {
+   "default": "0",
+   "fieldname": "nvci",
+   "fieldtype": "Check",
+   "label": "NVCI"
+  },
+  {
+   "default": "0",
+   "fieldname": "aboriginalcultural",
+   "fieldtype": "Check",
+   "label": "Aboriginal/Cultural"
+  },
+  {
+   "default": "0",
+   "fieldname": "harm_reduc",
+   "fieldtype": "Check",
+   "label": "Harm Reduc."
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-03 02:43:00.035033",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Employees Training Compliant Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

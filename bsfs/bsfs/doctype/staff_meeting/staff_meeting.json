@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-19 06:39:23.168437",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "month",
+  "program",
+  "column_break_okorm",
+  "date",
+  "section_break_wo802",
+  "agenda",
+  "column_break_ub31b",
+  "notes",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "month",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Month",
+   "options": "Month"
+  },
+  {
+   "fieldname": "program",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Program",
+   "options": "\nKirkwood\nKaasa\nCreeks\nJefferson\nLibrary House\nSkyview\nKLINE\nWellington"
+  },
+  {
+   "fieldname": "column_break_okorm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_wo802",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "agenda",
+   "fieldtype": "Long Text",
+   "label": "Agenda"
+  },
+  {
+   "fieldname": "column_break_ub31b",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Long Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Staff Meeting",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-05-03 02:25:25.829915",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Staff Meeting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-31 18:53:26.505191",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "issue",
+  "it_feedback",
+  "resolved"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "issue",
+   "fieldtype": "Data",
+   "label": "Issues (Staff)"
+  },
+  {
+   "fieldname": "it_feedback",
+   "fieldtype": "Data",
+   "label": "Feedback (IT)"
+  },
+  {
+   "fieldname": "resolved",
+   "fieldtype": "Select",
+   "label": "Resolved? (Staff)",
+   "options": "\nYes\nNo"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-03 02:41:41.192440",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Ticket issues",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

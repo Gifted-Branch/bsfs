@@ -1,0 +1,1512 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-02 08:53:30.647688",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_information",
+  "employee_name",
+  "section_break_y9ehz",
+  "position_title",
+  "column_break_02l7j",
+  "date_of_hire",
+  "section_break_jx5ld",
+  "performance_evaluation_period",
+  "column_break_xwzyw",
+  "type_of_review",
+  "section_break_dbu39",
+  "from",
+  "column_break_sggii",
+  "to",
+  "column_break_3s0ae",
+  "next_review_date",
+  "section_break_r1yzr",
+  "goals",
+  "performance_evaluation__to_be_completed_by_supervisormanager_tab",
+  "instructions",
+  "section_break_llo4r",
+  "rating_scale",
+  "column_break_prpw3",
+  "definition",
+  "section_break_mrusw",
+  "exceed_expectations",
+  "column_break_6pdgy",
+  "def_1",
+  "section_break_a7ei0",
+  "meets_expectations",
+  "column_break_iejcf",
+  "def_2",
+  "section_break_oxgx5",
+  "approaches_expectations",
+  "column_break_hniu2",
+  "def_3",
+  "section_break_ipjyp",
+  "does_not_meet",
+  "column_break_qocx1",
+  "def_4",
+  "section_break_zwj2y",
+  "expectations",
+  "column_break_atzmr",
+  "def_5",
+  "section_break_hwr4m",
+  "not_applicable",
+  "column_break_b8p37",
+  "def_6",
+  "2_tab",
+  "job_knowledge_section",
+  "core_competencies",
+  "column_break_9xci9",
+  "narrativecomment",
+  "column_break_3zi30",
+  "rating",
+  "section_break_frwzc",
+  "job_1",
+  "column_break_bjmby",
+  "nar_1",
+  "column_break_xqq7y",
+  "rate_1",
+  "section_break_zbq9e",
+  "job_2",
+  "column_break_ohjra",
+  "nar_2",
+  "column_break_xppjb",
+  "rate_2",
+  "section_break_yvjp0",
+  "job_3",
+  "column_break_llwi5",
+  "nar_3",
+  "column_break_eyk79",
+  "rate_3",
+  "section_break_cklau",
+  "job_4",
+  "column_break_lcjoc",
+  "nar_4",
+  "column_break_thm3r",
+  "rate_4",
+  "section_break_blhth",
+  "ii_tab",
+  "interpersonal_skills_cooperation_collaboration_section",
+  "job_5",
+  "column_break_dznai",
+  "nar_5",
+  "column_break_zquw2",
+  "rate_5",
+  "section_break_qywqh",
+  "job_6",
+  "column_break_zbf6o",
+  "nar_6",
+  "column_break_y9l4u",
+  "rate_6",
+  "section_break_lbpx6",
+  "job_7",
+  "column_break_lgfoc",
+  "nar_7",
+  "column_break_ap38f",
+  "rate_7",
+  "section_break_svknx",
+  "iii_tab",
+  "communication_skills_section",
+  "job_8",
+  "column_break_xpn8x",
+  "nar_8",
+  "column_break_kfvz1",
+  "rate_8",
+  "section_break_8tjtt",
+  "job_9",
+  "column_break_4wkoi",
+  "nar_9",
+  "column_break_c8cww",
+  "rate_9",
+  "section_break_yv1la",
+  "job_10",
+  "column_break_ijhmk",
+  "nar_10",
+  "column_break_kcnnd",
+  "rate_10",
+  "section_break_focrb",
+  "job_11",
+  "column_break_ud6fo",
+  "nar_11",
+  "column_break_nsl4s",
+  "rate_11",
+  "section_break_owkjl",
+  "job_12",
+  "column_break_cgwpj",
+  "nar_12",
+  "column_break_dgqer",
+  "rate_12",
+  "section_break_n4hcc",
+  "job_13",
+  "column_break_aiwwk",
+  "nar_13",
+  "column_break_yqwie",
+  "rate_13",
+  "iv_tab",
+  "problem_analysis_and_decision_making_section",
+  "job_14",
+  "column_break_jtwu4",
+  "nar_14",
+  "column_break_54aym",
+  "rate_14",
+  "section_break_dyvc4",
+  "job_15",
+  "column_break_gxvv4",
+  "nar_15",
+  "column_break_vggqg",
+  "rate_15",
+  "commitment_to_diversity__inclusion_section",
+  "job_16",
+  "column_break_vxbnm",
+  "nar_16",
+  "column_break_2p6kg",
+  "rate_16",
+  "section_break_imsed",
+  "job_17",
+  "column_break_8zsy0",
+  "nar_17",
+  "column_break_wgujj",
+  "rate_17",
+  "section_break_wofeh",
+  "job_18",
+  "column_break_mkjzg",
+  "nar_18",
+  "column_break_wwr8z",
+  "rate_18",
+  "section_break_p5wot",
+  "job_19",
+  "column_break_mqb9k",
+  "nar_19",
+  "column_break_wliwl",
+  "rate_19",
+  "section_break_x59il",
+  "job_20",
+  "column_break_e4zld",
+  "nar_20",
+  "column_break_dvqe0",
+  "rate_20",
+  "v_tab",
+  "supervision_section",
+  "job_21",
+  "column_break_ajgz7",
+  "nar_21",
+  "column_break_pcbow",
+  "rate_21",
+  "section_break_aowrl",
+  "job_22",
+  "column_break_zas3u",
+  "nar_22",
+  "column_break_beoxj",
+  "rate_22",
+  "section_break_ovoan",
+  "job_23",
+  "column_break_y3xks",
+  "nar_23",
+  "column_break_qwpd9",
+  "rate_23",
+  "section_break_4t9sh",
+  "job_24",
+  "column_break_mbpfk",
+  "nar_24",
+  "column_break_hvkvy",
+  "rate_24",
+  "section_break_l98ye",
+  "job_25",
+  "column_break_tvnkr",
+  "nar_25",
+  "column_break_orbra",
+  "rate_25",
+  "section_break_mqjmv",
+  "job_26",
+  "column_break_j6kjw",
+  "nar_26",
+  "column_break_edkiv",
+  "rate_26",
+  "section_break_awhf5",
+  "job_27",
+  "column_break_s9qkb",
+  "nar_27",
+  "column_break_nkzin",
+  "rate_27",
+  "section_break_owkqi",
+  "job_28",
+  "column_break_3pc7o",
+  "nar_28",
+  "column_break_zipzv",
+  "rate_28",
+  "section_break_iyxhi",
+  "job_29",
+  "column_break_ikjiv",
+  "nar_29",
+  "column_break_owx5i",
+  "rate_29",
+  "section_break_buleg",
+  "overall_rating_section",
+  "overalll",
+  "overall_evaluation_section",
+  "comment_on_employees_strengths",
+  "comment_on_areas_for_growth_or_change",
+  "overall_comments",
+  "section_break_ktff7",
+  "employees_name_and_signature",
+  "date1",
+  "column_break_plum8",
+  "supervisors_name_and_signature",
+  "date2",
+  "supporting_docs_section",
+  "supporting_docs",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_information",
+   "fieldtype": "Tab Break",
+   "label": "Employee Information"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Employee Name",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "section_break_y9ehz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "position_title",
+   "fieldtype": "Data",
+   "label": "Position Title"
+  },
+  {
+   "fieldname": "column_break_02l7j",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_of_hire",
+   "fieldtype": "Date",
+   "label": "Date of hire"
+  },
+  {
+   "fieldname": "section_break_jx5ld",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "performance_evaluation_period",
+   "fieldtype": "Data",
+   "label": "Performance Evaluation Period"
+  },
+  {
+   "fieldname": "column_break_xwzyw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "type_of_review",
+   "fieldtype": "Select",
+   "label": "Type of Review",
+   "options": "\nProbationary\nAnnual"
+  },
+  {
+   "fieldname": "section_break_dbu39",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Date",
+   "label": "From"
+  },
+  {
+   "fieldname": "column_break_sggii",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Date",
+   "label": "To"
+  },
+  {
+   "fieldname": "column_break_3s0ae",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "next_review_date",
+   "fieldtype": "Date",
+   "label": "NEXT REVIEW DATE"
+  },
+  {
+   "fieldname": "section_break_r1yzr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "GOALS & OBJECTIVES\n\u2022 Strengthen two-way communication regarding job performance and periodically assess goals and \nopportunities for the client. \n\u2022 Establish a mutually-understood set of performance expectations.\n\u2022 Recognize contributions of employees.\n\u2022 Discuss opportunities for growth and development.\n\u2022 Provide necessary feedback when performance does not meet expectations as situations warrants in \naddition to annual evaluation process.\n",
+   "fieldname": "goals",
+   "fieldtype": "Text",
+   "read_only": 1
+  },
+  {
+   "default": "INSTRUCTIONS\nFor each competency, mark the rating that best describes the employee\u2019s performance. Select N/A if the \ncompetency is not applicable. ",
+   "fieldname": "performance_evaluation__to_be_completed_by_supervisormanager_tab",
+   "fieldtype": "Tab Break",
+   "label": "Performance Evaluation"
+  },
+  {
+   "default": "INSTRUCTIONS\nFor each competency, mark the rating that best describes the employee\u2019s performance. Select N/A if the \ncompetency is not applicable\n\n",
+   "fieldname": "instructions",
+   "fieldtype": "Small Text",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_llo4r",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "5 = Outstanding ",
+   "fieldname": "rating_scale",
+   "fieldtype": "Data",
+   "label": "RATING SCALE ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_prpw3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Objectives and standards are clearly and substantially surpassed. Consistently and significantly exceeds all performance expectations and standards. Highest performance level. Demonstrates a personal commitment to a high level of performance and results, even under challenging work goals. ",
+   "fieldname": "definition",
+   "fieldtype": "Small Text",
+   "label": "DEFINITION ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_mrusw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "4 = Exceed Expectations ",
+   "fieldname": "exceed_expectations",
+   "fieldtype": "Data",
+   "label": " Exceed Expectations ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_6pdgy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Frequently exceeds job requirements. Makes contributions well beyond job demands. Seizes initiative in development and implementation of challenging work goals. Thinks beyond details of the job, working toward the overall goals of the component. ",
+   "fieldname": "def_1",
+   "fieldtype": "Small Text",
+   "label": "def 1",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_a7ei0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "3 = Meets Expectations ",
+   "fieldname": "meets_expectations",
+   "fieldtype": "Data",
+   "label": "Meets Expectations ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_iejcf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Performance is what is expected of a fully qualified and experienced person in this position. All objectives and standards are met. Consistently meets all performance expectations and standards. Job well done. Errors are minimal and seldom repeated. Prioritizes problems and projects well. Requires normal supervision and follow-up. ",
+   "fieldname": "def_2",
+   "fieldtype": "Small Text",
+   "label": "def 2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_oxgx5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "2 = Approaches Expectations ",
+   "fieldname": "approaches_expectations",
+   "fieldtype": "Data",
+   "label": "Approaches Expectations ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_hniu2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Objectives and standards are generally met but full results are not totally achieved. \nOccasionally falls short of consistently meeting performance expectations and standards. Some performance aspects were not met \u2013 needs improvement. Continuing to learn all aspects of the position. ",
+   "fieldname": "def_3",
+   "fieldtype": "Small Text",
+   "label": "def 3",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_ipjyp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "1 = Does Not Meet",
+   "fieldname": "does_not_meet",
+   "fieldtype": "Data",
+   "label": "Does Not Meet  ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_qocx1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Objectives and standards are consistently not met. Consistently fails to meet performance expectations. Needs significant improvement. Excessive attention by supervisor is required. ",
+   "fieldname": "def_4",
+   "fieldtype": "Small Text",
+   "label": "def 4",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_zwj2y",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Expectations ",
+   "fieldname": "expectations",
+   "fieldtype": "Data",
+   "label": "Expectations ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_atzmr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Does not grasp situation when explained.  Corrective action is required. ",
+   "fieldname": "def_5",
+   "fieldtype": "Small Text",
+   "label": "def 5",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_hwr4m",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "NA = Not Applicable ",
+   "fieldname": "not_applicable",
+   "fieldtype": "Data",
+   "label": "Not Applicable ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_b8p37",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": " Does not apply to job performance expectations. ",
+   "fieldname": "def_6",
+   "fieldtype": "Small Text",
+   "label": "def 6",
+   "read_only": 1
+  },
+  {
+   "fieldname": "2_tab",
+   "fieldtype": "Tab Break",
+   "label": "I"
+  },
+  {
+   "fieldname": "job_knowledge_section",
+   "fieldtype": "Section Break",
+   "label": "JOB KNOWLEDGE"
+  },
+  {
+   "default": "Understands how position support the company\u2019s strategic plan",
+   "fieldname": "core_competencies",
+   "fieldtype": "Data",
+   "label": "CORE COMPETENCIES",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_9xci9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "narrativecomment",
+   "fieldtype": "Data",
+   "label": "NARRATIVE/COMMENT"
+  },
+  {
+   "fieldname": "column_break_3zi30",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rating",
+   "fieldtype": "Data",
+   "label": "RATING",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_frwzc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": " Demonstrates knowledge and skills \nnecessary to perform the job effectively \nand applies to critical work issues in a \ntimely manner",
+   "fieldname": "job_1",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_bjmby",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_xqq7y",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_1",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_zbq9e",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Demonstrates willingness to learn new \nskills to enhance job performance",
+   "fieldname": "job_2",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ohjra",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_xppjb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_2",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_yvjp0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Demonstrates willingness to learn new \nskills to enhance job performance ",
+   "fieldname": "job_3",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_llwi5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_3",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_eyk79",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_3",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_cklau",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Performs the full range of duties and \nresponsibilities associated with the job",
+   "fieldname": "job_4",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_lcjoc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_4",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_thm3r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_4",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_blhth",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ii_tab",
+   "fieldtype": "Tab Break",
+   "label": "II"
+  },
+  {
+   "fieldname": "interpersonal_skills_cooperation_collaboration_section",
+   "fieldtype": "Section Break",
+   "label": "INTERPERSONAL SKILLS, COOPERATION, COLLABORATION"
+  },
+  {
+   "default": "Demonstrates effective positive \ncustomer/student service",
+   "fieldname": "job_5",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_dznai",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_5",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_zquw2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_5",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_qywqh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Develops and maintains professional \nworking relationships with internal or \nexternal parties",
+   "fieldname": "job_6",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_zbf6o",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_6",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_y9l4u",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_6",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_lbpx6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Encourages collaboration and sharing \nof information to enhance job \nperformance",
+   "fieldname": "job_7",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_lgfoc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_7",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_ap38f",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_7",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_svknx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "iii_tab",
+   "fieldtype": "Tab Break",
+   "label": "III"
+  },
+  {
+   "fieldname": "communication_skills_section",
+   "fieldtype": "Section Break",
+   "label": "COMMUNICATION SKILLS"
+  },
+  {
+   "default": "Writes and communicates clearly and \naccurately",
+   "fieldname": "job_8",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_xpn8x",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_8",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_kfvz1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_8",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_8tjtt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Listens well; is responsive to inquiries, \ndirections, and suggestions",
+   "fieldname": "job_9",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_4wkoi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_9",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_c8cww",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_9",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_yv1la",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Uses appropriate medium of \ncommunication based on the needs at hand",
+   "fieldname": "job_10",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ijhmk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_10",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_kcnnd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_10",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_focrb",
+   "fieldtype": "Section Break",
+   "label": "PLANNING, ORGANIZING, AND ACHIEVING RESULTS"
+  },
+  {
+   "default": "Develops goals, plans, and priorities to \nachieve objectives; Evaluates goals and \naccomplishments",
+   "fieldname": "job_11",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ud6fo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_11",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_nsl4s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_11",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_owkjl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Meets deadlines in a timely and \nefficient manner",
+   "fieldname": "job_12",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_cgwpj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_12",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_dgqer",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_12",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_n4hcc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Finds and uses resources well ",
+   "fieldname": "job_13",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_aiwwk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_13",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_yqwie",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_13",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "iv_tab",
+   "fieldtype": "Tab Break",
+   "label": "IV"
+  },
+  {
+   "fieldname": "problem_analysis_and_decision_making_section",
+   "fieldtype": "Section Break",
+   "label": "PROBLEM ANALYSIS AND DECISION MAKING"
+  },
+  {
+   "default": "Seeks information and input from other \nstakeholders as appropriate",
+   "fieldname": "job_14",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_jtwu4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_14",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_54aym",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_14",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_dyvc4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Develops and implements effective solutions",
+   "fieldname": "job_15",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_gxvv4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_15",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_vggqg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_15",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "commitment_to_diversity__inclusion_section",
+   "fieldtype": "Section Break",
+   "label": "COMMITMENT TO DIVERSITY / INCLUSION"
+  },
+  {
+   "default": "Demonstrates due concern for others ",
+   "fieldname": "job_16",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_vxbnm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_16",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_2p6kg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_16",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_imsed",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Participates in programs/processes that \npromote diversity/equal opportunity",
+   "fieldname": "job_17",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_8zsy0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_17",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_wgujj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_17",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_wofeh",
+   "fieldtype": "Section Break",
+   "label": "LEADERSHIP"
+  },
+  {
+   "default": "Demonstrates commitment and \nprovides leadership through personal \nexample and professional expertise ",
+   "fieldname": "job_18",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_mkjzg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_18",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_wwr8z",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_18",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_p5wot",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Demonstrates the ability to motivate \ncoworkers ",
+   "fieldname": "job_19",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_mqb9k",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_19",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_wliwl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_19",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_x59il",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Displays an openness to new ideas and \nsupports an environment of continuous \nimprovement",
+   "fieldname": "job_20",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_e4zld",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_20",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_dvqe0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_20",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "v_tab",
+   "fieldtype": "Tab Break",
+   "label": "V"
+  },
+  {
+   "fieldname": "supervision_section",
+   "fieldtype": "Section Break",
+   "label": "SUPERVISION *Applies to those in supervision/management positions"
+  },
+  {
+   "default": "Sets clear goals and expectations for \nemployees ",
+   "fieldname": "job_21",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ajgz7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_21",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_pcbow",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_21",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_aowrl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Provides adequate support for \nemployees to complete tasks",
+   "fieldname": "job_22",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_zas3u",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_22",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_beoxj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_22",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_ovoan",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Creates a work climate that encourages \nemployee commitment to teamwork, \norganizational goals and strategic plan",
+   "fieldname": "job_23",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_y3xks",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_23",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_qwpd9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_23",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_4t9sh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Provides informal, ongoing feedback to \nemployees as well as formal \nperformance evaluation",
+   "fieldname": "job_24",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_mbpfk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_24",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_hvkvy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_24",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_l98ye",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Supports the professional development \nof employees",
+   "fieldname": "job_25",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_tvnkr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_25",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_orbra",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_25",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_mqjmv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Demonstrates fiscal responsibility and \nplans and controls expenditures and \nmaterials ",
+   "fieldname": "job_26",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_j6kjw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_26",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_edkiv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_26",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_awhf5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Makes effective staffing decisions",
+   "fieldname": "job_27",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_s9qkb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_27",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_nkzin",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rate_27",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_owkqi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Manages homes effectively during \nchange",
+   "fieldname": "job_28",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_3pc7o",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_28",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_zipzv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_28",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_iyxhi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Delegates authority and responsibility \nappropriately",
+   "fieldname": "job_29",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ikjiv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nar_29",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_owx5i",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5",
+   "fieldname": "rate_29",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_buleg",
+   "fieldtype": "Tab Break",
+   "label": "Overall"
+  },
+  {
+   "fieldname": "overall_rating_section",
+   "fieldtype": "Section Break",
+   "label": "OVERALL RATING"
+  },
+  {
+   "default": "Consistent with the rates above, evaluate the overall performance of the staff member",
+   "fieldname": "overalll",
+   "fieldtype": "Data",
+   "label": "OVERALL RATING (1-5, Using same scale on page 1): ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "overall_evaluation_section",
+   "fieldtype": "Section Break",
+   "label": "OVERALL EVALUATION",
+   "read_only": 1
+  },
+  {
+   "fieldname": "comment_on_employees_strengths",
+   "fieldtype": "Small Text",
+   "label": "Comment on Employees Strengths"
+  },
+  {
+   "fieldname": "comment_on_areas_for_growth_or_change",
+   "fieldtype": "Small Text",
+   "label": "Comment on Areas for Growth or Change"
+  },
+  {
+   "fieldname": "overall_comments",
+   "fieldtype": "Small Text",
+   "label": "Overall Comments"
+  },
+  {
+   "fieldname": "section_break_ktff7",
+   "fieldtype": "Section Break",
+   "label": "SIGNATURES"
+  },
+  {
+   "fieldname": "employees_name_and_signature",
+   "fieldtype": "Data",
+   "label": "Employee's Name and Signature (Initials)"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_plum8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "supervisors_name_and_signature",
+   "fieldtype": "Data",
+   "label": "Supervisor's Name and Signature (Initials)"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "supporting_docs_section",
+   "fieldtype": "Section Break",
+   "label": "Supporting Docs"
+  },
+  {
+   "fieldname": "supporting_docs",
+   "fieldtype": "Attach"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Staff Performance Evaluation Report",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-05-03 02:38:35.080533",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Staff Performance Evaluation Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

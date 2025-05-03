@@ -1,0 +1,606 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:client_name",
+ "creation": "2024-11-09 15:05:31.506535",
+ "default_view": "List",
+ "doctype": "DocType",
+ "document_type": "Other",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client_information_tab",
+  "basic_information",
+  "client_name",
+  "date_of_birth",
+  "gender",
+  "mobile",
+  "languages_spoken",
+  "column_break_vehfq",
+  "client_health_number",
+  "social_insurance_number",
+  "band_and_treaty_number",
+  "client_contract_number",
+  "client_caseworker_name",
+  "client_caseworker_phone",
+  "client_case_worker_email",
+  "column_break1",
+  "parentguardian_name",
+  "parent_guardian_2",
+  "parent_phone_number",
+  "parent_email",
+  "parent_address",
+  "next_of_kin",
+  "relationship",
+  "more_information_tab",
+  "date_of_admission",
+  "information_source",
+  "services_requested",
+  "column_break_d8sib",
+  "referral_source",
+  "reason_for_referral",
+  "history_tab",
+  "disability",
+  "nutrition",
+  "respiration",
+  "circulation",
+  "skin_and_tissue",
+  "physical_function",
+  "activities_of_daily_living",
+  "medication_management",
+  "pain_management",
+  "medical_conditions",
+  "column_break_mrurf",
+  "household_activities",
+  "living_arrangements",
+  "communication",
+  "psychological_status",
+  "safety",
+  "stability_of_condition",
+  "weight_stability",
+  "diet",
+  "allergies",
+  "sleeping_habits",
+  "column_break_zbnm4",
+  "bladder_and_bowel",
+  "mobility",
+  "special_aids_required",
+  "special_assistance_required",
+  "night_routine",
+  "inappropriate_behaviour",
+  "restrictive_procedures_required",
+  "social_interactions",
+  "type_of_surgery",
+  "spirituality",
+  "dental_and_hearing",
+  "lifestyle_recreation",
+  "medical_tab",
+  "prescribing_physicians_section",
+  "doctors_name",
+  "medications_details",
+  "pharmacy",
+  "narrative_notes_tab",
+  "section_break_sbiie",
+  "mental_status",
+  "psychological_nt",
+  "social_interaction",
+  "general_assessment",
+  "column_break_lkmyb",
+  "physical_function_nt",
+  "safety_nt",
+  "vulnerability",
+  "placement_plan",
+  "section_break_vlidr",
+  "parent_name",
+  "parent_signature",
+  "column_break_hk0b0",
+  "agency_officer",
+  "agency_signature",
+  "6_of_6_tab",
+  "docs",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "client_information_tab",
+   "fieldtype": "Tab Break",
+   "label": "Intake Form 1 of 6"
+  },
+  {
+   "fieldname": "basic_information",
+   "fieldtype": "Section Break",
+   "oldfieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Client Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Birth",
+   "oldfieldname": "date_of_birth",
+   "oldfieldtype": "Date"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Gender",
+   "oldfieldname": "gender",
+   "oldfieldtype": "Select",
+   "options": "Gender"
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "label": "Mobile"
+  },
+  {
+   "fieldname": "languages_spoken",
+   "fieldtype": "Data",
+   "label": "Languages Spoken"
+  },
+  {
+   "fieldname": "column_break_vehfq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "client_health_number",
+   "fieldtype": "Data",
+   "label": "Client Health Number",
+   "unique": 1
+  },
+  {
+   "fieldname": "social_insurance_number",
+   "fieldtype": "Data",
+   "label": "Social Insurance Number",
+   "unique": 1
+  },
+  {
+   "fieldname": "band_and_treaty_number",
+   "fieldtype": "Data",
+   "label": "Band and Treaty Number"
+  },
+  {
+   "fieldname": "client_contract_number",
+   "fieldtype": "Data",
+   "label": "Client Contract Number",
+   "unique": 1
+  },
+  {
+   "fieldname": "client_caseworker_name",
+   "fieldtype": "Data",
+   "label": "Client Case-Worker Name"
+  },
+  {
+   "fieldname": "client_caseworker_phone",
+   "fieldtype": "Data",
+   "label": "Client Case-Worker Phone"
+  },
+  {
+   "fieldname": "client_case_worker_email",
+   "fieldtype": "Data",
+   "label": "Client Case-Worker Email",
+   "options": "Email"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "column_break1",
+   "fieldtype": "Column Break",
+   "width": "50%"
+  },
+  {
+   "fieldname": "parentguardian_name",
+   "fieldtype": "Data",
+   "label": "Parent/Guardian Name"
+  },
+  {
+   "fieldname": "parent_guardian_2",
+   "fieldtype": "Data",
+   "label": "Parent/Guardian 2"
+  },
+  {
+   "fieldname": "parent_phone_number",
+   "fieldtype": "Data",
+   "label": "Parent Phone Number"
+  },
+  {
+   "fieldname": "parent_email",
+   "fieldtype": "Data",
+   "label": "Parent Email"
+  },
+  {
+   "fieldname": "parent_address",
+   "fieldtype": "Data",
+   "label": "Parent Address"
+  },
+  {
+   "fieldname": "next_of_kin",
+   "fieldtype": "Data",
+   "label": "Next of Kin"
+  },
+  {
+   "fieldname": "relationship",
+   "fieldtype": "Data",
+   "label": "Relationship"
+  },
+  {
+   "fieldname": "more_information_tab",
+   "fieldtype": "Tab Break",
+   "label": "2 of 6"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date_of_admission",
+   "fieldtype": "Date",
+   "label": "Date of Admission"
+  },
+  {
+   "fieldname": "information_source",
+   "fieldtype": "Data",
+   "label": "Information Source"
+  },
+  {
+   "fieldname": "services_requested",
+   "fieldtype": "Data",
+   "label": "Services Requested"
+  },
+  {
+   "fieldname": "column_break_d8sib",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "referral_source",
+   "fieldtype": "Data",
+   "label": "Referral Source"
+  },
+  {
+   "fieldname": "reason_for_referral",
+   "fieldtype": "Small Text",
+   "label": "Reason for Referral"
+  },
+  {
+   "fieldname": "history_tab",
+   "fieldtype": "Tab Break",
+   "label": "3 of 6"
+  },
+  {
+   "fieldname": "disability",
+   "fieldtype": "Small Text",
+   "label": "Disability"
+  },
+  {
+   "fieldname": "nutrition",
+   "fieldtype": "Small Text",
+   "label": "Nutrition (diet, hydration, dentition, chewing, swallowing)"
+  },
+  {
+   "fieldname": "respiration",
+   "fieldtype": "Small Text",
+   "label": "Respiration (colour, activity tolerance, coughing)"
+  },
+  {
+   "fieldname": "circulation",
+   "fieldtype": "Small Text",
+   "label": "Circulation (chest pain, activity tolerance, edema, pulse, bp)"
+  },
+  {
+   "fieldname": "skin_and_tissue",
+   "fieldtype": "Small Text",
+   "label": "Skin and Tissue"
+  },
+  {
+   "fieldname": "physical_function",
+   "fieldtype": "Small Text",
+   "label": "Physical Function"
+  },
+  {
+   "fieldname": "activities_of_daily_living",
+   "fieldtype": "Small Text",
+   "label": "Activities of Daily Living"
+  },
+  {
+   "fieldname": "medication_management",
+   "fieldtype": "Small Text",
+   "label": "Medication Management"
+  },
+  {
+   "fieldname": "pain_management",
+   "fieldtype": "Small Text",
+   "label": "Pain Management"
+  },
+  {
+   "fieldname": "medical_conditions",
+   "fieldtype": "Small Text",
+   "label": "Medical Conditions"
+  },
+  {
+   "fieldname": "column_break_mrurf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "household_activities",
+   "fieldtype": "Small Text",
+   "label": "Household Activities"
+  },
+  {
+   "fieldname": "living_arrangements",
+   "fieldtype": "Small Text",
+   "label": "Living Arrangements"
+  },
+  {
+   "fieldname": "communication",
+   "fieldtype": "Small Text",
+   "label": "Communication"
+  },
+  {
+   "fieldname": "psychological_status",
+   "fieldtype": "Small Text",
+   "label": "Psychological Status"
+  },
+  {
+   "fieldname": "safety",
+   "fieldtype": "Small Text",
+   "label": "Safety"
+  },
+  {
+   "fieldname": "stability_of_condition",
+   "fieldtype": "Small Text",
+   "label": "Stability of Condition"
+  },
+  {
+   "fieldname": "weight_stability",
+   "fieldtype": "Small Text",
+   "label": "Weight Stability"
+  },
+  {
+   "fieldname": "diet",
+   "fieldtype": "Small Text",
+   "label": "Diet"
+  },
+  {
+   "fieldname": "allergies",
+   "fieldtype": "Small Text",
+   "label": "Allergies"
+  },
+  {
+   "fieldname": "sleeping_habits",
+   "fieldtype": "Small Text",
+   "label": "Sleeping Habits"
+  },
+  {
+   "fieldname": "column_break_zbnm4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bladder_and_bowel",
+   "fieldtype": "Small Text",
+   "label": "Bladder and Bowel"
+  },
+  {
+   "fieldname": "mobility",
+   "fieldtype": "Small Text",
+   "label": "Mobility"
+  },
+  {
+   "fieldname": "special_aids_required",
+   "fieldtype": "Small Text",
+   "label": "Special Aids Required"
+  },
+  {
+   "fieldname": "special_assistance_required",
+   "fieldtype": "Small Text",
+   "label": "Special Assistance Required"
+  },
+  {
+   "fieldname": "night_routine",
+   "fieldtype": "Small Text",
+   "label": "Night Routine"
+  },
+  {
+   "fieldname": "inappropriate_behaviour",
+   "fieldtype": "Small Text",
+   "label": "Inappropriate Behaviour"
+  },
+  {
+   "fieldname": "restrictive_procedures_required",
+   "fieldtype": "Small Text",
+   "label": "Restrictive Procedures Required"
+  },
+  {
+   "fieldname": "social_interactions",
+   "fieldtype": "Small Text",
+   "label": "Social Interactions"
+  },
+  {
+   "fieldname": "type_of_surgery",
+   "fieldtype": "Small Text",
+   "label": "Type of Surgery"
+  },
+  {
+   "fieldname": "spirituality",
+   "fieldtype": "Small Text",
+   "label": "Spirituality"
+  },
+  {
+   "fieldname": "dental_and_hearing",
+   "fieldtype": "Small Text",
+   "label": "Dental and Hearing"
+  },
+  {
+   "fieldname": "lifestyle_recreation",
+   "fieldtype": "Small Text",
+   "label": "Lifestyle Recreation"
+  },
+  {
+   "fieldname": "medical_tab",
+   "fieldtype": "Tab Break",
+   "label": "4 of 6"
+  },
+  {
+   "fieldname": "prescribing_physicians_section",
+   "fieldtype": "Section Break",
+   "label": "Prescribing Physicians"
+  },
+  {
+   "fieldname": "doctors_name",
+   "fieldtype": "Data",
+   "label": "Doctor\u2019s Name"
+  },
+  {
+   "fieldname": "medications_details",
+   "fieldtype": "Table",
+   "label": "Medications Details",
+   "options": "Medications Details Items"
+  },
+  {
+   "fieldname": "pharmacy",
+   "fieldtype": "Small Text",
+   "label": "Pharmacy"
+  },
+  {
+   "fieldname": "narrative_notes_tab",
+   "fieldtype": "Tab Break",
+   "label": "5 of 6"
+  },
+  {
+   "fieldname": "section_break_sbiie",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Further describe the client\u2019s problem / condition / situation as it related to the need for\nfunctional mentation.",
+   "fieldname": "mental_status",
+   "fieldtype": "Small Text",
+   "label": "Mental Status"
+  },
+  {
+   "description": "Describe the client\u2019s situation / condition as it relates to the need for psychological\nsafety",
+   "fieldname": "psychological_nt",
+   "fieldtype": "Small Text",
+   "label": "Psychological Status"
+  },
+  {
+   "description": "Describe the client\u2019s social interaction with friends, family, and others",
+   "fieldname": "social_interaction",
+   "fieldtype": "Small Text",
+   "label": "Social Interaction"
+  },
+  {
+   "description": "Client\u2019s perspective \u2013 identify the client\u2019s problems and perceived solutions.",
+   "fieldname": "general_assessment",
+   "fieldtype": "Small Text",
+   "label": "General Assessment"
+  },
+  {
+   "fieldname": "column_break_lkmyb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Describe the client\u2019s current condition / situation as it relates to the need for effective\nphysical functioning",
+   "fieldname": "physical_function_nt",
+   "fieldtype": "Small Text",
+   "label": "Physical Function"
+  },
+  {
+   "description": "Comments regarding client\u2019s current condition / behaviour.",
+   "fieldname": "safety_nt",
+   "fieldtype": "Small Text",
+   "label": "Safety"
+  },
+  {
+   "description": "Further describe the client\u2019s situation / condition as it relates to emotional / physical / sexual\n/ financial / safety needs",
+   "fieldname": "vulnerability",
+   "fieldtype": "Small Text",
+   "label": "Vulnerability"
+  },
+  {
+   "fieldname": "placement_plan",
+   "fieldtype": "Small Text",
+   "label": "Placement Plan"
+  },
+  {
+   "fieldname": "section_break_vlidr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "parent_name",
+   "fieldtype": "Data",
+   "label": "Parent Name"
+  },
+  {
+   "fieldname": "parent_signature",
+   "fieldtype": "Signature",
+   "label": "Parent Signature"
+  },
+  {
+   "fieldname": "column_break_hk0b0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "agency_officer",
+   "fieldtype": "Data",
+   "label": "Agency officer"
+  },
+  {
+   "fieldname": "agency_signature",
+   "fieldtype": "Signature",
+   "label": "Agency Signature"
+  },
+  {
+   "fieldname": "6_of_6_tab",
+   "fieldtype": "Tab Break",
+   "label": "6 of 6"
+  },
+  {
+   "fieldname": "docs",
+   "fieldtype": "Attach",
+   "label": "Please attach the required documents merged as one file (include medical history etc..)"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Client Intake Form",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "icon": "fa fa-user",
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-05-03 02:28:26.853678",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Client Intake Form",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "search_fields": "client_name",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "client_name",
+ "track_changes": 1
+}

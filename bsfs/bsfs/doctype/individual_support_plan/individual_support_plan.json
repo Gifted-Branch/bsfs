@@ -1,0 +1,305 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-19 04:02:17.330346",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tab_break_qbywf",
+  "client_name",
+  "plan_created_on",
+  "created_by",
+  "in_consultation_with",
+  "contact_details",
+  "reviews",
+  "tab_break_0oovr",
+  "what_does_a_crisis_look_like_for_me",
+  "who_to_call_when_im_in_crisis",
+  "things_that_may_create_stress_where_i_need_extra_help",
+  "things_to_remember_about_communicating_with_me_when_in_crisis",
+  "what_you_can_do_to_help_me_out_of_difficult_situations",
+  "personal_hygiene_tab",
+  "personal_hygine",
+  "column_break_qnwrw",
+  "summary_2",
+  "area_of_need_1",
+  "2_of_6_tab",
+  "medication",
+  "column_break_e8n8g",
+  "summary",
+  "area_of_need",
+  "3_of_6_tab",
+  "mobility",
+  "column_break_lxkf3",
+  "summary3",
+  "area_of_need_3",
+  "4_of_6_tab",
+  "social_contact_and_emotional_well_being",
+  "column_break_03tcw",
+  "summary4",
+  "area_of_need4",
+  "5_of_6_tab",
+  "other",
+  "column_break_ywe7t",
+  "summary5",
+  "area_of_need5",
+  "amended_from",
+  "6_of_6_documents_attachments_tab",
+  "attach_the_docs_here"
+ ],
+ "fields": [
+  {
+   "fieldname": "tab_break_qbywf",
+   "fieldtype": "Tab Break",
+   "label": "Client Information"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Client Name:",
+   "options": "Intake Form"
+  },
+  {
+   "fieldname": "plan_created_on",
+   "fieldtype": "Date",
+   "label": "Plan created on:"
+  },
+  {
+   "fieldname": "created_by",
+   "fieldtype": "Data",
+   "label": "Created By:"
+  },
+  {
+   "fieldname": "in_consultation_with",
+   "fieldtype": "Data",
+   "label": "In consultation with:"
+  },
+  {
+   "fieldname": "contact_details",
+   "fieldtype": "Phone",
+   "label": "Contact details:"
+  },
+  {
+   "fieldname": "reviews",
+   "fieldtype": "Table",
+   "label": "Reviews",
+   "options": "Individual Support Plan Child"
+  },
+  {
+   "fieldname": "tab_break_0oovr",
+   "fieldtype": "Tab Break",
+   "label": "Crises Support Plan"
+  },
+  {
+   "fieldname": "what_does_a_crisis_look_like_for_me",
+   "fieldtype": "Small Text",
+   "label": "What does a Crisis Look Like for Me?"
+  },
+  {
+   "fieldname": "who_to_call_when_im_in_crisis",
+   "fieldtype": "Small Text",
+   "label": "Who to Call when I'm in Crisis:"
+  },
+  {
+   "fieldname": "things_that_may_create_stress_where_i_need_extra_help",
+   "fieldtype": "Small Text",
+   "label": "Things that may create stress where I need extra help:"
+  },
+  {
+   "fieldname": "things_to_remember_about_communicating_with_me_when_in_crisis",
+   "fieldtype": "Small Text",
+   "label": "Things to remember about communicating with me when in crisis:"
+  },
+  {
+   "fieldname": "what_you_can_do_to_help_me_out_of_difficult_situations",
+   "fieldtype": "Small Text",
+   "label": "What you can do to help me out of difficult situations:"
+  },
+  {
+   "bold": 1,
+   "fieldname": "personal_hygiene_tab",
+   "fieldtype": "Tab Break",
+   "label": "1 of 6"
+  },
+  {
+   "default": "EATING & NUTRITION\nDietary requirements, special diets, food preferences, food allergies or restrictions, assistance with eating or drinking, assistance with maintaining hydration.\n\n",
+   "fieldname": "personal_hygine",
+   "fieldtype": "Small Text",
+   "label": "Personal Hygine",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_qnwrw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "summary_2",
+   "fieldtype": "Small Text",
+   "label": "Summary"
+  },
+  {
+   "fieldname": "area_of_need_1",
+   "fieldtype": "Small Text",
+   "label": "Area of need"
+  },
+  {
+   "bold": 1,
+   "fieldname": "2_of_6_tab",
+   "fieldtype": "Tab Break",
+   "label": "2 of 6"
+  },
+  {
+   "default": "MEDICATION\nAssistance or supervision taking medication, medication allergies or restrictions.\n",
+   "fieldname": "medication",
+   "fieldtype": "Small Text",
+   "label": "Medication",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_e8n8g",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "summary",
+   "fieldtype": "Small Text",
+   "label": "Summary"
+  },
+  {
+   "fieldname": "area_of_need",
+   "fieldtype": "Small Text",
+   "label": "Area of Need"
+  },
+  {
+   "bold": 1,
+   "fieldname": "3_of_6_tab",
+   "fieldtype": "Tab Break",
+   "label": "3 of 6"
+  },
+  {
+   "default": "MOBILITY\nAids to mobility used, capability to move independently (with or without aids).\n",
+   "fieldname": "mobility",
+   "fieldtype": "Small Text",
+   "label": "Mobility",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_lxkf3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "summary3",
+   "fieldtype": "Small Text",
+   "label": "Summary"
+  },
+  {
+   "fieldname": "area_of_need_3",
+   "fieldtype": "Small Text",
+   "label": "Area of need"
+  },
+  {
+   "bold": 1,
+   "fieldname": "4_of_6_tab",
+   "fieldtype": "Tab Break",
+   "label": "4 of 6"
+  },
+  {
+   "default": "SOCIAL CONTACT & EMOTIONAL WELLBEING\nActivities pursued, membership of clubs or groups, involvement with family and friends, voluntary or paid work, spiritual worship.\n",
+   "fieldname": "social_contact_and_emotional_well_being",
+   "fieldtype": "Small Text",
+   "label": "Social contact and emotional well being",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_03tcw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "summary4",
+   "fieldtype": "Small Text",
+   "label": "Summary"
+  },
+  {
+   "fieldname": "area_of_need4",
+   "fieldtype": "Small Text",
+   "label": "Area of need"
+  },
+  {
+   "bold": 1,
+   "fieldname": "5_of_6_tab",
+   "fieldtype": "Tab Break",
+   "label": "5 of 6"
+  },
+  {
+   "default": "OTHER\nAwareness of time, place or behavioral issues; other support requirements.\n",
+   "fieldname": "other",
+   "fieldtype": "Small Text",
+   "label": "Other",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ywe7t",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "summary5",
+   "fieldtype": "Small Text",
+   "label": "Summary"
+  },
+  {
+   "fieldname": "area_of_need5",
+   "fieldtype": "Small Text",
+   "label": "Area of need"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Individual Support Plan",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "6_of_6_documents_attachments_tab",
+   "fieldtype": "Tab Break",
+   "label": "6 of 6 (Document Attachments)"
+  },
+  {
+   "fieldname": "attach_the_docs_here",
+   "fieldtype": "Attach",
+   "label": "Attach the docs here"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-05-03 02:31:15.080132",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Individual Support Plan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
