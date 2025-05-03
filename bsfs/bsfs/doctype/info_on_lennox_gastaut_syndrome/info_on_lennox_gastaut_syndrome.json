@@ -1,0 +1,122 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-28 09:41:21.238633",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fact_sheet_tab",
+  "fact_sheet",
+  "types_of_seizures_tab",
+  "intro",
+  "partial",
+  "simple_partial",
+  "complex_partial",
+  "generalized_seizures_tab",
+  "generalized_seizures",
+  "absence_tab",
+  "abs2",
+  "abs1"
+ ],
+ "fields": [
+  {
+   "fieldname": "fact_sheet_tab",
+   "fieldtype": "Tab Break",
+   "label": "Fact Sheet"
+  },
+  {
+   "default": "Lennox-Gastaut syndrome is one of the most severe forms of epilepsy. It accounts for up to 10% of all cases of childhood epilepsy, with slightly more males than females affected. It usually develops in children between 1 and 8 years of age =, with 3 the average of onset. \n\nChildren with Lennox-Gastaut syndrome experience delays in their development and as many as dozens of different, mixed types of seizures a day. The most common seizure types associated with Lennox-Gastaut syndrome are tonic, atonic (\"drop attacks\"), myoclonic and atypical absence seizures.\n\nTonic: stiffening of the body, with the eyes rolling upwards, dilation of the pupils and shallow, irregular breathing.\n\nAtonic or \"drop attacks\": brief loss of muscle tone and consciousness, causing abrupt falls.\n\nMyoclonic: sudden muscle jerks.\n\nAtypical absence: staring spells.\n\nApproximately 50 percent of patients with Lennox-Gastaut syndrome experience status epilepticus, a potentially life-threatening condition that is characterized by either a prolonged seizure lasting 30 minutes or more or the occurrence of repeated seizures without return of consciousness between attacks.\nThere is no known cause for Lennox-Gastaut syndrome, although some cases are thought to be the result of the following:\n\nBrain injury due to problems associated with pregnancy and birth, including prematurity, asphyxia (lack of oxygen), and/or low birth weight.\n\nEncephalitis, meningitis, and severe brain infections such as those caused by toxoplasmosis and rubella.\n\nGenetic brain disease, such as tuberous sclerosis and inherited metabolic disorders.\n\nMalformations of the brain that occur during development.\n\n Lennox-Gastaut syndrome seizures are resistant to most antiepileptic drugs and thus are difficult to control. There is no cure for the disorder, and complete recovery (absence of any seizure activity and normal development) is unusual.\n\nThe seizures usually happen when the child is falling asleep, but they can happen at any time of day. They may be triggered by noise, contact, or movement.\nAbout two-thirds of children with Lennox-Gastaut syndrome have atypical absence seizures. These are usually longer than typical absence seizures; they start gradually and the child is usually confused for a short time afterwards. The child may not lose consciousness completely. He may also have some twitching around the eyes or mouth, or his neck may stiffen. His head and body may droop due to a loss of muscle tone. Most people with Lennox-Gastaut syndrome will have at least one episode of non- convulsive status epilepticus. Absence status epilepticus is more common in children, and may be difficult to recognize in children with severe mental retardation. Tonic status epilepticus is more common in adolescents and adults.\nMost children with Lennox-Gastaut syndrome have mental retardation, although it may not develop until later. Severe mental retardation is more likely if the seizures begin before age three, the child has frequent seizures or repeated status epilepticus, the syndrome is symptomatic, or the child had infantile spasms.\nIn young children with Lennox-Gastaut syndrome, psychomotor development (in which skills that involve both thought and movement are learned) slows down or stops. If the syndrome develops later, the mental impairment may not be as severe. Motor development is usually affected less than cognitive development.\nAbout half of all children with this syndrome, particularly older children, have behavioral problems. These may include hyperactivity, emotional instability, aggressive or destructive behavior, autism, or hypersexuality.\n\nTypes of Seizures\n1. Partial Seizures\n2. Generalized Seizures",
+   "fieldname": "fact_sheet",
+   "fieldtype": "Small Text",
+   "read_only": 1
+  },
+  {
+   "fieldname": "types_of_seizures_tab",
+   "fieldtype": "Tab Break",
+   "label": "Partial Seizures"
+  },
+  {
+   "default": "There are many types of seizures. The different types begin in different areas of the brain and they are grouped into two categories: partial and generalized.",
+   "fieldname": "intro",
+   "fieldtype": "Small Text",
+   "read_only": 1
+  },
+  {
+   "default": "A partial seizure occurs when the excessive electrical discharge is limited to one part of the brain. Sometimes seizures begin as partial and then spread and become generalized. These are referred to as partial seizures secondarily generalized.\nThe two most common kinds of partial seizures are simple partial and complex partial. During a simple partial seizure, awareness remains intact. In a complex partial seizure, awareness is impaired.",
+   "fieldname": "partial",
+   "fieldtype": "Small Text",
+   "read_only": 1
+  },
+  {
+   "default": "During a simple partial seizure, a child remains aware. A simple partial seizure may involve sensory, motor, psychic, or autonomic symptoms. These symptoms result in the child experiencing an unusual sensation, feeling, or movement called an aura. The aura may be a distortion in sight, sound, or smell where the child may see, hear, or smell things that aren't there, or it may be sudden jerky movements of one area of the body such as the arm. leg, or face. For instance, the child may suddenly smell burning rubber when it is nonexistent or a hand may twitch uncontrollably.\nA child may experience an aura that involves a sudden overwhelming emotion such as joy, sadness, fear, or anger. Or there may be the experience of autonomic symptoms such as stomach upset, dizziness, a shiver, a tingling or burning sensation, pallor, or flushing. Occasionally there will be the experience of d\u00e9j\u00e0 vu during which the child has the sensation of having experienced something before.\nA simple partial seizure usually begins suddenly and lasts seconds to minutes. An aura is a simple partial seizure that may occur alone or may progress to a complex partial seizure or a generalized seizure. The aura can sometimes be used as a warning signal to allow the child to take the necessary precautions to avoid injury.",
+   "fieldname": "simple_partial",
+   "fieldtype": "Small Text",
+   "label": "1. Simple Partial (Formerly - focal)",
+   "read_only": 1
+  },
+  {
+   "default": "During a complex partial seizure, the child experiences altered awareness and may appear dazed and confused. A dreamlike experience may occur.\nIn some cases, the child is unable to respond or will do so incompletely or inaccurately. In other cases, the child will lose contact. The seizure often begins with an unusual sensation, feeling, or movement known as an aura. An aura can take many different forms including a strange feeling in the upper abdomen, a feeling of fear, or an hallucination. An aura is a simple partial seizure that can occur alone or as the onset of a complex partial seizure. In a complex partial seizure, the aura often occurs just before awareness is altered and it is often used as a warning.\nRandom purposeless movements over which the child has no control called automatisms often characterize the seizure. These may include movements such as chewing motions, mumbling, lip smacking, head turning, pulling at clothing, picking motions in the air, or random walking. Occasionally there are more dramatic behavioral changes such as screaming, undressing, or laughing at inappropriate times.\nOnce the pattern has been established, the same set of actions often occurs with each seizure. The seizure usually lasts between one and two minutes and is often followed by disorientation or confusion.",
+   "fieldname": "complex_partial",
+   "fieldtype": "Small Text",
+   "label": "2. Complex Partial (Formerly - Psyschomotor / Temporal lobe)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "generalized_seizures_tab",
+   "fieldtype": "Tab Break",
+   "label": "Generalized Seizures"
+  },
+  {
+   "default": "A generalized seizure is characterized by the involvement of the whole brain. The excessive electrical discharge is widespread and involves both sides of the brain. The seizure may or may not be convulsive.\n\n A generalized seizure commonly takes one of two forms: \n\n1. Absence (without convulsions) or \n\n2. Tonic Clonic (with convulsions).",
+   "fieldname": "generalized_seizures",
+   "fieldtype": "Small Text",
+   "read_only": 1
+  },
+  {
+   "fieldname": "absence_tab",
+   "fieldtype": "Tab Break",
+   "label": "Absence"
+  },
+  {
+   "default": "A generalized Seizure is characterized by the involvement of the whole brain. The excessive electrical discharge is widespread and involves both sides of the brain. The Seizure may or may not be conclusive",
+   "fieldname": "abs2",
+   "fieldtype": "Small Text",
+   "read_only": 1
+  },
+  {
+   "default": "This type of seizure results in a blank stare usually lasting less than 10 seconds. There is impaired awareness and the seizure starts and ends abruptly. A child may suddenly stop talking, stare blankly for a few seconds, and then continue talking without realizing that anything has occurred.\nAlthough an absence seizure lasts for seconds, a child may experience as many as several hundred absence seizures in a day. These seizures are sometimes misinterpreted as daydreaming or inattentiveness. If absence seizures are not treated, they could interfere with learning. Rapid blinking or chewing movements may accompany the seizure and the eyes may roll upwards. Following the seizure, alertness is quickly regained.\nAbsence seizures most often begin in childhood and in many cases, stop during adolescence. There is a typical electroencephalogram (EEG) pattern associated with absence seizures.\nAlthough absence seizures are often outgrown, some people with absence seizures develop tonic clonic seizures. If the onset of absence seizures is at adolescence, there is a greater chance of a person developing tonic clonic seizures. In some cases, absence seizures go unnoticed until a person has a generalized tonic clonic seizure. Absence seizures tend to run in families.\n\nAtypical absence seizures are similar to absence seizures but may involve more pronounced movement or automatisms such as falls or movement. These seizures often occur with other types of seizures and they occur more commonly in children who have damage to the nervous system.",
+   "fieldname": "abs1",
+   "fieldtype": "Small Text",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-03 02:37:04.125900",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Info on Lennox-Gastaut Syndrome",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
