@@ -1,0 +1,237 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-07 02:38:59.275171",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_client",
+  "type_of_contact",
+  "fm",
+  "associated_professional_day_program_therapist_etc",
+  "medical_doctor_dental_optical",
+  "community_member",
+  "other",
+  "column_break_blcey",
+  "date_of_contact",
+  "name_of_contact",
+  "physical_health__wellness_including_medical",
+  "client_services_advocacy_enrollment_etc",
+  "emotional_health__wellness_including_psychological",
+  "bg",
+  "concerns_related_to_buildings_facility_etc",
+  "other_2",
+  "section_break_rbok5",
+  "involved_persons",
+  "bsfs_home_staff",
+  "overview_of_contact_section",
+  "ee",
+  "follow_up_required_section",
+  "dd",
+  "recommendations",
+  "rr",
+  "signatures",
+  "employee_name",
+  "column_break_7ketb",
+  "medical_professional_if_applicable",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_client",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Name of client",
+   "options": "Intake Form"
+  },
+  {
+   "fieldname": "type_of_contact",
+   "fieldtype": "Heading",
+   "label": "Type of Contact"
+  },
+  {
+   "default": "0",
+   "fieldname": "fm",
+   "fieldtype": "Check",
+   "label": "Family Member or Significant Person DFNA / CFS Representative (Caseworker)"
+  },
+  {
+   "default": "0",
+   "fieldname": "associated_professional_day_program_therapist_etc",
+   "fieldtype": "Check",
+   "label": "Associated Professional (Day Program, therapist, etc)"
+  },
+  {
+   "default": "0",
+   "fieldname": "medical_doctor_dental_optical",
+   "fieldtype": "Check",
+   "label": "Medical (Doctor, Dental, Optical)"
+  },
+  {
+   "default": "0",
+   "fieldname": "community_member",
+   "fieldtype": "Check",
+   "label": "Community Member"
+  },
+  {
+   "fieldname": "other",
+   "fieldtype": "Data",
+   "label": "Other"
+  },
+  {
+   "fieldname": "column_break_blcey",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_of_contact",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Date of Contact"
+  },
+  {
+   "fieldname": "name_of_contact",
+   "fieldtype": "Heading",
+   "label": "Nature of Contact"
+  },
+  {
+   "default": "Physical Health / Wellness (including medical)\nClient Services (advocacy, enrollment, etc.)\nEmotional Health / Wellness (including psychological)\nConcerns related to Client Care / Well-being\nConcerns Related to buildings, facility, etc. ",
+   "fieldname": "physical_health__wellness_including_medical",
+   "fieldtype": "Check",
+   "label": "Physical Health / Wellness (including medical)"
+  },
+  {
+   "default": "0",
+   "fieldname": "client_services_advocacy_enrollment_etc",
+   "fieldtype": "Check",
+   "label": "Client Services (advocacy, enrollment, etc.)"
+  },
+  {
+   "default": "0",
+   "fieldname": "emotional_health__wellness_including_psychological",
+   "fieldtype": "Check",
+   "label": "Emotional Health / Wellness (including psychological)"
+  },
+  {
+   "default": "0",
+   "fieldname": "bg",
+   "fieldtype": "Check",
+   "label": "Concerns related to Client Care / Well-being"
+  },
+  {
+   "default": "0",
+   "fieldname": "concerns_related_to_buildings_facility_etc",
+   "fieldtype": "Check",
+   "label": "Concerns Related to buildings, facility, etc. "
+  },
+  {
+   "fieldname": "other_2",
+   "fieldtype": "Data",
+   "label": "Other"
+  },
+  {
+   "fieldname": "section_break_rbok5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "involved_persons",
+   "fieldtype": "Data",
+   "label": "Involved Persons"
+  },
+  {
+   "fieldname": "bsfs_home_staff",
+   "fieldtype": "Link",
+   "label": "BSFS Home Staff",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "overview_of_contact_section",
+   "fieldtype": "Section Break",
+   "label": "Overview of Contact"
+  },
+  {
+   "fieldname": "ee",
+   "fieldtype": "Small Text",
+   "label": "(Decsribe overview of contact)"
+  },
+  {
+   "fieldname": "follow_up_required_section",
+   "fieldtype": "Section Break",
+   "label": "Follow Up Required"
+  },
+  {
+   "fieldname": "dd",
+   "fieldtype": "Small Text",
+   "label": "(describe additional action items)"
+  },
+  {
+   "fieldname": "recommendations",
+   "fieldtype": "Section Break",
+   "label": "Recommendations"
+  },
+  {
+   "fieldname": "rr",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "signatures",
+   "fieldtype": "Section Break",
+   "label": "Signatures / Initials"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "column_break_7ketb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "medical_professional_if_applicable",
+   "fieldtype": "Data",
+   "label": "Medical Professional (if applicable)"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Client Contact Note",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-05-03 02:21:14.044933",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Client Contact Note",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
