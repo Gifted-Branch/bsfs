@@ -1,0 +1,137 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-12-17 09:19:08.462357",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "staff_name",
+  "column_break_lydg2",
+  "date",
+  "section_break_2kqca",
+  "checkin",
+  "check_in",
+  "column_break_1kmie",
+  "checkout",
+  "check_out",
+  "section_break_pzltv",
+  "total_hours",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "CHKINOT.-.YYYY.-.",
+   "read_only": 1
+  },
+  {
+   "fieldname": "staff_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Staff Name",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_lydg2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_2kqca",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "checkin",
+   "fieldtype": "Button",
+   "label": "CheckIn"
+  },
+  {
+   "fieldname": "check_in",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Check In",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_1kmie",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "checkout",
+   "fieldtype": "Button",
+   "label": "CheckOut"
+  },
+  {
+   "fieldname": "check_out",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Check Out",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_pzltv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_hours",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Hours",
+   "precision": "5",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Sign in and Sign out form",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-03 01:50:30.655422",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Sign in and Sign out form",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
