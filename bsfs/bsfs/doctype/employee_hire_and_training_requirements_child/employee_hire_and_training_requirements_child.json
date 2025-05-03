@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-23 05:49:33.798276",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "course_name",
+  "date_completed",
+  "expiry_date",
+  "attach_docs",
+  "comment"
+ ],
+ "fields": [
+  {
+   "fieldname": "course_name",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Course Name",
+   "options": "\nPolice Check\nChild Intervention Check\nCPR First Aid\nMed. Admin\nTrauma Informed Care\nFood Safety\nFOIP\nSuicide Intervention\nAbuse Control\nAbuse Control\nNVCI\nCultural Awareness\nHarm Reduction",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_completed",
+   "fieldtype": "Date",
+   "label": "Date Completed",
+   "reqd": 1
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  },
+  {
+   "fieldname": "attach_docs",
+   "fieldtype": "Attach",
+   "label": "Attach Docs"
+  },
+  {
+   "fieldname": "comment",
+   "fieldtype": "Small Text",
+   "label": "Comment"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-03 02:43:14.229238",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Employee Hire and Training Requirements Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
