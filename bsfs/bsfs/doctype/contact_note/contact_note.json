@@ -1,0 +1,181 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-01 02:38:05.564338",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "head",
+  "column_break_qwkcu",
+  "client_name",
+  "column_break_d0v65",
+  "d_of_birth",
+  "column_break_wkzuk",
+  "contact_date",
+  "section_break_xdfbz",
+  "subject",
+  "section_break_0ygv5",
+  "individual_accompanying",
+  "column_break_vdkse",
+  "relationship_to_client",
+  "section_break_phyek",
+  "name_of_visiting_individual",
+  "reason_for_visit",
+  "notes",
+  "follow_up",
+  "section_break_fhubq",
+  "doctor",
+  "column_break_pyuzo",
+  "date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "default": "Your Name, Credentials, or Contact Info (or Leave blank)",
+   "fieldname": "head",
+   "fieldtype": "Data",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_qwkcu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Client Name:",
+   "options": "Intake Form"
+  },
+  {
+   "fieldname": "column_break_d0v65",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "d_of_birth",
+   "fieldtype": "Date",
+   "label": "DOB:"
+  },
+  {
+   "fieldname": "column_break_wkzuk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_date",
+   "fieldtype": "Date",
+   "label": "Contact Date:"
+  },
+  {
+   "fieldname": "section_break_xdfbz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Subject"
+  },
+  {
+   "fieldname": "section_break_0ygv5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "individual_accompanying",
+   "fieldtype": "Data",
+   "label": "Accompanying Individual:"
+  },
+  {
+   "fieldname": "column_break_vdkse",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "relationship_to_client",
+   "fieldtype": "Data",
+   "label": "Relationship to client:"
+  },
+  {
+   "fieldname": "section_break_phyek",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name_of_visiting_individual",
+   "fieldtype": "Data",
+   "label": "Name of Visiting Individual"
+  },
+  {
+   "fieldname": "reason_for_visit",
+   "fieldtype": "Small Text",
+   "label": "Reason for Visit:"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Long Text",
+   "label": "Notes:"
+  },
+  {
+   "fieldname": "follow_up",
+   "fieldtype": "Small Text",
+   "label": "Follow Up:"
+  },
+  {
+   "fieldname": "section_break_fhubq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "doctor",
+   "fieldtype": "Data",
+   "label": "Name of person completing notes"
+  },
+  {
+   "fieldname": "column_break_pyuzo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Contact Note",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-05-03 02:20:58.588908",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Contact Note",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

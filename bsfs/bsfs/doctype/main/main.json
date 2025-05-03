@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-23 08:57:39.009450",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "total_1",
+  "total_2",
+  "child_table",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "total_1",
+   "fieldtype": "Float",
+   "label": "Total 1"
+  },
+  {
+   "fieldname": "total_2",
+   "fieldtype": "Float",
+   "label": "Total 2"
+  },
+  {
+   "fieldname": "child_table",
+   "fieldtype": "Table",
+   "label": "child table",
+   "options": "child"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "main",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-05-03 02:06:06.065147",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "main",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

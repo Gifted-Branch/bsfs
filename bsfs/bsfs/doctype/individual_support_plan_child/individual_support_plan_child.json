@@ -1,0 +1,38 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-19 04:07:13.674229",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "review_dates",
+  "reviewed_in_consultation_with"
+ ],
+ "fields": [
+  {
+   "fieldname": "review_dates",
+   "fieldtype": "Date",
+   "label": "Review Dates"
+  },
+  {
+   "fieldname": "reviewed_in_consultation_with",
+   "fieldtype": "Data",
+   "label": "Reviewed in consultation with"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-03 02:43:07.379292",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Individual Support Plan Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
