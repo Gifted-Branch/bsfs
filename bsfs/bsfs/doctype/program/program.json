@@ -6,25 +6,25 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "house",
+  "program",
   "description"
  ],
  "fields": [
   {
-   "fieldname": "house",
-   "fieldtype": "Data",
-   "label": "Program"
-  },
-  {
    "fieldname": "description",
    "fieldtype": "Small Text",
    "label": "Description"
+  },
+  {
+   "fieldname": "program",
+   "fieldtype": "Data",
+   "label": "Program"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-03 03:07:02.391400",
+ "modified": "2025-05-03 03:43:45.074396",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Program",
