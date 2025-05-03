@@ -97,7 +97,9 @@
   "agency_signature",
   "amended_from",
   "6_of_6_tab",
-  "docs"
+  "docs",
+  "settings_tab",
+  "disabled"
  ],
  "fields": [
   {
@@ -570,12 +572,22 @@
    "label": "Program",
    "options": "Program",
    "reqd": 1
+  },
+  {
+   "fieldname": "settings_tab",
+   "fieldtype": "Tab Break",
+   "label": "Settings"
+  },
+  {
+   "default": "0",
+   "fieldname": "disabled",
+   "fieldtype": "Check",
+   "label": "Disabled"
   }
  ],
  "icon": "fa fa-user",
- "is_submittable": 1,
  "links": [],
- "modified": "2025-05-03 03:53:47.093553",
+ "modified": "2025-05-03 04:12:39.577652",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Intake Form",
