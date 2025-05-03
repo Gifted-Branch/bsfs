@@ -1,0 +1,161 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:assigned_staff_name",
+ "creation": "2024-04-28 11:22:42.771445",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "assigned_staff_name",
+  "client_name",
+  "section_break_qx213",
+  "calendar",
+  "comments_jan",
+  "february_calendar_section",
+  "feb_calendar",
+  "comments_feb",
+  "march_calendar_section",
+  "march_calendar",
+  "comments_march",
+  "section_break_zg9un",
+  "april_calendar",
+  "comments",
+  "amended_from",
+  "may_section",
+  "may_2024",
+  "comment"
+ ],
+ "fields": [
+  {
+   "fieldname": "assigned_staff_name",
+   "fieldtype": "Link",
+   "label": "Staff Name",
+   "options": "Employee",
+   "unique": 1
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "label": "Client Name",
+   "options": "Intake Form"
+  },
+  {
+   "fieldname": "section_break_qx213",
+   "fieldtype": "Section Break",
+   "label": "January, 2024"
+  },
+  {
+   "fieldname": "calendar",
+   "fieldtype": "Table",
+   "options": "january"
+  },
+  {
+   "fieldname": "comments_jan",
+   "fieldtype": "Small Text",
+   "label": "Comments "
+  },
+  {
+   "fieldname": "february_calendar_section",
+   "fieldtype": "Section Break",
+   "label": "February, 2024"
+  },
+  {
+   "fieldname": "feb_calendar",
+   "fieldtype": "Table",
+   "options": "february"
+  },
+  {
+   "fieldname": "comments_feb",
+   "fieldtype": "Small Text",
+   "label": "Comments "
+  },
+  {
+   "fieldname": "march_calendar_section",
+   "fieldtype": "Section Break",
+   "label": "March, 2024"
+  },
+  {
+   "fieldname": "march_calendar",
+   "fieldtype": "Table",
+   "options": "march"
+  },
+  {
+   "fieldname": "comments_march",
+   "fieldtype": "Small Text",
+   "label": "Comments "
+  },
+  {
+   "fieldname": "section_break_zg9un",
+   "fieldtype": "Section Break",
+   "label": "April"
+  },
+  {
+   "fieldname": "april_calendar",
+   "fieldtype": "Table",
+   "label": "April, 2024",
+   "options": "april"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Respite Attendance Calendar",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "may_section",
+   "fieldtype": "Section Break",
+   "label": "May"
+  },
+  {
+   "fieldname": "may_2024",
+   "fieldtype": "Table",
+   "label": "May, 2024",
+   "options": "May"
+  },
+  {
+   "fieldname": "comment",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-05-03 02:32:41.965079",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Respite Attendance Calendar",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
