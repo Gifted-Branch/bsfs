@@ -16,6 +16,8 @@
   "gender",
   "mobile",
   "languages_spoken",
+  "house",
+  "program",
   "column_break_vehfq",
   "client_health_number",
   "social_insurance_number",
@@ -570,13 +572,27 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "fieldname": "house",
+   "fieldtype": "Link",
+   "label": "House",
+   "options": "House",
+   "reqd": 1
+  },
+  {
+   "fieldname": "program",
+   "fieldtype": "Link",
+   "label": "Program",
+   "options": "Program",
+   "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "icon": "fa fa-user",
  "is_submittable": 1,
  "links": [],
- "modified": "2025-05-03 02:28:26.853678",
+ "modified": "2025-05-03 03:52:25.743302",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Client Intake Form",
