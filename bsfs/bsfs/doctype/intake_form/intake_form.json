@@ -29,6 +29,8 @@
   "address",
   "next_of_kin",
   "relationship",
+  "house",
+  "program",
   "more_information_tab",
   "date_of_admission",
   "information_source",
@@ -554,12 +556,26 @@
    "fieldname": "lifestyle_recreation",
    "fieldtype": "Small Text",
    "label": "Lifestyle Recreation"
+  },
+  {
+   "fieldname": "house",
+   "fieldtype": "Link",
+   "label": "House",
+   "options": "House",
+   "reqd": 1
+  },
+  {
+   "fieldname": "program",
+   "fieldtype": "Link",
+   "label": "Program",
+   "options": "Program",
+   "reqd": 1
   }
  ],
  "icon": "fa fa-user",
  "is_submittable": 1,
  "links": [],
- "modified": "2023-11-04 06:55:49.642685",
+ "modified": "2025-05-03 03:53:47.093553",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Intake Form",
@@ -579,6 +595,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "search_fields": "client_name",
  "sort_field": "modified",
  "sort_order": "DESC",
