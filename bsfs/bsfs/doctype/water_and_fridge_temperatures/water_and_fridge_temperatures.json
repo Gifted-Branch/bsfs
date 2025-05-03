@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-08 10:27:43.956174",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "month",
+  "column_break_rwdmg",
+  "program_house",
+  "section_break_syrev",
+  "water_and_fridge_temperatures",
+  "water_fridge",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "month",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Month:",
+   "options": "Month"
+  },
+  {
+   "fieldname": "column_break_rwdmg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "program_house",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Program House:",
+   "options": "\nKirkwood\nKaasa\nCreeks\nJefferson\nLibrary House\nSkyview\nKLINE\nWellington"
+  },
+  {
+   "fieldname": "section_break_syrev",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "water_and_fridge_temperatures",
+   "fieldtype": "Heading",
+   "label": "Water and Fridge Temperatures"
+  },
+  {
+   "fieldname": "water_fridge",
+   "fieldtype": "Table",
+   "options": "Water and Fridge Temperatures Child"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Water and Fridge Temperatures",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-05-03 02:32:25.658606",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Water and Fridge Temperatures",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
