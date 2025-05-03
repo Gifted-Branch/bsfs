@@ -1,0 +1,161 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-10 13:21:14.192981",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "house",
+  "team_leader_name",
+  "section_break_t5oww",
+  "from",
+  "column_break_numex",
+  "to",
+  "section_break_ms9vz",
+  "client_update_summary",
+  "number_of_incident_reports",
+  "list_of_activities",
+  "column_break_09z9a",
+  "all_sections_in_the_system_complete",
+  "general_state_of_the_house",
+  "any_concerns",
+  "signatory_section",
+  "name1",
+  "column_break_6oeof",
+  "date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "house",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "House"
+  },
+  {
+   "fieldname": "team_leader_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Team Leader Name",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "section_break_t5oww",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "From"
+  },
+  {
+   "fieldname": "column_break_numex",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "To"
+  },
+  {
+   "fieldname": "section_break_ms9vz",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "client_update_summary",
+   "fieldtype": "Small Text",
+   "label": "Client Update Summary"
+  },
+  {
+   "fieldname": "number_of_incident_reports",
+   "fieldtype": "Small Text",
+   "label": "Number of Incident Reports"
+  },
+  {
+   "fieldname": "list_of_activities",
+   "fieldtype": "Small Text",
+   "label": "List of Activities"
+  },
+  {
+   "fieldname": "column_break_09z9a",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "all_sections_in_the_system_complete",
+   "fieldtype": "Small Text",
+   "label": "All Sections in the forms Complete"
+  },
+  {
+   "fieldname": "general_state_of_the_house",
+   "fieldtype": "Small Text",
+   "label": "General state of the House"
+  },
+  {
+   "fieldname": "any_concerns",
+   "fieldtype": "Small Text",
+   "label": "Any Concerns"
+  },
+  {
+   "fieldname": "signatory_section",
+   "fieldtype": "Section Break",
+   "label": "Signatory"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "column_break_6oeof",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Team Leader Weekly Report Summary",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-05-03 02:28:50.656918",
+ "modified_by": "Administrator",
+ "module": "BSFS",
+ "name": "Team Leader Weekly Report Summary",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
