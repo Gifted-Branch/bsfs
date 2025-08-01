@@ -94,7 +94,6 @@
    "fieldtype": "Float",
    "in_list_view": 1,
    "label": "Total Hours",
-   "precision": "5",
    "read_only": 1
   },
   {
@@ -111,7 +110,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-17 15:42:17.452893",
+ "modified": "2025-08-01 05:48:40.232151",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Sign in and Sign out form",

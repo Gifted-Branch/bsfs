@@ -10,15 +10,15 @@
  "engine": "InnoDB",
  "field_order": [
   "naming_series",
-  "name1",
+  "staff_name",
   "column_break_zc1xc",
   "pay_period_from",
   "column_break_izxnn",
-  "to",
+  "pay_period_to",
   "section_break_hoyu",
-  "hours",
+  "bsfs_timesheet_details",
   "section_break_anbu",
-  "total_hours",
+  "total_awake_hrs",
   "column_break_valp",
   "total_sleep_hrs",
   "column_break_rejf",
@@ -60,14 +60,6 @@
    "read_only": 1
   },
   {
-   "fieldname": "name1",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Staff Name",
-   "options": "Employee",
-   "reqd": 1
-  },
-  {
    "fieldname": "column_break_zc1xc",
    "fieldtype": "Column Break"
   },
@@ -81,18 +73,6 @@
   {
    "fieldname": "column_break_izxnn",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "to",
-   "fieldtype": "Date",
-   "in_list_view": 1,
-   "label": "To",
-   "reqd": 1
-  },
-  {
-   "fieldname": "total_hours",
-   "fieldtype": "Float",
-   "label": "Total Awake Hrs"
   },
   {
    "fieldname": "attach_any_relevant_documents_section",
@@ -210,7 +190,8 @@
   {
    "fieldname": "total_sleep_hrs",
    "fieldtype": "Float",
-   "label": "Total Sleep Hrs"
+   "label": "Total Sleep Hrs",
+   "read_only": 1
   },
   {
    "fieldname": "column_break_rejf",
@@ -220,7 +201,8 @@
    "description": "Total Awake + Sleep Hrs",
    "fieldname": "total_hrs",
    "fieldtype": "Float",
-   "label": "Total Hrs"
+   "label": "Total Hrs",
+   "read_only": 1
   },
   {
    "fieldname": "for_official_use_only_tab",
@@ -245,23 +227,45 @@
   {
    "fieldname": "total_check_in_and_out_hours",
    "fieldtype": "Float",
-   "label": "Total Check In and Out Hours"
+   "label": "Total Check In and Out Hours",
+   "read_only": 1
   },
   {
    "fieldname": "section_break_hoyu",
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "hours",
+   "fieldname": "bsfs_timesheet_details",
    "fieldtype": "Table",
    "label": "Hours",
    "options": "BSFS Timesheet Details"
+  },
+  {
+   "fieldname": "staff_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Staff Name",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pay_period_to",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Pay Period To",
+   "reqd": 1
+  },
+  {
+   "fieldname": "total_awake_hrs",
+   "fieldtype": "Float",
+   "label": "Total Awake Hrs",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-08-01 04:07:09.597928",
+ "modified": "2025-08-01 06:09:14.304266",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "BSFS Timesheet",
