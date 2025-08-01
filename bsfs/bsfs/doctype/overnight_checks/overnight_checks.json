@@ -18,7 +18,6 @@
   "shift",
   "section_break_k2fn1",
   "overnight_notes_details",
-  "amended_from",
   "attach_any_relevant_documents_section",
   "attachments"
  ],
@@ -75,15 +74,6 @@
    "options": "ON-.YYYY.-"
   },
   {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Overnight Notes",
-   "print_hide": 1,
-   "read_only": 1
-  },
-  {
    "fieldname": "attach_any_relevant_documents_section",
    "fieldtype": "Section Break",
    "label": "Attach any relevant Documents"
@@ -97,7 +87,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-11-04 08:22:20.329806",
+ "modified": "2025-05-30 13:01:22.562774",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Overnight Checks",
@@ -117,6 +107,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],

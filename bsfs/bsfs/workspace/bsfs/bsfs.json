@@ -1,7 +1,7 @@
 {
  "charts": [],
  "content": "[{\"id\":\"3RzNx5fU2E\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Report &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"-REK7U1DfN\",\"type\":\"card\",\"data\":{\"card_name\":\"Daily Use Forms\",\"col\":4}},{\"id\":\"Qv6rGCZbwa\",\"type\":\"card\",\"data\":{\"card_name\":\"HR Forms\",\"col\":4}},{\"id\":\"3gwFHtjQ2E\",\"type\":\"card\",\"data\":{\"card_name\":\"Monthly Reports\",\"col\":4}},{\"id\":\"RUSNMtBjoo\",\"type\":\"card\",\"data\":{\"card_name\":\"As Needed Use-Form\",\"col\":4}},{\"id\":\"Hxilpzz1hZ\",\"type\":\"card\",\"data\":{\"card_name\":\"Client Information\",\"col\":4}},{\"id\":\"gOPe6UVl0g\",\"type\":\"card\",\"data\":{\"card_name\":\"Program Forms\",\"col\":4}}]",
- "creation": "2023-10-13 18:54:40.351236",
+ "creation": "2025-05-22 03:54:34.514033",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
@@ -9,6 +9,7 @@
  "hide_custom": 0,
  "icon": "healthcare",
  "idx": 0,
+ "indicator_color": "",
  "is_hidden": 0,
  "label": "BSFS",
  "links": [
@@ -247,6 +248,7 @@
    "is_query_report": 0,
    "label": "Daily Use Forms",
    "link_count": 15,
+   "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
   },
@@ -405,6 +407,7 @@
    "is_query_report": 0,
    "label": "HR Forms",
    "link_count": 8,
+   "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
   },
@@ -493,6 +496,7 @@
    "is_query_report": 0,
    "label": "Monthly Reports",
    "link_count": 8,
+   "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
   },
@@ -581,6 +585,7 @@
    "is_query_report": 0,
    "label": "Program Forms",
    "link_count": 7,
+   "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
   },
@@ -659,6 +664,7 @@
    "is_query_report": 0,
    "label": "As Needed Use-Form",
    "link_count": 6,
+   "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
   },
@@ -727,6 +733,7 @@
    "is_query_report": 0,
    "label": "Client Information",
    "link_count": 7,
+   "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
   },
@@ -801,7 +808,7 @@
    "type": "Link"
   }
  ],
- "modified": "2025-05-17 14:50:07.915864",
+ "modified": "2025-08-01 04:18:07.002742",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "BSFS",

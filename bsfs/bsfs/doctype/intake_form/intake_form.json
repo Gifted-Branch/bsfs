@@ -9,6 +9,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "client_forms_tab",
   "client_information_tab",
   "basic_information",
   "client_name",
@@ -99,8 +100,7 @@
   "6_of_6_tab",
   "docs",
   "settings_tab",
-  "disabled",
-  "client_forms_tab"
+  "disabled"
  ],
  "fields": [
   {
@@ -680,7 +680,7 @@
    "link_fieldname": "client_name"
   }
  ],
- "modified": "2025-05-17 14:39:12.811206",
+ "modified": "2025-07-05 09:24:18.703154",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Intake Form",
@@ -705,6 +705,5 @@
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "title_field": "client_name",
- "track_changes": 1
+ "title_field": "client_name"
 }
