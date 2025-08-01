@@ -9,6 +9,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "client_forms_tab",
   "client_information_tab",
   "basic_information",
   "client_name",
@@ -583,11 +584,103 @@
    "fieldname": "disabled",
    "fieldtype": "Check",
    "label": "Disabled"
+  },
+  {
+   "fieldname": "client_forms_tab",
+   "fieldtype": "Tab Break",
+   "label": "Client Forms",
+   "show_dashboard": 1
   }
  ],
  "icon": "fa fa-user",
- "links": [],
- "modified": "2025-05-03 04:12:39.577652",
+ "links": [
+  {
+   "group": "Daily Use Forms",
+   "link_doctype": "Daily Log Notes",
+   "link_fieldname": "client_name"
+  },
+  {
+   "group": "Daily Use Forms",
+   "link_doctype": "Medication Administration Record",
+   "link_fieldname": "client_name"
+  },
+  {
+   "group": "Daily Use Forms",
+   "link_doctype": "Behavior Tracker Detailed",
+   "link_fieldname": "client_name"
+  },
+  {
+   "group": "Daily Use Forms",
+   "link_doctype": "Behavior Tracker",
+   "link_fieldname": "client_name"
+  },
+  {
+   "group": "Daily Use Forms",
+   "link_doctype": "Client Daily Activity",
+   "link_fieldname": "client_name"
+  },
+  {
+   "group": "Daily Use Forms",
+   "link_doctype": "Overnight Checks",
+   "link_fieldname": "client_name"
+  },
+  {
+   "group": "Daily Use Forms",
+   "link_doctype": "Lennox-Gastaut Syndrome Form",
+   "link_fieldname": "client_name"
+  },
+  {
+   "group": "Client Information",
+   "link_doctype": "Individual Support Plan",
+   "link_fieldname": "client_name"
+  },
+  {
+   "group": "Client Information",
+   "link_doctype": "Client Progress Report",
+   "link_fieldname": "client_name"
+  },
+  {
+   "group": "Client Information",
+   "link_doctype": "Client Contact Note",
+   "link_fieldname": "name_of_client"
+  },
+  {
+   "group": "Client Information",
+   "link_doctype": "Client Meeting",
+   "link_fieldname": "name_of_client"
+  },
+  {
+   "group": "As Needed Use-Form",
+   "link_doctype": "Discharge Summary",
+   "link_fieldname": "client_name"
+  },
+  {
+   "group": "As Needed Use-Form",
+   "link_doctype": "Unusual Incident Reports",
+   "link_fieldname": "client__individual_involved"
+  },
+  {
+   "group": "As Needed Use-Form",
+   "link_doctype": "Medication Error Incident Report Form",
+   "link_fieldname": "client_name"
+  },
+  {
+   "group": "As Needed Use-Form",
+   "link_doctype": "Note Worthy Report",
+   "link_fieldname": "client_name"
+  },
+  {
+   "group": "As Needed Use-Form",
+   "link_doctype": "Note Worthy Report",
+   "link_fieldname": "client_name"
+  },
+  {
+   "group": "Monthly Reports",
+   "link_doctype": "Client Monthly Goals and Summary Reports",
+   "link_fieldname": "client_name"
+  }
+ ],
+ "modified": "2025-07-05 09:24:18.703154",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "Intake Form",
@@ -612,6 +705,5 @@
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "title_field": "client_name",
- "track_changes": 1
+ "title_field": "client_name"
 }

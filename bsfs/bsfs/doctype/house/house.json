@@ -6,25 +6,32 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "house",
-  "description"
+  "house"
  ],
  "fields": [
   {
    "fieldname": "house",
    "fieldtype": "Data",
    "label": "House"
-  },
-  {
-   "fieldname": "description",
-   "fieldtype": "Small Text",
-   "label": "Description"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2025-05-03 03:06:25.488640",
+ "links": [
+  {
+   "link_doctype": "Water and Fridge Temperatures",
+   "link_fieldname": "program_house"
+  },
+  {
+   "link_doctype": "Daily Chore",
+   "link_fieldname": "custom_program_name"
+  },
+  {
+   "link_doctype": "Month End Checklist",
+   "link_fieldname": "custom_program_name"
+  }
+ ],
+ "modified": "2025-07-05 09:25:13.449011",
  "modified_by": "Administrator",
  "module": "BSFS",
  "name": "House",
